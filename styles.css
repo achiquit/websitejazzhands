@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Josefin-Sans-Regular';
+    src:url('fonts/josefin/Josefin-Sans-Regular.ttf.woff') format('woff'),
+        url('fonts/josefin/Josefin-Sans-Regular.ttf.svg#Josefin-Sans-Regular') format('svg'),
+        url('fonts/josefin/Josefin-Sans-Regular.ttf.eot'),
+        url('fonts/josefin/Josefin-Sans-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Josefin-Sans-Regular';
+}
+
+.tile-title {
+    text-shadow: 2px 2px 4px black;
+}
+
+.tile-button {
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Hamburger Menu CSS */
+/*
+@layer utilities {
+    .hamburger-toggle {
+        @apply [&>div]:h-0 [&>div]:bg-white [&>div::before]:before:translate-y-0 [&>div::before]:before:rotate-45 [&>div::before]:after:translate-y-0 [&>div::before]:after:-rotate-45
+    }
+}*/

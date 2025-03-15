@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Andre Chiquito</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <style type="text/tailwindcss">
+          @layer utilities {
+            .hamburger-toggle {
+              @apply [&>div]:h-0 [&>div]:bg-white [&>div]:before:translate-y-0 [&>div]:before:rotate-45 [&>div]:after:translate-y-0 [&>div]:after:-rotate-45;
+            }
+        }
+        </style>
+        <script src="https://kit.fontawesome.com/c8077251a5.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="bg-gray-950">
+
+        <!--<div id="header"></div>-->
+
+        <header class="sticky top-0 w-full bg-gray-950 z-20 shadow-xl shadow-gray-950/50">
+            <div class="flex items-center justify-between p-4">
+                <div>
+                    <a href="andre.chiquit.ooo" class="text-white text-3xl">Andre Chiquito</a>
+                </div>
+
+                <!-- Hamburger Button -->
+                <div>
+                  <div id="toggleMenu" class="grid place-content-center mx-auto">
+                    <div class="w-12 h-1 bg-white rounded-full transition-all duration-150 before:content-[''] before:absolute before:w-12 before:h-1 before:bg-white before:rounded-full before:-translate-y-3 before:transition-all before:duration-150 after:content-[''] after:absolute after:w-12 after:h-1 after:bg-white after:rounded-full after:translate-y-3 after:transition-all after:duration-150"></div>
+                  </div>
+                </div>
+                <!-- End Hamburger Button -->
+                
+            </div>
+            <div id="navMenu" class="pr-4 pl-2 pb-4 pt-2 w-52 bg-gray-950 absolute right-0 z-30 top-16 hidden opacity-0 transform scale-95 transition-all transition-discrete duration-600 ease-in-out shadow-xl shadow-gray-950/50">
+                <a href="#" class="block px-4 py-1 text-white rounded hover:bg-gray-800">Home</a>
+                <div class="mt-1 flex items-center justify-between">
+                    <a href="#" class="block px-4 py-1 text-white rounded hover:bg-gray-800">About Me</a>
+                    <button>
+                        <i class="fa-solid fa-angle-down text-white"></i>
+                    </button>
+                    <div class="bg-gray-950 hidden">
+                        <a href="#">2025</a>
+                        <a href="#">2024</a>
+                        <a href="#">2023</a>
+                        <a href="#">2022</a>
+                        <a href="#">2021</a>
+                    </div>
+                </div>
+                <div class="mt-1 flex items-center justify-between">
+                    <a href="#" class="block px-4 py-1 text-white rounded hover:bg-gray-800">Adventures</a>
+                    <i class="fa-solid fa-angle-down text-white"></i>
+                </div>
+                <a href="#" class="mt-1 block px-4 py-1 text-white rounded hover:bg-gray-800">Photographs</a>
+                <a href="#" class="mt-1 block px-4 py-1 text-white rounded hover:bg-gray-800"><span class="text-emerald-300">Get Updates</span></a>
+                <div class="flex items-center justify-between mt-4 px-2">
+                    <a href="https://www.facebook.com/andre.chiquito/" target="_blank"><i class="fa-brands fa-facebook-f text-white"></i></a>
+                    <a href="https://www.mountainproject.com/user/200492669/andre-chiquito" target="_blank"><i class="fa-solid fa-mountain text-white"></i></a>
+                    <i class="fa-solid fa-book text-white"></i>
+                    <i class="fa-solid fa-money-bill-transfer text-white"></i>
+                </div>
+            </div>
+        </header>
+        
+        <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-[url(images/tiles/about.jpg)] bg-cover w-full aspect-square p-4 flex justify-center tile [&:not(:hover)]:grayscale transition duration-300">
+                    <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center">About Me</h3>
+                </div>
+
+                <div class="bg-[url(images/tiles/adventure.jpg)] bg-cover w-full aspect-square p-4 flex justify-center tile [&:not(:hover)]:grayscale transition duration-300">
+                    <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center">Adventures</h3>
+                </div>
+
+                <div class="bg-[url(images/tiles/photography.png)] bg-cover w-full aspect-square p-4 flex justify-center tile [&:not(:hover)]:grayscale transition duration-300">
+                    <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center">Photographs</h3>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-gray-950 shadow mt-6">
+            <div class="container mx-auto px-4 py-4 text-center">
+                <p class="text-gray-600">© <script>document.write(new Date().getFullYear())</script> <span class="text-emerald-300">Andre Chiquito</span>. All rights reserved.</p>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+        
+    <script>
+        document.getElementById("toggleMenu").addEventListener("click", function () {
+            const navMenu = document.getElementById("navMenu");
+            if (navMenu.classList.contains("hidden")) {
+                // Show the menu
+                navMenu.classList.remove("hidden", "opacity-0", "scale-95");
+                navMenu.classList.add("opacity-100", "scale-100");
+                main.classList.add("blur-sm")
+            } else {
+                // Hide the menu
+                navMenu.classList.add("opacity-0", "scale-95");
+                navMenu.classList.remove("opacity-100", "scale-100");
+                setTimeout(() => {
+                    navMenu.classList.add("hidden");
+                }, 600); // Match the duration of the transition
+                main.classList.remove("blur-sm");
+            }
+        });
+    </script>
+        
+    </body>
+</html>
