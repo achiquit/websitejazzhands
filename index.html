@@ -37,7 +37,7 @@
             
             <div id="navMenu" class="hidden flex flex-col pr-4 pl-2 pb-4 pt-2 w-52 bg-gray-950 absolute right-0 transition-all transition-discrete duration-600 ease-in-out shadow-xl shadow-gray-950/50 lg:flex lg:flex-row lg:w-3/4 lg:justify-between lg:items-center lg:p-0">
                 <ul class="flex flex-col items-left justify-between gap-4 mt-2 ml-4 lg:flex-row lg:w-4/6">
-                    <li><a id="test" href="#" class="text-white">Home</a></li>
+                    <li><a href="#" class="text-white">Home</a></li>
                     <li class="has-children flex flex-col justify-between items-center">
                         <div class="flex justify-between flex-row w-full">
                             <a href="#" class="text-white">Adventures</a>
@@ -92,15 +92,15 @@
         
         <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div class="bg-[url(images/tiles/about.jpg)] bg-cover w-full aspect-square p-4 flex justify-center tile [&:not(:hover)]:grayscale transition duration-300">
+                <div class="bg-[url(images/tiles/about.jpg)] bg-cover w-full aspect-square p-4 flex justify-center tile grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
                     <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center">About Me</h3>
                 </div>
 
-                <div class="bg-[url(images/tiles/adventure.jpg)] bg-cover w-full aspect-square p-4 flex justify-center tile [&:not(:hover)]:grayscale transition duration-300">
+                <div class="bg-[url(images/tiles/adventure.jpg)] bg-cover w-full aspect-square p-4 flex justify-center tile grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
                     <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center">Adventures</h3>
                 </div>
 
-                <div class="bg-[url(images/tiles/photography.png)] bg-cover w-full aspect-square p-4 flex justify-center tile [&:not(:hover)]:grayscale transition duration-300">
+                <div class="bg-[url(images/tiles/photography.png)] bg-cover w-full aspect-square p-4 flex justify-center tile grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
                     <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center">Photographs</h3>
                 </div>
             </div>
@@ -145,12 +145,13 @@
     </script> 
     -->
         
-      <script>
+    <script>
     // Find all elements with the class "has-children"
     $(".has-children").map(function () {
       // For each element, register a click event handler
       $(this).on("click", function (event) {
         console.log("Button click!");
+        console.log(this);
         // Find the thing we want to hide relative to the element that was clicked
         hiddenContent = event.target.parentNode.parentNode.nextElementSibling
         //.parentNode.nextElementSibling
@@ -161,14 +162,39 @@
 
         if (hiddenContent.style.display == "none") {
             console.log("Show!");
-            hiddenContent.style.display = "block"
+            hiddenContent.style.display = "flex"
         } else {
             console.log("Hide!");
             hiddenContent.style.display = "none"
         }
       })
     })
-  </script>
+    </script>
+        
+    <script>
+        // Make tiles in color only when they are entirely in the viewport on mobile only
+        if($(window).width() < 1024) {
+            $(window).on('scroll resize', function() {
+                $('.tile').each(function() {
+                    var element = $(this); // Replace '#yourElement' with the actual selector
+                    var elementTop = element.offset().top;
+                    var elementBottom = elementTop + element.outerHeight();
+                    var viewportTop = $(window).scrollTop();
+                    var viewportBottom = viewportTop + $(window).height();
+
+                    if (elementTop >= viewportTop && elementBottom <= viewportBottom) {
+                        // The element is fully visible
+                        element.removeClass("grayscale")
+                        console.log("I'm fully visible!")
+                    } else {
+                        // The element is not fully visible
+                        element.addClass("grayscale")
+                        console.log("I'm hiding away!")
+                    }
+                });
+            });
+        }
+    </script>
         
     </body>
 </html>
