@@ -38,20 +38,20 @@
             <div id="navMenu" class="hidden flex flex-col pr-4 pl-2 pb-4 pt-2 w-52 bg-gray-950 absolute right-0 transition-all transition-discrete duration-600 ease-in-out shadow-xl shadow-gray-950/50 lg:flex lg:flex-row lg:w-3/4 lg:justify-between lg:items-center lg:p-0">
                 <ul class="flex flex-col items-left justify-between gap-4 mt-2 ml-4 lg:flex-row lg:w-4/6">
                     <li><a href="#" class="text-white">Home</a></li>
-                    <li class="has-children flex flex-col justify-between items-center">
-                        <div class="flex justify-between flex-row w-full">
+                    <li class="flex flex-col justify-between items-center lg:place-items-center">
+                        <div class="flex justify-between flex-row w-full dropdown-item lg:z-40">
                             <a href="#" class="text-white">Adventures</a>
                             <button class="has-children lg:pl-2">
                                 <i class="fa-solid fa-angle-down text-white"></i>
                             </button>
                         </div>
-                        <ul class="dropdown flex flex-col w-full gap-4 pt-4 pl-4 hidden">
+                        <ul class="dropdown flex flex-col w-full gap-4 pt-4 pl-4 hidden lg:top-8 lg:absolute  lg:w-48 lg:bg-gray-950 lg:shadow-xl lg:shadow-gray-950/50 lg:pb-3">
                             <li><a href="#" class="text-white">2025</a></li>
                             <li><a href="#" class="text-white">2024</a></li>
-                            <li class="has-children flax flex-col justify-between items-center">
-                                <div class="flex justify-between flex-row w-full">
+                            <li class="flax flex-col justify-between items-center">
+                                <div class="flex justify-between flex-row w-full dropdown-item lg:pr-4">
                                     <a href="#" class="text-white">2023</a>
-                                    <button class="has-children lg:pl-2">
+                                    <button class="has-children">
                                         <i class="fa-solid fa-angle-down text-white"></i>
                                     </button>
                                 </div>
@@ -64,14 +64,14 @@
                             <li><a href="#" class="text-white">2021</a></li>
                         </ul>
                     </li>
-                    <li class="has-children flex flex-col justify-between items-center">
-                        <div class="flex justify-between flex-row w-full">
+                    <li class="flex flex-col justify-between items-center">
+                        <div class="flex justify-between flex-row w-full dropdown-item">
                             <a href="#" class="text-white">About Me</a>
                             <button class="has-children lg:pl-2">
                                 <i class="fa-solid fa-angle-down text-white"></i>
                             </button>
                         </div>
-                        <ul class="dropdown flex flex-col w-full gap-4 pt-4 pl-4 hidden">
+                        <ul class="dropdown flex flex-col w-full gap-4 pt-4 pl-4 hidden lg:top-8 lg:absolute  lg:w-48 lg:bg-gray-950 lg:shadow-xl lg:shadow-gray-950/50 lg:pb-3"> 
                             <li><a href="#" class="text-white">Test</a></li>
                             <li><a href="#" class="text-white">Test</a></li>
                             <li><a href="#" class="text-white">Test</a></li>
@@ -92,7 +92,7 @@
         
         <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div class="bg-[url(images/tiles/about.jpg)] bg-cover w-full aspect-square p-4 flex justify-center tile grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
+                <div class="bg-[url(images/tiles/about.jpg)] bg-cover w-full aspect-square p-4 flex justify-center tile lg:grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
                     <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center">About Me</h3>
                 </div>
 
@@ -114,87 +114,6 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="module" src="js/script.js"></script>
-        
-    <script>
-        document.getElementById("toggleMenu").addEventListener("click", function () {
-            const navMenu = document.getElementById("navMenu");
-            if (navMenu.classList.contains("hidden")) {
-                // Show the menu
-                navMenu.classList.remove("hidden", "opacity-0", "scale-95");
-                navMenu.classList.add("opacity-100", "scale-100");
-                main.classList.add("blur-sm")
-            } else {
-                // Hide the menu
-                navMenu.classList.add("opacity-0", "scale-95");
-                navMenu.classList.remove("opacity-100", "scale-100");
-                setTimeout(() => {
-                    navMenu.classList.add("hidden");
-                }, 600); // Match the duration of the transition
-                main.classList.remove("blur-sm");
-            }
-        });
-    </script>
-        
-    <!--
-    <script>
-        $(document).ready(function(){
-          $("button.has-children").click(function(){
-            $("li").find("ul").toggle();
-          });
-        });
-    </script> 
-    -->
-        
-    <script>
-    // Find all elements with the class "has-children"
-    $(".has-children").map(function () {
-      // For each element, register a click event handler
-      $(this).on("click", function (event) {
-        console.log("Button click!");
-        console.log(this);
-        // Find the thing we want to hide relative to the element that was clicked
-        hiddenContent = event.target.parentNode.parentNode.nextElementSibling
-        //.parentNode.nextElementSibling
-
-        // Toggle hidden-ness
-         
-        //$(hiddenContent).toggleClass("hidden");
-
-        if (hiddenContent.style.display == "none") {
-            console.log("Show!");
-            hiddenContent.style.display = "flex"
-        } else {
-            console.log("Hide!");
-            hiddenContent.style.display = "none"
-        }
-      })
-    })
-    </script>
-        
-    <script>
-        // Make tiles in color only when they are entirely in the viewport on mobile only
-        if($(window).width() < 1024) {
-            $(window).on('scroll resize', function() {
-                $('.tile').each(function() {
-                    var element = $(this); // Replace '#yourElement' with the actual selector
-                    var elementTop = element.offset().top;
-                    var elementBottom = elementTop + element.outerHeight();
-                    var viewportTop = $(window).scrollTop();
-                    var viewportBottom = viewportTop + $(window).height();
-
-                    if (elementTop >= viewportTop && elementBottom <= viewportBottom) {
-                        // The element is fully visible
-                        element.removeClass("grayscale")
-                        console.log("I'm fully visible!")
-                    } else {
-                        // The element is not fully visible
-                        element.addClass("grayscale")
-                        console.log("I'm hiding away!")
-                    }
-                });
-            });
-        }
-    </script>
         
     </body>
 </html>
