@@ -3,92 +3,21 @@
     <head>
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Andre Chiquito</title>
-        <link href="styles.css" rel="stylesheet">
         <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <style type="text/tailwindcss">
-          @layer utilities {
+        @layer utilities {
             .hamburger-toggle {
               @apply [&>div]:h-0 [&>div]:bg-white [&>div]:before:translate-y-0 [&>div]:before:rotate-45 [&>div]:after:translate-y-0 [&>div]:after:-rotate-45;
             }
         }
         </style>
         <script src="https://kit.fontawesome.com/c8077251a5.js" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
     </head>
     <body class="bg-gray-950">
 
-        <!--<div id="header"></div>-->
-
-        <header class="sticky top-0 w-full bg-gray-950 z-20 shadow-xl shadow-gray-950/50 lg:flex lg:items-center">
-            <div class="flex items-center justify-between p-4 lg:w-1/4">
-                <div>
-                    <a href="andre.chiquit.ooo" class="text-white text-3xl">Andre Chiquito</a>
-                </div>
-
-                <!-- Hamburger Button -->
-                <div class="lg:hidden lg:-z-10">
-                  <div id="toggleMenu" class="grid place-content-center mx-auto">
-                    <div class="w-12 h-1 bg-white rounded-full transition-all duration-150 before:content-[''] before:absolute before:w-12 before:h-1 before:bg-white before:rounded-full before:-translate-y-3 before:transition-all before:duration-150 after:content-[''] after:absolute after:w-12 after:h-1 after:bg-white after:rounded-full after:translate-y-3 after:transition-all after:duration-150"></div>
-                  </div>
-                </div>
-                <!-- End Hamburger Button -->
-                
-            </div>
-            
-            <div id="navMenu" class="hidden flex flex-col pr-4 pl-2 pb-4 pt-2 w-52 bg-gray-950 absolute right-0 transition-all transition-discrete duration-600 ease-in-out shadow-xl shadow-gray-950/50 lg:flex lg:flex-row lg:w-3/4 lg:justify-between lg:items-center lg:p-0">
-                <ul class="flex flex-col items-left justify-between gap-4 mt-2 ml-4 lg:flex-row lg:w-4/6">
-                    <li><a href="#" class="text-white">Home</a></li>
-                    <li class="flex flex-col justify-between items-center lg:place-items-center">
-                        <div class="flex justify-between flex-row w-full dropdown-item lg:z-40">
-                            <a href="#" class="text-white">Adventures</a>
-                            <button class="has-children lg:pl-2">
-                                <i class="fa-solid fa-angle-down text-white"></i>
-                            </button>
-                        </div>
-                        <ul class="dropdown flex flex-col w-full gap-4 pt-4 pl-4 hidden lg:top-8 lg:absolute  lg:w-48 lg:bg-gray-950 lg:shadow-xl lg:shadow-gray-950/50 lg:pb-3">
-                            <li><a href="#" class="text-white">2025</a></li>
-                            <li><a href="#" class="text-white">2024</a></li>
-                            <li class="flax flex-col justify-between items-center">
-                                <div class="flex justify-between flex-row w-full dropdown-item lg:pr-4">
-                                    <a href="#" class="text-white">2023</a>
-                                    <button class="has-children">
-                                        <i class="fa-solid fa-angle-down text-white"></i>
-                                    </button>
-                                </div>
-                                <ul class="dropdown flex flex-col w-full gap-4 pt-4 pl-8 hidden">
-                                    <li><a href="#" class="text-white">Test</a></li>
-                                    <li><a href="#" class="text-white">Test</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#" class="text-white">2022</a></li>
-                            <li><a href="#" class="text-white">2021</a></li>
-                        </ul>
-                    </li>
-                    <li class="flex flex-col justify-between items-center">
-                        <div class="flex justify-between flex-row w-full dropdown-item">
-                            <a href="#" class="text-white">About Me</a>
-                            <button class="has-children lg:pl-2">
-                                <i class="fa-solid fa-angle-down text-white"></i>
-                            </button>
-                        </div>
-                        <ul class="dropdown flex flex-col w-full gap-4 pt-4 pl-4 hidden lg:top-8 lg:absolute  lg:w-48 lg:bg-gray-950 lg:shadow-xl lg:shadow-gray-950/50 lg:pb-3"> 
-                            <li><a href="#" class="text-white">Test</a></li>
-                            <li><a href="#" class="text-white">Test</a></li>
-                            <li><a href="#" class="text-white">Test</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#" class="text-white">Get Updates</a></li>
-                    <li><a href="#" class="text-white">Photographs</a></li>
-                </ul>
-                <div class="flex items-center justify-between mt-6 px-3 lg:w-1/6 lg:mt-0 lg:px-4">
-                    <a href="https://www.facebook.com/andre.chiquito/" target="_blank"><i class="fa-brands fa-facebook-f text-white"></i></a>
-                    <a href="https://www.mountainproject.com/user/200492669/andre-chiquito" target="_blank"><i class="fa-solid fa-mountain text-white"></i></a>
-                    <i class="fa-solid fa-book text-white"></i>
-                    <i class="fa-solid fa-money-bill-transfer text-white"></i>
-                </div>
-            </div>
-
-        </header>
+        <div id="header"></div>
         
         <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

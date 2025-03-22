@@ -26,38 +26,22 @@ document.getElementById("toggleMenu").addEventListener("click", function () {
     }
 });
 
-// Nested dropdown function (.has-children for button elements in dropdowns) - WIP ADAPTATION FOR DESKTOP AS WELL
+//Nested dropdown function - Mobile function could be tweaked to have nested dropdowns hide when the parent dropdown is hidden also
 if($(window).width() < 1024) {
-    $(".has-children").map(function () {
-    console.log("please");
-      $(this).on("click", function (event) {
-        var hiddenContent = $(event.target.parentNode.parentNode.nextElementSibling);
-        $(hiddenContent).toggleClass("hidden");
-        console.log("I clicked!");
-      });
+    $(".has-children").click(function () {
+        $(this).parent().parent().children('ul').slideToggle('medium');
     });
 } else {
-    console.log("Ya, it's desktop bro");
-    $(".dropdown-item").map(function () {
-        $(this).hover(function() {
-            console.log("Hovering!");
-            var hiddenContent = $(event.target.parentNode.nextElementSibling);
-            console.log(hiddenContent);
-            $(hiddenContent).removeClass("hidden");
-        }, function(){
-            var hiddenContent = $(event.target.parentNode.nextElementSibling);
-            $(hiddenContent).addClass("hidden");
-        });
+    $(".dropdown-item").hover(function () {
+    $(this).children('ul').slideToggle('medium');
+    });
+
+    var subMenu = $('li.dropdown-item > ul > li.dropdown-item');
+
+    subMenu.hover(function () {
+        $(this).find("ul.dropdown-item").slideToggle(200);
     });
 }
-
-// Nested dropdown function (.has-children for button elements in dropdowns) - mobile & desktop click function
-//$(".has-children").map(function () {
-//  $(this).on("click", function (event) {
-//    var hiddenContent = $(event.target.parentNode.parentNode.nextElementSibling);
-//    $(hiddenContent).toggleClass("hidden");
-//  });
-//});
 
 // Make tiles in color only when they are entirely in the viewport on mobile only
 $(window).on('scroll resize', function() {
