@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Andre Chiquito</title>
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <style type="text/tailwindcss">
+        @layer utilities {
+            .hamburger-toggle {
+              @apply [&>div]:h-0 [&>div]:bg-white [&>div]:before:translate-y-0 [&>div]:before:rotate-45 [&>div]:after:translate-y-0 [&>div]:after:-rotate-45;
+            }
+        }
+        </style>
+        <script src="https://kit.fontawesome.com/c8077251a5.js" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body class="bg-gray-950">
+
+        <div id="header" class="sticky top-0 lg:relative"></div>
+
+        <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600">
+            <div class="lg:flex lg:flex-row">
+                <div class="flex flex-col items-center justify-center mb-4 lg:h-screen lg:sticky lg:top-32 lg:mx-16 lg:w-1/3">
+                    <p class="text-white text-3xl">Andre Chiquito</p>
+                    <hr class="h-px my-2 bg-gray-200 border-0 w-2/3">
+                    <p class="text-white">andre.chiquito@gmail.com <b>|</b> +1 919 638 9753</p>
+                    <hr class="h-px my-2 bg-gray-200 border-0 w-2/3">
+                    <p class="text-white text-center"><a class="text-lg text-emerald-300" href="#employment">Employment</a> | <a class="text-lg text-emerald-300" href="#accomplishments">Accomplishments</a> | <a class="text-lg text-emerald-300" href="#education">Education</a> | <a class="text-lg text-emerald-300" href="#certifications">Certifications</a> | <a class="text-lg text-emerald-300" href="#references">References</a></p>
+                    <hr class="h-px my-2 bg-gray-200 border-0 w-2/3">
+                </div>
+                
+                <div>
+
+                    <div id="employment">
+
+                        <p class="text-white text-2xl text-center mb-2">Employment</p>
+                        <div class="outdoors mb-4">
+                            <p class="text-emerald-300 text-xl">Seneca Rocks Mountain Guides - <span class="text-white">|</span> Mountain Guide</p>
+                            <p class="text-gray-400">2024 &amp; 2025 Seasons</p>
+                            <ul class="text-gray-400 list-disc ml-4">
+                                <li>Led traditional rock climbing trips for individuals and groups of various skill levels</li>
+                                <li>Conducted thorough risk assessments and made informed decisions regarding route selection and weather conditions</li>
+                                <li>Communicated effectively with clients to understand their goals and tailor climbing experiences to meet their needs</li>
+                                <li>Conducted emergency high angle rescues for injured climbers</li>
+                                <li>Provided personalized instruction and coaching to clients to improve their climbing skills</li>
+                            </ul>
+                        </div>
+
+                        <div class="outdoors mb-4">
+                            <p class="text-emerald-300 text-xl">NRocks Outdoor Adventures <span class="text-white">|</span> Adventure Guide</p>
+                            <p class="text-gray-400">2024 &amp; 2025 Seasons</p>
+                            <ul class="text-gray-400 list-disc ml-4">
+                                <li>Facilitated via ferrata tours for up to 14 guests</li>
+                                <li>Trained guests to safely and independently navigate a via ferrata</li>
+                                <li>Assisted in staff high angle emergency rescue training</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech mb-4">
+                            <p class="text-emerald-300 text-xl">Center for Information, Technology, and Public Life <span class="text-white">|</span> Communications Assistant - Part Time</p>
+                            <p class="text-gray-400">November 2022 - May 2024</p>
+                            <ul class="text-gray-400 list-disc ml-4">
+                                <li>Used Beaver Builder to migrate/adapt Wordpress based web content</li>
+                                <li>Created graphics using Photoshop and Canva</li>
+                                <li>Coordinated with team members remotely through Trello and MS Planner</li>
+                                <li>Assisted in managing academic talks and symposia, both livestreams and in person</li>
+                            </ul>
+                        </div>
+
+                        <div class="outdoors mb-4">
+                            <p class="text-emerald-300 text-xl">Apogee Adventures <span class="text-white">|</span> Northeast Support Staff - Seasonal</p>
+                            <p class="text-gray-400">June 2023 - August 2023</p>
+                            <ul class="text-gray-400 list-disc ml-4">
+                                <li>Composed blog posts on trip activities to keep parents updated</li>
+                                <li>Independently identified and resolved office computing bottlenecks</li>
+                                <li>Facilitated backcountry trips for children ages 11-15</li>
+                                <li>Supported and supervized children experiencing specific difficulties on trip</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech mb-4">
+                            <p class="text-emerald-300 text-xl">Deepest Beliefs Lab <span class="text-white">|</span> Research Assistant - Part Time</p>
+                            <p class="text-gray-400">July 2021 - June 2023</p>
+                            <ul class="text-gray-400 list-disc ml-4">
+                                <li>Procured and synthesized literature</li>
+                                <li>Researched, obtained, and collated data in excel</li>
+                                <li>Composed queries and retrieved Reddit data with PushShift.io</li>
+                                <li>Lead a group to learn and implement Python, Pandas, and NumPy to solve data problems</li>
+                                <li>Presented research in a poster session at APS 2023</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech mb-4">
+                            <p class="text-emerald-300 text-xl">University of North Carolina - CH <span class="text-white">|</span> Technology Support Technician</p>
+                            <p class="text-gray-400">July 2018 - July 2021</p>
+                            <ul class="text-gray-400 list-disc ml-4">
+                                <li>Oversaw student employees</li>
+                                <li>Troubleshooted account issues with Office 365</li>
+                                <li>Provided chat support to as many as three clients at a time</li>
+                                <li>Wrote client-facing troubleshooting documentation</li>
+                                <li>Assisted in reworking a walk-in structured organization to accomodate Covid-19 concerns</li>
+                                <li>Troubleshot and resolved both student and teacher issues in Sakai</li>
+                            </ul>
+                        </div>
+
+                        <div class="mb-4">
+                            <p class="text-emerald-300 text-xl">The Computer Cellar <span class="text-white">|</span> Repair Technician</p>
+                            <p class="text-gray-400">October 2015 - July 2018</p>
+                            <ul class="text-gray-400 list-disc ml-4">
+                                <li>Frequently interacted with customers by email, phone, and walk-in traffic</li>
+                                <li>Diagnosed and replaced motherboard components, such as ports, ICs, and capacitors</li>
+                                <li>Chiefly responsible for data recoveries from healthy failing, and/or nearly destroyed storage media</li>
+                                <li>Installed networking infrastructure in a buesiness setting</li>
+                                <li>Diagnosed and repaired issues in Linux, Windows, MacOS, as well as Outlook, Quickbooks, Office 365, and many other applications</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <hr class="h-px my-2 bg-gray-200 border-0 w-5/6 m-auto mt-4">
+
+                    <div id="accomplishments">
+                        <p class="text-white text-2xl text-center mb-2 mt-4">Accomplishments</p>
+                        <ul class="text-gray-400 list-disc ml-4">
+                            <li class="tech">Independently learned to diagnose an repair motherboard level issues on Apple laptops using freely available resources and basic tools</li>
+                            <li class="tech">Designed and curated a <a href="https://bullcityfairtrade.omeka.net/" target="_blank" class="text-emerald-300">digital archive</a> for Bull City Fair Trade to preserve and display 30 years of history</li>
+                            <li class="tech">This website was built from scratch with HTML, TailwindCSS, and JQuery</li>
+                            <li class="outdoors">Designed curricula and taught introductory aerial silks to college students</li>
+                            <li class="outdoors">Led an exploratory climbing expedition to establish traditional style multipitch climbs ground up</li>
+                            <li class="tech">Co-authored a <a href="https://doi.org/10.1093/pnasnexus/pgae345" target="_blank" class="text-emerald-300">journal article</a> published in PNAS Nexus</li>
+                        </ul>
+                    </div>
+
+                    <hr class="h-px my-2 bg-gray-200 border-0 w-5/6 m-auto mt-4">
+
+                    <div id="education">
+                        <p class="text-white text-2xl text-center mb-2 mt-4">Education</p>
+                        <p class="text-emerald-300 text-xl">University of North Carolina at Chapel Hill</p>
+                        <p class="text-gray-400">Graduated May 2024 - 3.76 GPA</p>
+                        <ul class="text-gray-400 list-disc ml-4">
+                            <li>Information Science Major, B.S.</li>
+                            <li>Psychology Major, B.A.</li>
+                        </ul>
+
+                        <p class="text-emerald-300 text-xl mt-4">Durham Technical Community College</p>
+                        <p class="text-gray-400">Graduated 2020 - 3.46 GPA</p>
+                        <ul class="text-gray-400 list-disc ml-4">
+                            <li>Associates in Arts (AA)</li>
+                        </ul>
+                    </div>
+
+                    <hr class="h-px my-2 bg-gray-200 border-0 w-5/6 m-auto mt-4">
+
+                    <div id="certifications">
+                        <p class="text-white text-2xl text-center mb-2 mt-4">Certifications</p>
+                        <ul class="text-gray-400 list-disc ml-4">
+                            <li>NOLS Certified Wilderness First Aid</li>
+                            <li>SOLO Certified CPR</li>
+                            <li>American Mountain Guides Association Certified Single Pitch Instructor</li>
+                            <li>Professional Climbing Guides Institute Certified Single Pitch Guide</li>
+                        </ul>
+                    </div>
+
+                    <hr class="h-px my-2 bg-gray-200 border-0 w-5/6 m-auto mt-4">
+
+                    <div id="references">
+                        <p class="text-white text-2xl text-center mb-2 mt-4">References</p>
+
+                        <div class="outdoors">
+                        <p class="text-emerald-300 text-xl">Tom Cecil - Seneca Rocks Mountain Guides</p>
+                            <ul class="text-gray-400 list-disc ml-4">
+                                <li>304 940 3631 <span class="text-emerald-300">|</span> tomcecil@gmail.com</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech mt-4">
+                        <p class="text-emerald-300 text-xl">Felicity Gancedo - Center for Information, Technology, and Public Life</p>
+                            <ul class="text-gray-400 list-disc ml-4">
+                                <li>919 618 7174 <span class="text-emerald-300">|</span> feliganc@unc.edu</li>
+                            </ul>
+                        </div>
+
+                        <div class="outdoors mt-4">
+                        <p class="text-emerald-300 text-xl">Will Robertson - Apogee Adventures</p>
+                            <ul class="text-gray-400 list-disc ml-4">
+                                <li>651 276 7636 <span class="text-emerald-300">|</span> will@apogeeadventures.com</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech mt-4">
+                        <p class="text-emerald-300 text-xl">Curtis Puryear - Deepest Beliefs Lab</p>
+                            <ul class="text-gray-400 list-disc ml-4">
+                                <li>270 723 0361 <span class="text-emerald-300">|</span> cwpuryear12@gmail.com</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech mt-4">
+                        <p class="text-emerald-300 text-xl">Jan Williams - Bull City Fair Trade</p>
+                            <ul class="text-gray-400 list-disc ml-4">
+                                <li>919 906 7055 <span class="text-emerald-300">|</span> jan.adams.williams@gmail.com</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech mt-4">
+                        <p class="text-emerald-300 text-xl">Patrick Kiernan - University of North Carolina at Chapel Hill</p>
+                            <ul class="text-gray-400 list-disc ml-4">
+                                <li>919 923 5309 <span class="text-emerald-300">|</span> kiernan@unc.edu</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+        <footer class="bg-gray-950 shadow mt-6">
+            <div class="container mx-auto px-4 py-4 text-center">
+                <p class="text-gray-600">© <script>document.write(new Date().getFullYear())</script> <span class="text-emerald-300">Andre Chiquito</span>. All rights reserved.</p>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+        
+    </body>
+</html>

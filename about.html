@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Andre Chiquito</title>
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <style type="text/tailwindcss">
+        @layer utilities {
+            .hamburger-toggle {
+              @apply [&>div]:h-0 [&>div]:bg-white [&>div]:before:translate-y-0 [&>div]:before:rotate-45 [&>div]:after:translate-y-0 [&>div]:after:-rotate-45;
+            }
+        }
+        </style>
+        <script src="https://kit.fontawesome.com/c8077251a5.js" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body class="bg-gray-950">
+
+        <div id="header" class="sticky top-0"></div>
+        
+        <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600">
+            <div>
+                <p class="text-white text-6xl text-center pb-8">About Me</p>
+                
+                <div class="lg:flex">
+                    
+                    <img src="images/misc-pages/about-headshot.jpg" class="rounded-3xl object-cover w-1/3 mx-8 hidden lg:block">
+                    
+                    <div>
+                        <div class="pt-4">
+                            <p class="text-white text-4xl text-center pb-4">Professional Life</p>
+                            <img src="images/misc-pages/me-talking.jpg" class="rounded-3xl w-1/2 object-cover object-top float-right ml-4 lg:hidden">
+                            <p class="text-gray-400">As a non-traditional student, I faced the challenge of reconciling my love for the outdoors and teaching with my desire to become a therapist. After a long search, I found a solution: adventure therapy, inspired by equine assisted therapy and therapy in natural settings. I envision a career as an adventure therapist, integrating hiking, backpacking, and rock climbing into my practice to empower and build the self-efficacy of my clients.<br>I graduated from the University of North Carolina at Chapel Hill with a dual major in Psychology and Information Science, focusing on how people and organizations operate in order to learn best how to promote wellness in our dynamic lives. While studying I worked on campus teaching aerial silks to students.<br>I am currently working as a rock climbing guide at Seneca Rocks Mountain Guides to hone my skills as an outdoors professional. My ultimate goal is to become an adventure/wilderness counselor. I believe that by combining talk therapy and outdoor pursuits, I can provide an innovative approach to mental health treatment and make a meaningful impact on the lives of my clients.<br>In my pursuit of adventure therapy, I have found a way to combine my passion for the outdoors, teaching, and helping others. It feels like the perfect fit for me, and I look forward to the challenges and rewards this career path will bring.</p>
+                        </div>
+
+                        <div class="pt-4">
+                            <p class="text-white text-4xl pb-4 text-center">Personal Life</p>
+                            <img src="images/misc-pages/about-headshot.jpg" class="rounded-3xl w-1/2 object-cover object-top float-left mr-4 lg:hidden">
+                            <p class="text-gray-400 relative">I am a hobbyist photographer and adventurer. I enjoy finding creative ways to link different outdoor sports and modes of human powered transportation, and showcasing the beauty of the places my adventures take me. I've found that outdoor adventures are many times more meaningful and memorable when they are shared; I take great joy in sharing the knowledge I've worked hard to earn in the <span class="date-element" data-date="2019-06-15"></span> years I've been seriously engaging in outdoor pursuits!<br><br>My photography phases seem to wax and wane with other phases of my life. Seeing so many beautiful and remote places in the course of my travels and adventures has sparked an interest in types of photography I had never been able to get a handle of, especially landscapes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+        <footer class="bg-gray-950 shadow mt-6">
+            <div class="container mx-auto px-4 py-4 text-center">
+                <p class="text-gray-600">© <script>document.write(new Date().getFullYear())</script> <span class="text-emerald-300">Andre Chiquito</span>. All rights reserved.</p>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+        
+    </body>
+</html>
