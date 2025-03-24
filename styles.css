@@ -22,10 +22,6 @@
     text-shadow: 1px 1px 1px black;
 }
 
-/* Hamburger Menu CSS */
-/*
-@layer utilities {
-    .hamburger-toggle {
-        @apply [&>div]:h-0 [&>div]:bg-white [&>div::before]:before:translate-y-0 [&>div::before]:before:rotate-45 [&>div::before]:after:translate-y-0 [&>div::before]:after:-rotate-45
-    }
-}*/
+#employment, #accomplishments, #education, #certifications, #references {
+    scroll-margin-top: 100px;
+}
