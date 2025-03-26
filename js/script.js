@@ -84,3 +84,21 @@ $(document).ready(function() {
     $(this).text(years);
   });
 });
+
+// Resume categories between Outdoors and Tech/Customer Service
+$("#outdoors").click(function () {
+    $(".outdoors").slideToggle('medium');
+    $(this).toggleClass("text-emerald-300");
+});
+$("#tech").click(function () {
+    $(".tech").slideToggle('medium');
+    $(this).toggleClass("text-emerald-300");
+});
+
+// Photo gallery incompmlete alert
+$(".photo-alert").each(function () {
+    $(this).click(function () {
+        alert("I'm still working on my photo gallery! Sign up for email updates on the 'Get Updates' tab if you'd like to know when they gallery goes up! :)"); 
+        console.log("Clicked!");
+    });
+});
