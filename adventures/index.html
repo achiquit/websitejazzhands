@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Adventures</title>
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <style type="text/tailwindcss">
+        @layer utilities {
+            .hamburger-toggle {
+              @apply [&>div]:h-0 [&>div]:bg-white [&>div]:before:translate-y-0 [&>div]:before:rotate-45 [&>div]:after:translate-y-0 [&>div]:after:-rotate-45;
+            }
+        }
+        </style>
+        <script src="https://kit.fontawesome.com/c8077251a5.js" crossorigin="anonymous"></script>
+        <link href="../styles.css" rel="stylesheet">
+    </head>
+    <body class="bg-gray-950">
+
+        <div id="header" class="sticky top-0 z-50"></div>
+        
+        <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                
+                <div class="flex flex-col justify-around lg:hidden">
+                    <p class="text-white text-center text-6xl">Adventures</p>
+                    <p class="text-gray-400 text-center">This space is where I make posts about my outdoor adventures and shenanigans. Sometimes I'll make big trip shwere I do enough things to justify making multiple posts about different parts of the trip. Checking those out is easiest with the navigation bar above. My most recent adventures are in these tiles listed chronologically from left to right!</p>
+                    <!--<p class="text-gray-400 text-center">I also have a handy-dandy map at the bottom of this page with all my adventures sorted into layers for each year :)</p>-->
+                </div>
+                
+                <a href="2024/freeze-thaw/pedaling-east-coast.html">
+                    <div class="bg-[url(2024/freeze-thaw/bike-with-flowers.jpg)] bg-cover w-full aspect-square p-4 flex justify-center tile lg:grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
+                        <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center text-center">Pedaling the<br>East Coast</h3>
+                    </div>
+                </a>
+                
+                <div class="lg:flex flex-col justify-around hidden">
+                    <p class="text-white text-center text-6xl">Adventures</p>
+                    <p class="text-gray-400 text-center">This space is where I make posts about my outdoor adventures and shenanigans. Sometimes I'll make big trip shwere I do enough things to justify making multiple posts about different parts of the trip. Checking those out is easiest with the navigation bar above. My most recent adventures are in these tiles listed chronologically from left to right!</p>
+                    <!--<p class="text-gray-400 text-center">I also have a handy-dandy map at the bottom of this page with all my adventures sorted into layers for each year :)</p>-->
+                </div>
+
+                <a href="2024/freeze-thaw">
+                    <div class="bg-[url(2024/freeze-thaw/home-tile.jpg)] bg-cover w-full aspect-square p-4 flex justify-center tile grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
+                        <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center text-center">Freeze<br>&amp; Thaw</h3>
+                    </div>
+                </a>
+
+                <!--
+                <a href="#">
+                    <div class="bg-[url(2024/seneca-summer-tile.jpg)] bg-cover w-full aspect-square p-4 grid gap-4 place-content-center tile grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
+                        <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title text-center">Seneca Summer<br>Update</h3>
+                    </div>
+                </a>
+                -->
+                
+            </div>
+            
+            <!-- Embedded Google map -->
+            <!--
+            <div class="mt-4">
+                <iframe title="Adventure map" src="https://www.google.com/maps/d/embed?mid=1A-rI2R-AT2yYzNhhtjL5NVxRifIIdj2E&ehbc=2E312F" width="100%" height="480" style="align-content:center; display:block;" id="map"></iframe>
+            </div>
+            -->
+            
+        </main>
+
+        <footer class="bg-gray-950 shadow mt-6">
+            <div class="container mx-auto px-4 py-4 text-center">
+                <p class="text-gray-600">© <script>document.write(new Date().getFullYear())</script> <span class="text-emerald-300">Andre Chiquito</span>. All rights reserved.</p>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="../js/script.js"></script>
+        
+    </body>
+</html>

@@ -1,5 +1,3 @@
-@import "tailwindcss";
-
 @font-face {
     font-family: 'Josefin-Sans-Regular';
     src:url('fonts/josefin/Josefin-Sans-Regular.ttf.woff') format('woff'),
@@ -18,10 +16,20 @@
     text-shadow: 2px 2px 4px black;
 }
 
-.tile-button {
-    text-shadow: 1px 1px 1px black;
-}
-
 #employment, #accomplishments, #education, #certifications, #references {
     scroll-margin-top: 100px;
+}
+
+/* Comment Box styling */
+#HCB_comment_box > a {
+    display: none;
+}
+.home-desc {
+    display: none;
+}
+#hcb_form > small {
+    display: none;
+}
+.admin-link {
+    display: none;
 }

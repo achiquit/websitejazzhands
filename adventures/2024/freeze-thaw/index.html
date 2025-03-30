@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Freeze &amp; Thaw</title>
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <style type="text/tailwindcss">
+        @layer utilities {
+            .hamburger-toggle {
+              @apply [&>div]:h-0 [&>div]:bg-white [&>div]:before:translate-y-0 [&>div]:before:rotate-45 [&>div]:after:translate-y-0 [&>div]:after:-rotate-45;
+            }
+        }
+        </style>
+        <script src="https://kit.fontawesome.com/c8077251a5.js" crossorigin="anonymous"></script>
+        <link href="../../../styles.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+    </head>
+    <body class="bg-gray-950">
+
+        <div id="header" class="sticky top-0 z-50"></div>
+        
+        <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600">
+            
+            <p class="text-white text-center text-6xl mb-4">Freeze &amp; Thaw</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                
+                <a href="pedaling-east-coast.html">
+                    <div class="bg-[url(bike-with-tent.jpg)] bg-cover w-full aspect-square p-4 flex justify-center tile lg:grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
+                        <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center text-center">Pedaling the<br>East Coast</h3>
+                    </div>
+                </a>
+
+                <a href="climbing-in-brazil.html">
+                    <div class="bg-[url(brazil-tile.jpg)] bg-cover w-full aspect-square p-4 flex justify-center tile grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
+                        <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center text-center">Climbing in<br>Brazil</h3>
+                    </div>
+                </a>
+
+                <a href="mushing-in-norway.html">
+                    <div class="bg-[url(norway-tile.jpg)] bg-cover w-full aspect-square p-4 grid gap-4 place-content-center tile grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
+                        <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title text-center">Mushing in<br>Norway</h3>
+                    </div>
+                </a>
+                
+            </div>
+
+            <div class="mt-6 lg:flex lg:flex-row lg:gap-6">
+                <div>
+                    <p class="text-white text-4xl text-center">About</p>
+                    <p class="text-gray-400 text-center">With my new job as a climbing guide running from March through October, I've ended up with several months on my hands over the winter to do with what I will! Over the season I saved up enough money to throw a trip together.<br>My original concept was just go to Rio de Janeiro for the whole winter to practice my Portuguese and immerse myself in Brazilian culture. As ever, things quickly got out of hand.<br>The final plan can be found on the right, which is much more packed than my original plan!<br>My musher friend may be gearing up for her final season racing and is in somewhat desperate need of help. She wanted me to come until March, but I still wanted to make my Brazil plans happen so I agreed to split my winter between the two!<br>I then discovered I have friends who are spending Christmas and New Years in Spain, so I figured I'd make a pit-stop there on my way to Brazil to hang out with them.<br>In Brazil I'll be staying with my aunt in Rio de Janeiro, exploring the city by bicycle, climbing as many rocks as the Brazilian summer will allow, and practicing my Portuguese.<br>Then, I'll finally get to give bikepacking a real shake! My father got me a nice touring bicycle for my graduation from UNC in May, and I'll be taking it on a 1,300 mile trip from Key West, FL back home to Durham, NC as it's maiden voyage!<br>That's what y'all can expect to read about in the coming months!</p>
+                    
+                    <div class="pa-carousel-widget mt-6 lg:px-4" style="width:100%; height:480px; display:none;" data-link="https://photos.app.goo.gl/HdHD6jndry3HSstf6" data-title="Freeze &amp; Thaw Pictures" data-description="15 new items added to shared album">
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczMzl-mo4pphNGPodln6gy42xj3ja5Jr1kkrTyPEIbM11ZqrDnJ0p-HuQ-CRHyni4KOjI6OAAOSSeG5G62BNhVESEtqcbQrEBWcVO1yFYmtTEwlv2oaR=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczPvxC-f9LvJ0O-T-u-_9-cHiiKyTat2ulmM2Cfb0AUJa4QQaVnJ4l5lbkYkSZ_uPrvzTtrK5e90YNWo3nE8qAxxdccWrrozd0aCZKwIzREGW4B0X-T4=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczM5lwpAcKbbfw1k0nZQfGvi1a_GwWDy6aahTI0EOfHNtb4F1fR3WEATl4hHPgxrMjAqKxiUrPHtGtgT-_mhVvgjofKzuIP76PwPxvM9egXVAh__UN5_=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczMpOGicvI0uBihT6vZDYM2ZekKiMrn2Q8WMOaQrpn1uJtSSSF6IivjBSdTEAKVmb6ThvCaRLZSTpKUet9k9rHmGdnUT25rnGtDp-7KgbWswobFNqGaK=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczMcieSonZW26pAaDAKqDiTllJ4Y8d_NshtSvFOxVQGR_YZHCVMJmtCZ79R4EiM7rB1SvPzNKBoEK5rSG1mR5petUstuX-rOL0OXDLKsgZU3O8fAq_i1=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczMn3zLFoR2tKw68C-F-br1HNYni55nDWY--lYezWayVozgebOTXXcnRx7buZ9oekUBSbTs-YX4DKyCuHUYowzkhjDCjZ3m_rYfXm1gGhNiQGU9VIAA-=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczOx-tqTka3HalDjXNG5zpe2Ix1tVSMYAzT-1162IPCoHGjv1YPEdV9PD0-ogYAgY0UQcHflRuoWW7HH-_aSIBAbHf41KuNbFZQeSjAfiDq_uBN-trP0=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczNeb5oqZm7n_5sDCYylWjE433iR86wCypuWkpBjQWAWE9UFCLV0-NjXoMrrIp86LIskwt370V1RJxHtqgtjs3SCORAODCKf2Zx-c2Rh28q9n54G76w8=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczMo6dfgkGwSGQN6OSJPB8gmKIjbCkWSamA6--VPhe4YkcKPODnTmdWJ3ybrM7IhOyahM05_RtSNC28cp16dm6p7rASkLqkYPtMVb_BjUzpKcJVgwdQo=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczPaKvtxYIuvG9kZTXmzVKMEFD_5l98BruPHvqzUE73gMcsBSZlzdeDVYSxs3fFfb0BpGg8b414-ZAxvEUmW1Njr8Kw8Wd1rpUaFGj3IRkf5K8KvqXbj=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczPmpdg9RFFrjAitkHkRMRzASmcBMIXIcH5mtj7uT4rfzIPBfQxxB6gcvkKRcUKgf_4tddV27bxEUYjFGVXYMC99LUFc4q_M4VQQiJUyOFV65jXKdyyQ=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczOjrWn6J4BGZLDkM9MgsXzsIk4akFHsXSO6hVNVUbMYWp5vKKGVhwvgCM-qUunOg58faCAI7ro2ZzDwwI0aBQDnYyNkzR5z9I-HzPERf00nDsppnOYX=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczOtoZmjm6CgJdIsW63pSJP2TYrsWZUICLTDAbVSbhh_MG0ccW_d9C3GhHR5WLqCYHDLgrb4SlQd5sCFR-ja3-n8J-uM4OcdH0f3VGqnG79vhFAsiRC2=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczPJut7qrZB4zbHJ0Z5g1FAnPslDtTkabzgp_X4ch7GgkXTpqW54g-M462WkE3jS_UvqEgkIY59QX79mvVl-SdOSRSgrB-ScpiafFbPDWr1MnDwiucXU=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczOXfrOMtv5FaN_OBbjxjtSad2v8Q-reRNTOQ8hsh1ehBT5x1eqbw9rIKfnRaXeN1R87UHIN1NGKOTnqNT75RE2UPO6F16vsnsBRFPODX2n2PxbstIxQ=w1920-h1080"></object>
+                    </div>
+                </div>
+
+                <div class="mt-6">
+                    <p class="text-white text-3xl text-center">Itinerary</p>
+                    <p class="text-gray-400 text-center">A rough itinerary with brief descriptions of my activities:</p>
+                    <ul class="list-disc ml-8 text-gray-400">
+                        <li>11/4/24 - <span class="line-through">12/25/24</span> 1/1/25: Norway - Mushing sled dogs & playing in the snow</li>
+                        <li><span class="line-through">12/25/24 - 1/1/25: Spain - Climbing rocks and celebrating new years with friends</span></li>
+                        <li>1/2/25 - 2/9/25: Brazil - Climbing rocks, practicing Portuguese, and biking like a madman</li>
+                        <li>2/10/25 - 3/??/25: Southeast US Coast - Cycling home to NC from Key West, FL</li>
+                    </ul>
+
+                    <div class="pa-carousel-widget mt-6 lg:px-4" style="width:100%; height:480px; display:none;"
+                      data-link="https://photos.app.goo.gl/ZgwCkw2M6h3NLjuW9"
+                      data-title="Norway/Brazil Trip Bible"
+                      data-description="8 new items added to shared album">
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczPaQii1uskEcoIQhSgMyPGIaQ3XduzpkSrIl3ZzknmWnG8_4ufgvaftoXP3toXL2AAyYypzZlhj21GSNaxnxCUgJ1vV4kTq34hgy7tv_0VWkpfYenFM=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczOMj5q691fAWYcFNoqcEml-lrvZ6sQxQ69HHvsHYl8huueqkEQa_BzW6DuV9aYYQjMYnZqGf5-Ch4BifRUvpx6mdq5e9ejJUS7dnjb-YZmhPiWayjUw=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczNbJXGoawEPWM-8xGfQMR7CAxGXn6UeUZPNyWcxkjki6WsYq4km058pA0_28FpHktCEvPvgXXAMwtfRVKTjKZ-62BCIdscQ7ANSkoDKwM8Lt5cvfqhR=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczMoTbHVYOvWgwtHXCCT0FEBajuMLKpB7gRb46atDa8Lh_wnS12pKmN5PmV1MzxuNvIPIfAvsX-0DRXpttwh1aCd-AvFN8cLyGGn1cTQbJFpLZitHn8d=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczMelZVsmNHFE3YDpd46T-sZ2WieWxgDH0Oj0Sh-mSVpXYF3wFNFxuDGboZ1vgMGaQ9iN6vaHB2tuPQ6sYV9z2lxoVyyBHcYjdnkTWAJONhs2_by2IhS=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczOC7KNr9Xtnh12efUxO1JdMxTYOqxt7hfw9Ifs7oTzmFYVkT2IhUtjJVgOj1d07rWL3SlGMwCVWA3U9T5vxsi2QWOIaDusv-QSZRjcuIGaewbxZ8Qu4=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczPD8V62g5w3yALc85_3lx1bwEhnRhTC-jzRTZNj8Di9womhX3pVux0BJFANRhH30V4r8098koDJaTpcsO1lJyw9IUvekgkByrxCl_66eM5sfB2suCIa=w1920-h1080"></object>
+                      <object data="https://lh3.googleusercontent.com/pw/AP1GczNjH0OyEUfzA4vN8MhZCcmbO6CdUQdWcNbDgBCmvfQaIJNJFvRHJmAoaNt-T-J902GmZFHS03wIDM7XuHUW5ughaRAWC8EcCE5hytWquW_Bhj6HiN1a=w1920-h1080"></object>
+                    </div>
+                    <p class="text-gray-400 mt-2">I'm writing my trip bible in Tengwar script from Lord of The Rings. If you're that motivated, here's a <a href="../../../resources/tengwar.jpg" target="_blank" class="text-emerald-300">translation sheet</a>!</p>
+                    </div>
+            </div>
+            
+        </main>
+
+        <footer class="bg-gray-950 shadow mt-6">
+            <div class="container mx-auto px-4 py-4 text-center">
+                <p class="text-gray-600">© <script>document.write(new Date().getFullYear())</script> <span class="text-emerald-300">Andre Chiquito</span>. All rights reserved.</p>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="../../../js/script.js"></script>
+        
+    </body>
+</html>
