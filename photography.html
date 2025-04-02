@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Andre Chiquito</title>
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <style type="text/tailwindcss">
+        @layer utilities {
+            .hamburger-toggle {
+              @apply [&>div]:h-0 [&>div]:bg-white [&>div]:before:translate-y-0 [&>div]:before:rotate-45 [&>div]:after:translate-y-0 [&>div]:after:-rotate-45;
+            }
+        }
+        </style>
+        <script src="https://kit.fontawesome.com/c8077251a5.js" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body class="bg-gray-950">
+
+        <div id="header" class="sticky top-0 z-50"></div>
+        
+        <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600">
+
+            <p class="text-white text-6xl text-center">Photography</p>
+            <div class="mt-4 grid grid-cols-3 gap-4 [&>a]:text-white [&>a]:text-center">
+                <a href="#">B&amp;W</a>
+                <a href="#">Color</a>
+                <a href="#">Landscape</a>
+                <a href="#">Action</a>
+                <a href="#">Wildlife</a>
+                <a href="#">Everything</a>
+            </div>
+
+            <hr class="w-7/8 h-px mx-auto my-6 bg-emerald-300 border-0">
+
+            <div class="grid grid-cols-2 gap-2">
+                <div class="grid grid-cols-1 gap-2 lg:grid-cols-2">
+                    <div>
+                        <img src="images/gallery/small/00.png" title="rappelling Stephen's Gap cave" class="rounded-lg color-scroll transition duration-300">
+                        <div class="absolute h-screen z-60">
+                            <img src="images/gallery/large/00.png" title="rappelling Stephen's Gap cave - large resolution" class="shadow-lg sticky z-60 -ml-2 px-4 blur-none">
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="images/gallery/small/02.jpg" title="A captive coati in Panama" class="rounded-lg color-scroll transition duration-300">
+                    </div>
+                    
+                    <img src="images/gallery/small/01.jpg" title="Flowers on Acatenango with volcan fuego in the background" class="rounded-lg color-scroll transition duration-300">
+                </div>
+
+                <div class="grid grid-cols-1 gap-2 lg:grid-cols-2">
+                    <img src="images/gallery/small/03.png" title="The view down the valley from the top of 13-bolt wall" class="rounded-lg color-scroll transition duration-300">
+
+                    <img src="images/gallery/small/04.jpg" title="Sunset view from the top of the Sugarloaf" class="rounded-lg color-scroll transition duration-300">
+                    
+                    <img src="images/gallery/small/05.jpg" title="Shagg lake" class="rounded-lg color-scroll transition duration-300">
+                </div>
+
+            </div>
+        </main>
+
+        <footer class="bg-gray-950 shadow mt-6">
+            <div class="container mx-auto px-4 py-4 text-center">
+                <p class="text-gray-600">© <script>document.write(new Date().getFullYear())</script> <span class="text-emerald-300">Andre Chiquito</span>. All rights reserved.</p>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+        
+    </body>
+</html>

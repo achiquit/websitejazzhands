@@ -122,10 +122,10 @@ $(document).ready(function() {
     randomLineGenerator('resources/climbing-exercises.txt');
 });
 
-// Make tiles in color only when they are entirely in the viewport on mobile only
+// Make images in color only when they are entirely in the viewport on mobile only
 $(window).on('scroll resize', function() {
     if($(window).width() < 1024) {
-        $('.tile').each(function() {
+        $('.color-scroll').each(function() {
             var element = $(this);
             var elementTop = element.offset().top;
             var elementBottom = elementTop + element.outerHeight();
