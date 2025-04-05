@@ -81,7 +81,8 @@ $(".photo-alert").each(function () {
     });
 });
 
-// Function to show a random climbing exercise every day on the Wild West page
+// Make images in color only when they are entirely in the viewport on mobile only
+$(window).on('scroll resize', // Function to show a random climbing exercise every day on the Wild West page
 $(document).ready(function() {
 
     function getDate() {
@@ -120,10 +121,7 @@ $(document).ready(function() {
     }
     
     randomLineGenerator('resources/climbing-exercises.txt');
-});
-
-// Make images in color only when they are entirely in the viewport on mobile only
-$(window).on('scroll resize', function() {
+}),function() {
     if($(window).width() < 1024) {
         $('.color-scroll').each(function() {
             var element = $(this);
