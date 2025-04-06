@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Freeze &amp; Thaw</title>
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <style type="text/tailwindcss">
+        @layer utilities {
+            .hamburger-toggle {
+              @apply [&>div]:h-0 [&>div]:bg-white [&>div]:before:translate-y-0 [&>div]:before:rotate-45 [&>div]:after:translate-y-0 [&>div]:after:-rotate-45;
+            }
+        }
+        </style>
+        <script src="https://kit.fontawesome.com/c8077251a5.js" crossorigin="anonymous"></script>
+        <link href="../../../styles.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+    </head>
+    <body class="bg-gray-950">
+
+        <div id="header" class="sticky top-0 z-60"></div>
+        
+        <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600 [&_a]:text-emerald-300">
+            
+            <p class="text-white text-center text-6xl mb-4">Post Graduation Adventure</p>
+
+            <div class="mt-6 lg:flex lg:flex-row lg:gap-6">
+                <div class="lg:w-3/4">
+                    <p class="text-white text-4xl text-center">About</p>
+                    <p class="text-gray-400">TL;DR: I'm doing another big trip to cave in Mexico and climb in the Western US! I'll be leaving mid December, then starting my new job as a rock climbing guide at Seneca Rocks, WV in March. Keep up with this page for updates!<br><br>Big news: I'm finally about to graduate from UNC, and I got invited to go on a caving expedition in Mexico! Both of those things really shaped this next adventure into what it is now. A long while ago my caving partner, B, invited me on his yearly Mexico expedition and I had to accept! He has a virgin cave (a cave that has never been explored before) in Oaxaca that he's working on, and I'll hopefully get to be a part of bottoming it for the first time, which would be an incredible experience. On top of that, I'll get to take another stab at climbing Iztaccihuatl on the way down! (check out how the <a href="https://andre.chiquit.ooo/blog-mexico-5" target="_blank">first attempt</a> went) This will also be a super special trip because it will be the first time I've taken Wells West of the Mississippi! I'm so stoked to finally to a big trip out West.<br>Anywho, that was the original incarnation of this trip: Caving in Mexico for Winter break. However, I still need to take six credit hours in order to graduate in May, but I was able to get them all remote! So B and I will part ways in Texas in mid January after caving for a few weeks, and I'll make my way to California. I'll spend the next couple months hanging out with friends, climbing, and taking those classes while I'm in California, Utah, and Colorado before I head over to West Virginia to start my job in March! Expect lots of stories of rock climbing, some urban adventures, and some snowy shenanigans!<br><br>I'll try my best to keep this page updated, but the <a href="#map">map</a> at the bottom will be updated most regularly! I'll send out email updates for fresh posts after the big adventures :)<br><br>Special thanks go to Iva Jean D, Leo D, Tom B, and Jane N for their incredibly generous early graduation gifts. Without y'all, this trip would not be happening!</p>
+                </div>
+
+                <div class="mt-6 [&>hr]:w-7/8 [&>hr]:h-px [&>hr]:mx-auto [&>hr]:my-4 [&>hr]:bg-emerald-300 [&>hr]:border-0 lg:w-1/4">
+
+                    <hr>
+
+                    <p class="text-white text-3xl text-center">Trip Stats</p>
+                    <ul class="list-disc ml-8 text-gray-400">
+                        <li>A <a id="map-link" href="#map">map</a> of where I've been thus far</li>
+                        <li>Departure Date: December 17th</li>
+                        <li>Return Date: March 12th</li>
+                        <li>Days on the Road: 87</li>
+                        <li>Miles Driven: ~5,890</li>
+                    </ul>
+                    
+                    <hr>
+
+                    <!-- Begin Spotify embed -->
+                    <iframe style="border-radius:12px" title="spotify song embed" src="https://open.spotify.com/embed/track/3JHNQDokhWKd7MPhp4LxWZ?utm_source=generator&theme=0" width="95%" height="380" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    <!-- End Spotify embed -->
+
+                    <hr class="lg:hidden">
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                
+                <a href="pedaling-east-coast.html">
+                    <div class="bg-[url(colorado-tile.jpg)] bg-cover w-full aspect-square p-4 flex justify-center color-scroll lg:grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
+                        <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center text-center">Utah and<br>Colorado</h3>
+                    </div>
+                </a>
+
+                <a href="climbing-in-brazil.html">
+                    <div class="bg-[url(southwest-tile.jpg)] bg-cover w-full aspect-square p-4 flex justify-center color-scroll grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
+                        <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center text-center">Playing in the<br>Southwest</h3>
+                    </div>
+                </a>
+
+                <a href="mushing-in-norway.html">
+                    <div class="bg-[url(mexico-tile.jpg)] bg-cover w-full aspect-square p-4 grid gap-4 place-content-center color-scroll grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
+                        <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title text-center">Mexico<br>Adventures</h3>
+                    </div>
+                </a>
+                
+            </div>
+
+            <!-- Embedded Google map -->
+            <div style="width:75%; margin:0 auto; padding-top:25px;">
+                <iframe src="https://www.google.com/maps/d/embed?mid=1_akXm534nI4b1jfO8Sr_on_jPGAE2KE&ehbc=2E312F" title="Google Map for the trip" width="100%" height="480" id="map" class=""></iframe>
+            </div>
+            
+        </main>
+
+        <footer class="bg-gray-950 shadow mt-6">
+            <div class="container mx-auto px-4 py-4 text-center">
+                <p class="text-gray-600">© <script>document.write(new Date().getFullYear())</script> <span class="text-emerald-300">Andre Chiquito</span>. All rights reserved.</p>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="../../../js/script.js"></script>
+        
+    </body>
+</html>
