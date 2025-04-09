@@ -33,7 +33,7 @@ $("#header").load("/header.html", function() {
         });
     } else {
         $(".dropdown-item").hover(function () {
-        $(this).children('ul').slideToggle('medium');
+            $(this).children('ul').slideToggle('medium');
         });
 
         var subMenu = $('li.dropdown-item > ul > li.dropdown-item');
@@ -57,7 +57,7 @@ function yearsSinceDate(dateString) {
   return years;
 }
 $(document).ready(function() {
-  $('.date-element').each(function() {
+  $('.date-count').each(function() {
     const dateString = $(this).data('date');
     const years = yearsSinceDate(dateString);
     $(this).text(years);
