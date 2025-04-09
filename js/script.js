@@ -74,54 +74,9 @@ $("#tech").click(function () {
     $(this).toggleClass("text-emerald-300");
 });
 
-// Photo gallery incompmlete alert
-$(".photo-alert").each(function () {
-    $(this).click(function () {
-        alert("I'm still working on my photo gallery! Sign up for email updates on the 'Get Updates' tab if you'd like to know when they gallery goes up! :)"); 
-    });
-});
-
 // Make images in color only when they are entirely in the viewport on mobile only
-$(window).on('scroll resize', // Function to show a random climbing exercise every day on the Wild West page
-$(document).ready(function() {
-
-    function getDate() {
-        var nowDate = new Date(); 
-        var date = nowDate.getFullYear()+'/'+(nowDate.getMonth()+1)+'/'+nowDate.getDate();
-        return date;
-    }
-
-    function getRandomItem(arr) {
-        // Get a random index value
-        //const randomIndex = Math.floor(Math.random() * arr.length);
-        
-        var date = getDate();
-        // Use the date as a seed to get a random number
-        var seededNum = new Math.seedrandom(date);
-        // Multiply the random number to be a float large enough to choose among the items in the array 
-        var randomIndex = seededNum() * (arr.length + 1);
-        // Turn the float into an int
-        var chosenOne = Math.trunc(randomIndex);
-
-        // Return the random item
-        return arr[chosenOne];
-    }
-
-    function randomLineGenerator(filePath) {
-        var linesArray = [];
-
-        $.get(filePath, function(data) {
-            // Split the data by new lines and store in the array
-            linesArray = data.split('\r\n');
-
-            // Randomly choose an item from the array
-            var randomItem = getRandomItem(linesArray);
-            $("#climbing-exercise").replaceWith(randomItem);
-        });
-    }
-    
-    randomLineGenerator('resources/climbing-exercises.txt');
-}),function() {
+$(window).on('scroll resize',
+function() {
     if($(window).width() < 1024) {
         $('.color-scroll').each(function() {
             var element = $(this);

@@ -38,6 +38,6 @@ $(document).ready(function() {
         });
     }
     
-    randomLineGenerator('/resources/climbing-exercises.txt', '#climbing-exercise');
+    randomLineGenerator('/resources/techniques.txt', '#technique');
     randomLineGenerator('/resources/quotes.txt', '#quote');
 });

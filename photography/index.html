@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Andre Chiquito</title>
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <style type="text/tailwindcss">
+        @layer utilities {
+            .hamburger-toggle {
+              @apply [&>div]:h-0 [&>div]:bg-white [&>div]:before:translate-y-0 [&>div]:before:rotate-45 [&>div]:after:translate-y-0 [&>div]:after:-rotate-45;
+            }
+        }
+        </style>
+        <script src="https://kit.fontawesome.com/c8077251a5.js" crossorigin="anonymous"></script>
+        <link href="/styles.css" rel="stylesheet">
+    </head>
+    <body class="bg-gray-950">
+
+        <div id="header" class="sticky top-0 z-50"></div>
+        
+        <main id="main" class="bg-gray-950 container mx-auto px-4 py-6">
+
+            <p class="text-white text-6xl text-center">Photography</p>
+            <div class="mt-4 grid grid-cols-3 gap-4 [&>p]:text-center">
+                <p class="filter text-white" id="blackandwhite">B&amp;W</p>
+                <p class="filter text-white" id="color">Color</p>
+                <p class="filter text-white" id="landscape">Landscape</p>
+                <p class="filter text-white" id="action">Action</p>
+                <p class="filter text-white" id="wildlife">Wildlife</p>
+                <p class="filter text-emerald-300" id="everything">Everything</p>
+            </div>
+
+            <hr class="w-7/8 h-px mx-auto my-6 bg-emerald-300 border-0">
+
+            <div class="photos grid grid-cols-2 gap-2 lg:grid-cols-4">
+
+                    <div class="photo action">
+                        <img src="/images/gallery/large/00.png" title="rappelling Stephen's Gap cave" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/00.png" title="rappelling Stephen's Gap cave - large resolution" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>The keyhole rappel in Stephen's Gap cave, Alabama</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo wildlife">
+                        <img src="/images/gallery/large/02.jpg" title="A captive coati in Panama" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/02.jpg" title="A captive coati in Panama - large resolution" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>A captive Coati near Colon, Panama</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo landscape">
+                        <img src="/images/gallery/large/01.jpg" title="Flowers on Acatenango with volcan fuego in the background" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/01.jpg" title="Flowers on Acatenango with volcan fuego in the background - large resolution" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Flowers on Acatenango with Volcan Fuego in the background, Antigua, Guatemala</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo landscape">
+                        <img src="/images/gallery/large/07.png" title="Storm clouds on the horizon from South Sixshooter, Utah" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/07.png" title="Storm clouds on the horizon from South Sixshooter, Utah" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Storm clouds on the horizon from South Sixshooter, Utah</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="photo blackandwhite">
+                        <img src="/images/gallery/large/08.png" title="Intense shadows on a model's back" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/08.png" title="Intense shadows on a model's back" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Experimenting with shadows</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo action">
+                        <img src="/images/gallery/large/09.png" title="Aerialist in a wrap on a windy day" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/09.png" title="Aerialist in a wrap on a windy day" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>An aerialist performing outdoors on a windy day</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo color">
+                        <img src="/images/gallery/large/10.png" title="Danbo peering out at the world" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/10.png" title="Danbo peering out at the world" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Danbo peering out at the world</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo action">
+                        <img src="/images/gallery/large/28.jpg" title="A cave in West Virginia" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/28.jpg" title="A cave in West Virginia" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>A cave in West Virginia</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="photo landscape">
+                        <img src="/images/gallery/large/03.png" title="The view down the valley from the top of 13-bolt wall, Colorado" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/03.png" title="The view down the valley from the top of 13-bolt wall, Colorado" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>The view down the valley from the top of 13-bolt wall, Colorado</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo landscape">
+                        <img src="/images/gallery/large/04.jpg" title="Sunset view from the top of the Pao de Acucar, Rio de Janeiro, Brazil" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/04.jpg" title="Sunset view from the top of the Pao de Acucar, Rio de Janeiro, Brazil" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Sunset view from the top of the Pao de Acucar, Rio de Janeiro, Brazil</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo landscape">
+                        <img src="/images/gallery/large/18.jpg" title="Waterfall in Washington" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/18.jpg" title="Waterfall in Washington" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Waterfall in Washington</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo landscape">
+                        <img src="/images/gallery/large/05.jpg" title="Shagg lake, Maine" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/05.jpg" title="Shagg lake, Maine" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Shagg lake, Maine</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo landscape">
+                        <img src="/images/gallery/large/17.jpg" title="Looking South on the way up Atigun Pass, Alaska" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/17.jpg" title="Looking South on the way up Atigun Pass, Alaska" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Looking South on the way up Atigun Pass, Alaska</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo color">
+                        <img src="/images/gallery/large/19.jpg" title="Giant tree in Washington" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/19.jpg" title="Giant tree in Washington" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>A giant oak tree in Charleston, South Carolina</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo wildlife">
+                        <img src="/images/gallery/large/20.jpg" title="Jaguar in Belize" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/20.jpg" title="Jaguar in Belize" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>A sleepy, post-dinner Jaguar in Belize</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="photo color">
+                        <img src="/images/gallery/large/12.png" title="Mooshroom among moss looking towards a window" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/12.png" title="Mooshroom among moss looking towards a window" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Experimenting with miniature photography</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo color">
+                        <img src="/images/gallery/large/13.png" title="Three stones with reflection" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/13.png" title="Three stones with reflection" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>A hand reflected in three glass stones</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo blackandwhite">
+                        <img src="/images/gallery/large/11.png" title="Japanese tea house at Duke Gardens, North Carolina" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/11.png" title="Japanese tea house at Duke Gardens, North Carolina" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Japanese tea house at Duke Gardens, North Carolina</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo color">
+                        <img src="/images/gallery/large/14.png" title="Durham central bus station with tiltshift" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/14.png" title="Durham central bus station with tiltshift" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Durham central bus station with tiltshift</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo landscape">
+                        <img src="/images/gallery/large/15.png" title="Teer quarry at sunrise" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/15.png" title="Teer quarry at sunrise" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Teer quarry at sunrise, Durham North Carolina</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo color">
+                        <img src="/images/gallery/large/16.jpg" title="Appropriately placed Milk graffiti" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/16.jpg" title="Appropriately placed Milk graffiti" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Appropriately placed Milk graffiti</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo wildlife">
+                        <img src="/images/gallery/large/27.jpg" title="Relaxing in the Norwegian wilderness" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/27.jpg" title="Relaxing in the Norwegian wilderness" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Relaxing in the Norwegian wilderness</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="photo action">
+                        <img src="/images/gallery/large/21.jpg" title="An eruption on Volcan Fuego" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/21.jpg" title="An erption on Volcan Fuego" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>An eruption on Volcan Fuego from Acatenango</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo color">
+                        <img src="/images/gallery/large/22.jpg" title="Waterfall in Cloudbridge Reserve, Costa Rica" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/22.jpg" title="Waterfall in Cloudbridge Reserve, Costa Rica" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Waterfall in Cloudbridge Reserve, Costa Rica</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo action">
+                        <img src="/images/gallery/large/23.jpg" title="A swing in the jungle in Panama" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/23.jpg" title="A swing in the jungle in Panama" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>A swing in the jungle in Panama</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo color">
+                        <img src="/images/gallery/large/24.jpg" title="A basic hotel on an island village on the coast of Panama, San Blas Islands" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/24.jpg" title="A basic hotel on an island village on the coast of Panama, San Blas Islands" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>A basic hotel on an island village on the coast of Panama, San Blas Islands</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo landscape">
+                        <img src="/images/gallery/large/25.jpg" title="Rocky beach in northern Colombia, near the Darien Gap" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/25.jpg" title="Rocky beach in northern Colombia, near the Darien Gap" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Rocky beach in northern Colombia, near the Darien Gap</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo landscape">
+                        <img src="/images/gallery/large/26.jpg" title="Climbing above the clouds on Corcovado, Rio de Janeiro, Brazil" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/26.jpg" title="Climbing above the clouds on Corcovado, Rio de Janeiro, Brazil" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>Climbing above the clouds on Corcovado, Rio de Janeiro, Brazil</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo landscape">
+                        <img src="/images/gallery/large/29.jpg" title="A climber rappelling into The Underworld, Linville Gorge, North Carolina" class="small-img rounded-lg color-scroll transition duration-900 aspect-square object-cover">
+                        <div class="big-img fixed size-full left-0 top-0 z-40 -ml-4 backdrop-blur-sm hidden">
+                            <div class="mt-28 px-4">
+                                <img src="/images/gallery/large/29.jpg" title="A climber rappelling into The Underworld, Linville Gorge, North Carolina" class="shadow-lg border-4 border-solid max-h-130 mx-auto">
+                                <p class="text-lg text-white text-center pt-2 text-shadow-md"><b>A climber rappelling into The Underworld, Linville Gorge, North Carolina</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+            </div>
+        </main>
+
+        <footer class="bg-gray-950 shadow mt-6">
+            <div class="container mx-auto px-4 py-4 text-center">
+                <p class="text-gray-600">© <script>document.write(new Date().getFullYear())</script> <span class="text-emerald-300">Andre Chiquito</span>. All rights reserved.</p>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="/js/script.js"></script>
+    <script type="module" src="/js/photography.js"></script>
+        
+    </body>
+</html>
