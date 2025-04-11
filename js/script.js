@@ -32,14 +32,20 @@ $("#header").load("/header.html", function() {
             $(this).parent().parent().children('ul').slideToggle('medium');
         });
     } else {
-        $(".dropdown-item").hover(function () {
-            $(this).children('ul').slideToggle('medium');
-        });
+        // First try, but very hard to use. Next iteration below.
+        // $(".dropdown-item").hover(function () {
+        //     $(this).children('ul').slideToggle('medium');
+        // });
 
-        var subMenu = $('li.dropdown-item > ul > li.dropdown-item');
+        // var subMenu = $('li.dropdown-item > ul > li.dropdown-item');
 
-        subMenu.hover(function () {
-            $(this).find("ul.dropdown-item").slideToggle(200);
+        // subMenu.hover(function () {
+        //     $(this).find("ul.dropdown-item").slideToggle(200);
+        // });
+
+        // Next iteration here!
+        $(".has-children").click(function () {
+            $(this).parent().parent().children('ul').slideToggle('medium');
         });
     }
 });
