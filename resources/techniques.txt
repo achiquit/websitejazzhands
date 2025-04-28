@@ -1,6 +1,5 @@
-<a href="omfgdogs.com" target="_blank" class="text-emerald-300"><p class="text-center">3:1 haul while belaying from the top</p></a>
-<a href="omfgdogs.com" target="_blank" class="text-emerald-300"><p class="text-center">Caving changeover while ascending</p></a>
-<a href="omfgdogs.com" target="_blank" class="text-emerald-300"><p class="text-center">Caving changeover while descending</p></a>
-<a href="omfgdogs.com" target="_blank" class="text-emerald-300"><p class="text-center">Setting up a litter for lower</p></a>
-<a href="omfgdogs.com" target="_blank" class="text-emerald-300"><p class="text-center">Changeover to ascending while rappelling with an ATC Guide or Gi-Gi</p></a>
-<a href="omfgdogs.com" target="_blank" class="text-emerald-300"><p class="text-center">Rappelling with a carabiner block</p></a>
+<a href="http://blog.alpineinstitute.com/2011/07/31-haul-with-grigri.html" target="_blank" class="text-emerald-300"><p class="text-center">3:1 haul while belaying with a grigri from the top</p></a>
+<a href="https://www.alpinesavvy.com/blog/transformers-your-atc-belay-device-is-also-an-ascender" target="_blank" class="text-emerald-300"><p class="text-center">Changeover to ascending while rappelling with an ATC Guide or Gi-Gi</p></a>
+<a href="https://www.alpinesavvy.com/blog/a-slick-carabiner-rappel-brake" target="_blank" class="text-emerald-300"><p class="text-center">Rappelling with a carabiner block</p></a>
+<a href="https://alpine.caltech.edu/documents/17461/FrictionKnots.pdf" target="_blank" class="text-emerald-300"><p class="text-center">Tie these friction hitches: Prussik, Autoblock, Klemheist, and Bachman</p>
+<a href="https://foxmountainguides.com/the-munter-mule-overhand-mmo/" target="_blank" class="text-emerald-300"><p class="text-center">Tie an MMO</p>
