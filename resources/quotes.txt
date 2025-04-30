@@ -2,3 +2,5 @@
 <a href="https://www.goodreads.com/book/show/738536.The_Breach" target="_blank"><p class="text-center text-gray-400">"Today is over.<br>We err to think that another day will be what we wished today to be, or that another person will become the one we hoped he really was."<br>- Rob Taylor, <i>The Breach</i></p></a>
 <a href="https://www.imdb.com/title/tt0190590/" target="_blank"><p class="text-center text-gray-400">"Pete, it's a fool that looks for logic in the chambers of the human heart."<br>- Ulysses Everett McGill, <i>O Brother, Where Art Thou</i></p></a>
 <a href="https://genius.com/Janis-joplin-me-and-bobby-mcgee-lyrics" target="_blank"><p class="text-center text-gray-400">"I'd trade all of my tomorrows for one single yesterday."<br>- Janis Joplin, <i>Me and Bobby McGee</i></p></a>
+<p class="text-center text-gray-400">"If you don't love yourself, how the hell are you gonna love somebody else?"<br>- Ru Paul</p>
+<p class="text-center text-gray-400">"When someone shows you who they are, believe them the first time."<br>- Maya Angelou</p>
