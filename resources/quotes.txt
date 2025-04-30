@@ -4,4 +4,4 @@
 <a href="https://genius.com/Janis-joplin-me-and-bobby-mcgee-lyrics" target="_blank"><p class="text-center text-gray-400">"I'd trade all of my tomorrows for one single yesterday."<br>- Janis Joplin, <i>Me and Bobby McGee</i></p></a>
 <p class="text-center text-gray-400">"If you don't love yourself, how the hell are you gonna love somebody else?"<br>- Ru Paul</p>
 <p class="text-center text-gray-400">"When someone shows you who they are, believe them the first time."<br>- Maya Angelou</p>
-<p class="text-center text-gray-400">"There are two types of drinkers: those who drink to enhance their personalities, and those who seek to rid themselves of something."<br>- Haruki Murakami, <i>Men Without Women, pg 29</p>
+<p class="text-center text-gray-400">"So in the end maybe that's the challenge: to look inside your own heart as perceptively and seriously as you can, and to make peace with what you find there. If we hope to <i>truly</i> see another person, we have to start by looking within ourselves."<br>- Haruki Murakami, <i>Men Without Women, pg 34</p>
