@@ -38,6 +38,7 @@ $(document).ready(function() {
         });
     }
     
-    randomLineGenerator('/resources/techniques.txt', '#technique');
-    randomLineGenerator('/resources/quotes.txt', '#quote');
+    randomLineGenerator('/resources/wild-west/techniques.txt', '#technique');
+    randomLineGenerator('/resources/wild-west/quotes.txt', '#quote');
+    randomLineGenerator('/resources/wild-west/favorite_videos.txt', '#vid');
 });
