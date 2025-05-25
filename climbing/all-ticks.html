@@ -50,7 +50,10 @@
             datatables_options: {
                 paging: true,
                 order: [[0, 'desc']],
-                columnDefs: [{ width: '20%', targets: 9 }]
+                columnDefs: [
+                    {width: '20%', targets: 9 },
+                    {orderable: false, targets: [1, 2, 8, 10]}
+                ],
             }
         });
     </script>
