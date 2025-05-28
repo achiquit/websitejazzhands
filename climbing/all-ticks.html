@@ -35,7 +35,7 @@
     <script>
         function format_link(link) {
             if (link)
-                return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+                return "<a href='https://www.mountainproject.com/search?q=" + link + "' target='_blank'>" + link + "</a>";
             else return "";
         }
 
@@ -54,7 +54,8 @@
                     {width: '20%', targets: 9},
                     {orderable: false, targets: [1, 2, 7, 9]}
                 ],
-            }
+            },
+            custom_formatting: [[1, format_link]]
         });
     </script>
 </body>
