@@ -1,6 +1,9 @@
 # A script to port my old blog content into my redesigned website
 # Author: https://andre.chiquit.ooo
 
+# To Do:
+# Make edit content script to convert the content inserted into the template to tailwind styling
+
 import re
 import shutil
 import os
