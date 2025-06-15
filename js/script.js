@@ -80,6 +80,14 @@ $("#tech").click(function () {
     $(this).toggleClass("text-emerald-300");
 });
 
+// Salve page dropdowns
+$("#ogbutton").click(function () {
+    $(".ogcontent").slideToggle('medium');
+});
+$("#tablemountainbutton").click(function () {
+    $(".tablemountaincontent").slideToggle('medium');
+});
+
 // Make images in color only when they are entirely in the viewport on mobile only
 $(window).on('scroll resize',
 function() {
