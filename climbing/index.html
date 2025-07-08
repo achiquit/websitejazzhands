@@ -15,6 +15,7 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
         }
         </style>
         <script src="https://kit.fontawesome.com/c8077251a5.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
         <link href="/styles.css" rel="stylesheet">
         <link rel="icon" href="/favicon.png">
     </head>
@@ -24,14 +25,28 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
         
         <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600">
             <p class="text-white text-6xl text-center pb-8">My Climbing</p>
-            <p class="text-gray-600 text-center pb-4">This page is a work in progress. The data is displayed here in a rudimentary way until my tick database is more complete, at which point I can really go nuts with the data visualization!</p>
+            <p class="text-gray-300 text-center pb-4">This page is a work in progress. The data is displayed here in a rudimentary way until my tick database is more complete, at which point I can really go nuts with the data visualization!</p>
             <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
 
                 <div class="lg:col-span-3 h-60">
                     <iframe style="border-style: none;" src="/climbing/all-time-stats.html" class="w-full h-full rounded-xl"></iframe>
                 </div>
 
-                <div class="lg:col-span-2 h-175">
+                <div class="lg:col-span-2 h-60">
+                    <p class="text-white text-2xl pb-2">Height<sup>(ft)</sup> Climbed by Month</p>
+                    <div class="relative">
+                        <canvas id="monthlyheight" class="w-full" style="max-height: 200px"></canvas>
+                    </div>
+                </div>
+
+                <div class="h-60">
+                    <p class="text-white text-2xl pb-2">Height<sup>(ft)</sup> Climbed by Year</p>
+                    <div class="relative">
+                        <canvas id="yearlyheight" class="w-full" style="max-height: 200px"></canvas>
+                    </div>
+                </div>
+
+                <div class="h-175 -mt-4 lg:col-span-2 lg:mt-0">
                     <iframe style="border-style: none;" src="/climbing/all-ticks.html" class="w-full h-full rounded-xl"></iframe>
                 </div>
 
@@ -54,6 +69,7 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="module" src="/js/script.js"></script>
+    <script type="module" src="/climbing/js/custom.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
     </body>
