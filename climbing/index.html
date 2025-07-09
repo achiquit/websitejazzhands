@@ -16,6 +16,7 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
         </style>
         <script src="https://kit.fontawesome.com/c8077251a5.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
         <link href="/styles.css" rel="stylesheet">
         <link rel="icon" href="/favicon.png">
     </head>
@@ -28,18 +29,19 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
             <p class="text-gray-300 text-center pb-4">This page is a work in progress. The data is displayed here in a rudimentary way until my tick database is more complete, at which point I can really go nuts with the data visualization!</p>
             <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
 
-                <div class="lg:col-span-3 h-60">
+                <div class="lg:col-span-3 h-65">
                     <iframe style="border-style: none;" src="/climbing/all-time-stats.html" class="w-full h-full rounded-xl"></iframe>
                 </div>
 
                 <div class="lg:col-span-2 h-60">
-                    <p class="text-white text-2xl pb-2">Height<sup>(ft)</sup> Climbed by Month</p>
+                    <p class="text-white text-2xl pb-2">Height<sup>(ft)</sup> Climbed by Month <span class="text-sm hidden lg:inline">(last five years)</span></p>
+                    <p class="text-white text-sm lg:hidden">(last five years)</p>
                     <div class="relative">
                         <canvas id="monthlyheight" class="w-full" style="max-height: 200px"></canvas>
                     </div>
                 </div>
 
-                <div class="h-60">
+                <div class="h-60 pt-3 lg:pt-0">
                     <p class="text-white text-2xl pb-2">Height<sup>(ft)</sup> Climbed by Year</p>
                     <div class="relative">
                         <canvas id="yearlyheight" class="w-full" style="max-height: 200px"></canvas>
