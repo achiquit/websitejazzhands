@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Salve Recipe</title>
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+        <style type="text/tailwindcss">
+        @layer utilities {
+            .hamburger-toggle {
+              @apply [&>div]:h-0 [&>div]:bg-white [&>div]:before:translate-y-0 [&>div]:before:rotate-45 [&>div]:after:translate-y-0 [&>div]:after:-rotate-45;
+            }
+        }
+        </style>
+        <script src="https://kit.fontawesome.com/c8077251a5.js" crossorigin="anonymous"></script>
+        <link href="/styles.css" rel="stylesheet">
+        <link rel="icon" href="/favicon.png">
+    </head>
+    <body class="bg-gray-950">
+
+        <div id="header" class="sticky top-0  z-60"></div>
+        
+        <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600 [&_a]:text-emerald-300">
+            <p class="text-white text-6xl text-center pb-8">Salve Recipe</p>
+            <p class="text-gray-400 text-center mb-4">How to make your own antibacterial, healing salve in your kitchen with (mostly) foraged ingredients!<br>Pictures to come :)</p>
+
+            <div class="mt-6 lg:flex lg:flex-row lg:gap-12">
+                <div class="[&>.body]:text-gray-400 lg:w-2/3">
+                    <p class="text-white text-4xl text-center mb-2">What To Do</p>
+                    <p class="text-white text-2xl">1. Forage for Resin</p>
+                    <p class="body">First up is gathering the resin, the active ingredient in your salve. My preference is to keep resin gathered from different species of tree separate, as they have unique smells and appearances once you've made them into salve. However, that's really up to you, since you're the artist here!<br>The golden rule of foraging is to avoid getting caught up in goals. Don't expect to fill up an entire tomato sauce jar full of resin on a single hike. Instead, go for a pleasant stroll through a pine forest and collect as much resin you end up finding.<br>Fresh resin will typically be a yellowish, ochre color (different species can vary), and older resin will be a much darker, brown color, kind of like fudge swirl ice cream.<br>It's easiest to collect with a wide mouth jar, where you hold the jar against the tree below the resin and knock the resin loose from the tree and into the jar below. I most often collect drops of resin smaller than a pea where it's dripped down the tree from a wound. I try to avoid collecting directly from wounds on the tree because the tree needs the resin to keep the wound clean and start the healing process. (I definitely avoid tapping trees for resin so as not to hurt them!)<br>My salve production runs typically use 3oz of resin, which creates 300ml of salve. More than enough for you and your friends!</p>
+                    <div class="flex flex-row justify-center mt-3">
+                        <img src="images/collected-resin.jpg" class="center w-1/2">
+                    </div>
+                    <p class="body text-center mt-2">What to look for on the trees! I'll replace this photo soon to show what it looks like on the tree.</p>
+                    <p class="text-white text-2xl pt-6">2. Gather your Equipment and Ingredients</p>
+                    <p class="body">Once you've collected as much resin as you'll need, it's time to get crafty!! The bulleted list on the right includes a full list of what you'll need in order. Follow the table below to make sure you have enough of all the ingredients:</p>
+                    <div class="flex flex-row justify-center">
+                        <table class="text-gray-400 bg-gray-900 border-1 border-emerald-300 mt-4">
+                            <tr class="border-1 border-emerald-300">
+                                <td class="p-3">3oz Resin</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 border-1 border-emerald-300">225ml Olive Oil</td>
+                                <td class="p-3 border-1 border-emerald-300">75ml oil / 1oz resin</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 border-1 border-emerald-300">.6oz Beeswax</td>
+                                <td class="p-3 border-1 border-emerald-300">.2oz beeswax / 1oz resin</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <p class="text-white text-2xl pt-6">3. Do Alchemy</p>
+                    <p class="text-white text-xl pt-3 pl-6">3a. Melt Resin into the Oil</p>
+                    <p class="body">Set up your pot of water and get it to a low boil. Insert the double boiler with your oil inside and give it 5-10 minutes to warm up. Once it's warmed up, pour your resin into the oil and stir it gently now and then. It'll take 5-10 minutes for it all to assimilate into the oil, and you'll be left with a bunch of sticky gunk left over at the bottom. This is normal!<br>After it's all assimilated, pour the oil through a strainer and into your other double boiler. I'm careful to not pour the gunk out into the strainer so that it's a little easier to clean up.<br>After filling the second double boiler, I place that into the pot again to keep it warm, then immediately get as much of the gunk out of the first double boiler as I can while it's warm and viscous.</p>
+                    <div class="flex flex-row justify-center mt-3">
+                        <img src="images/resin-gunk.jpg" class="center w-1/2">
+                    </div>
+                    <p class="body text-center mt-2">The gunky byproduct of melting resin into the oil</p>
+                    <p class="text-white text-xl pt-3 pl-6">3b. Melt Beeswax into the Oil</p>
+                    <p class="body">The oil should be plenty warm immediately after pouring into the second double boiler, so if you were working ahead and already have your .6oz of beeswax grated and ready to go, you can carefully put it into the double boiler! If not, just leave the oil on the double boiler and grate .6oz of beeswax.<br>This stuff should melt and assimilate pretty quickly.</p>
+                    <p class="text-white text-xl pt-3 pl-6">3c. Pour into Containers</p>
+                    <p class="body">You're pretty much done! All that's left is to pour the solution you've created into your chosen containers. I usually put it into the refridgerator to cool them off nice and quickly, but you can also just leave them on the counter to cool off and harden. Initially it will still seem far too liquid to be used as salve. That's simply because it's super warm; once it cools off it will harden into more of a salve texture and be ready for use!</p>
+                    <p class="text-white text-2xl pt-3">4. Enjoy!</p>
+                    <p class="body">Rip it with your new salve!</p>
+                </div>
+
+                <hr class="w-7/8 h-px mx-auto my-6 bg-emerald-300 border-0 lg:hidden">
+
+                <div class="mt-6 lg:mt-16 lg:w-1/3 [&>hr]:w-7/8 [&>hr]:h-px [&>hr]:mx-auto [&>hr]:my-6 [&>hr]:bg-emerald-300 [&>hr]:border-0 [&>.title-text]:text-white [&>.title-text]:text-3xl [&>.title-text]:text-center">
+                    <p class="title-text">What is Salve Good For?</p>
+                    <p class="text-gray-400 pt-2">The answer to this question largely depends on what ingredients you use for your salve. Using pine/spruce resin makes it great for keeping small to medium wounds clean and encourages healing, plus it makes you smell like a tree!<br>You can also add further benefits by infusing your carrier oil with various medicinal herbs like dandelion(anti-inflammatory), yarrow (anti-inflammatory & coagulant), or lavender (antimicrobial, antifungal, & anti-inflammatory).<br><br>At the end of the day, making your own salve can be a fun activity where you can easily make a nice household remedy for common inconveniences :)</p>
+
+                    <hr>
+
+                    <p class="title-text">Equipment</p>
+                    <p class="text-white text-xs text-center">In order of appearance</p>
+                    <ul class="list-disc text-gray-400 ml-4 pt-2">
+                        <li>Jars for collecting resin (wide mouth)</li>
+                        <li>A tool to scrape resin from trees (a flathead screwdriver works well)</li>
+                        <li>2x bowls</li>
+                        <li>Scale (0.1g precision)</li>
+                        <li>2x Double Boiler Insert</li>
+                        <li>Pot</li>
+                        <li>Measuring cup</li>
+                        <li>Dedicated spatula</li>
+                        <li>Dedicated cheese grater</li>
+                        <li>Dedicated strainer</li>
+                        <li>Salve containers</li>
+                        <li>Lots of paper towels</li>
+                    </ul>
+
+                    <p class="title-text pt-4">Ingredients</p>
+                    <ul class="list-disc text-gray-400 ml-4 pt-2">
+                        <li>Pine or spruce resin</li>
+                        <li>Carrier oil (I like using olive oil, but most any kind of oil will work)</li>
+                        <ul class="list-disc text-gray-400 ml-8">
+                            <li>You can also infuse the oil with medicinal herbs for additional benefits (dandelion, lavender, and yarrow to name a few) </li>
+                        </ul>
+                        <li>Beeswax</li>
+                    </ul>
+                    
+                    <hr>
+
+                    <p class="title-text">A Little Something</p>
+                    <p class="text-gray-400 my-4">"Adopt the pace of nature. Her secret is patience."<br>- Ralph Waldo Emerson</p>
+
+                    <hr>
+
+
+
+                    <iframe style="border-radius:12px" title="Spotify-embedded-song" src="https://open.spotify.com/embed/album/7d1PvVfbBmslliNYutxnLc?utm_source=generator&theme=0" width="95%" height="380" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="mx-auto"></iframe>
+
+                    <hr>
+
+                    <!-- begin wwww.htmlcommentbox.com -->
+                    <div>
+                        <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+                        <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+                        <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24umYrIW59177aFJXDLotxK."+"&opts=16798&num=10&ts=1743261284031");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); </script>
+                    </div>
+                    <!-- end www.html.htmlcommentbox.com -->
+
+                </div>
+            </div>
+                
+            
+        </main>
+
+        <footer class="bg-gray-950 shadow mt-6">
+            <div class="container mx-auto px-4 py-4 text-center">
+                <p class="text-gray-600">© <script>document.write(new Date().getFullYear())</script> <span class="text-emerald-300">Andre Chiquito</span>. All rights reserved.</p>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="/js/script.js"></script>
+        
+    </body>
+</html>
