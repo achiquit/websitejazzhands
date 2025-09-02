@@ -33,6 +33,12 @@
 .admin-link {
     display: none;
 }
+.hcb-comment-body {
+    color: oklch(70.7% 0.022 261.325);
+}
+.author {
+    color: oklch(84.5% 0.143 164.978);
+}
 
 #photo {
     -webkit-transition: all 0.5s ease-in-out;
