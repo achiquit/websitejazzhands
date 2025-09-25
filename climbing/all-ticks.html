@@ -50,12 +50,13 @@
                 delimiter: '"'
             },
             datatables_options: {
+                scrollX: true,
                 paging: true,
                 order: [[0, 'desc']],
                 columnDefs: [
-                    {width: '100px', targets: 9},
+                    {width: '400px', targets: 9},
                     {orderable: false, targets: [1, 2, 7, 9]},
-                ],
+                ]
             },
             custom_formatting: [[1, format_link]]
         });
