@@ -40,19 +40,56 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
                     </div>
                 </div>
 
-                <div class="h-60 pt-3 lg:pt-0">
+                <div class="h-60 py-3 lg:-pb-3 lg:pt-0">
                     <p class="text-white text-2xl pb-2">Height<sup>(ft)</sup> Climbed by Year</p>
                     <div class="relative">
                         <canvas id="yearlyheight" class="w-full" style="max-height: 200px"></canvas>
                     </div>
                 </div>
 
-                <div class="h-175 -mt-4 lg:col-span-2 lg:mt-0">
+                <div class="h-150 -mt-4 lg:col-span-2 lg:mt-0">
                     <iframe style="border-style: none;" src="/climbing/all-ticks.html" class="w-full h-full rounded-xl"></iframe>
                 </div>
 
-                <div class="h-175">
-                    <iframe style="border-style: none;" src="/climbing/leaderboard.html" class="w-full h-full rounded-xl"></iframe>
+                <div class="h-150">
+
+                    <div id="indicators-carousel" class="relative w-full h-150" data-carousel="static">
+                        <!-- Carousel wrapper -->
+                        <div class="relative h-150 overflow-hidden">
+
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                                <iframe style="border-style: none;" src="/climbing/leaderboard.html" class="w-full h-full rounded-xl"></iframe>
+                            </div>
+
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <iframe style="border-style: none;" src="/climbing/top-climbs.html" class="w-full h-full rounded-xl"></iframe>
+                            </div>
+
+                        </div>
+                        <!-- Slider indicators -->
+                        <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                        </div>
+                        <!-- Slider controls -->
+                        <button type="button" class="absolute bottom-0 start-0 z-30 flex justify-center px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 mb-1.5 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                </svg>
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </button>
+                        <button type="button" class="absolute bottom-0 end-0 z-30 flex justify-center px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 mb-1.5 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                </svg>
+                                <span class="sr-only">Next</span>
+                            </span>
+                        </button>
+                    </div>
+
                 </div>
 
                 <div class="h-150 lg:col-span-3">
@@ -73,5 +110,6 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
     <script type="module" src="/climbing/js/custom.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     </body>
 </html>
