@@ -1,6 +1,6 @@
 Chart.defaults.global.defaultFontColor = "#FFFFFF";
 
-var monthlyYearlyOptions = {
+var myOptions = {
     maintainAspectRatio: false,
     scales: {
       yAxes: [{ // For y-axis
@@ -21,7 +21,7 @@ function makeMonthChart(months) {
   var monthData = months.map(function(d) {return d.height});
   var chart = new Chart('monthlyheight', {
     type: 'bar',
-    options: monthlyYearlyOptions,
+    options: myOptions,
     data: {
       labels: monthLabels,
       datasets: [{
@@ -40,13 +40,31 @@ function makeYearChart(years) {
   var yearData = years.map(function(d) {return d.height});
   var chart = new Chart('yearlyheight', {
     type: 'bar',
-    options: monthlyYearlyOptions,
+    options: myOptions,
     data: {
       labels: yearLabels,
       datasets: [{
         backgroundColor: "oklch(84.5% 0.143 164.978)",
         hoverBackgroundColor: "oklch(43.2% 0.095 166.913)",
         data: yearData
+      }]
+    }
+  });
+}
+
+d3.csv('/climbing/data/ticks-by-grade.csv').then(makeGradeChart);
+function makeGradeChart(grade) {
+  var gradeLabels = grade.map(function(d) {return d.grade});
+  var gradeData = grade.map(function(d) {return d.count});
+  var chart = new Chart('ticksByGrade', {
+    type: 'bar',
+    options: myOptions,
+    data: {
+      labels: gradeLabels,
+      datasets: [{
+        backgroundColor: "oklch(84.5% 0.143 164.978)",
+        hoverBackgroundColor: "oklch(43.2% 0.095 166.913)",
+        data: gradeData
       }]
     }
   });

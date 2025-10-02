@@ -32,19 +32,21 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
                     <iframe style="border-style: none;" src="/climbing/all-time-stats.html" class="w-full h-full rounded-xl"></iframe>
                 </div>
 
-                <div class="lg:col-span-2 h-60">
-                    <p class="text-white text-2xl pb-2">Height<sup>(ft)</sup> Climbed by Month <span class="text-sm hidden lg:inline">(last five years)</span></p>
-                    <p class="text-white text-sm lg:hidden">(last five years)</p>
-                    <div class="relative">
-                        <canvas id="monthlyheight" class="w-full" style="max-height: 200px"></canvas>
-                    </div>
-                </div>
-
                 <div class="h-60 py-3 lg:-pb-3 lg:pt-0">
                     <p class="text-white text-2xl pb-2">Height<sup>(ft)</sup> Climbed by Year</p>
                     <div class="relative">
                         <canvas id="yearlyheight" class="w-full" style="max-height: 200px"></canvas>
                     </div>
+                </div>
+
+                <div class="lg:col-span-2 h-60">
+
+                    <p class="text-white text-2xl pb-2">Height<sup>(ft)</sup> Climbed by Month <span class="text-sm hidden lg:inline">(last five years)</span></p>
+                    <p class="text-white text-sm lg:hidden">(last five years)</p>
+                    <div class="relative">
+                        <canvas id="monthlyheight" class="w-full" style="max-height: 200px"></canvas>
+                    </div>
+
                 </div>
 
                 <div class="h-150 -mt-4 lg:col-span-2 lg:mt-0">
@@ -94,6 +96,13 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
 
                 <div class="h-150 lg:col-span-3">
                     <iframe src="https://app.atlas.co/embeds/GmW3Kzu4NvgDbQmPqByV" class="w-full h-full rounded-xl"></iframe>
+                </div>
+
+                <div class="lg:col-span-3 h-65">
+                    <p class="text-white text-2xl pb-2">Rock Ticks by Grade</p>
+                    <div class="relative">
+                        <canvas id="ticksByGrade" class="w-full" style="max-height: 200px"></canvas>
+                    </div>
                 </div>
             </div>
             
