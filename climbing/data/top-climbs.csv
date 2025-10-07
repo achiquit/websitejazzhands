@@ -18,6 +18,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 7,"Candy Corner","Seneca Rocks",5.6,2,5
 6,"The Burn","Seneca Rocks",5.8,3,3
 6,"Any Major Dude","Pilot Mountain",5.11c,6,0
+5,Mongoose,"Seneca Rocks",5.11a,5,0
 5,"Critter Crack","Seneca Rocks",5.6,3,2
 5,Thais,"Seneca Rocks",5.6,2,3
 5,Ambush,"Seneca Rocks",5.11a,3,2
@@ -26,7 +27,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 5,"Sentinel Buttress","Sentinel Buttress",5.5,5,0
 5,"Pole Dancing","Pilot Mountain",5.7,5,0
 4,"Porcelain Pump","Nelson Rocks",5.11a,4,0
-4,Mongoose,"Seneca Rocks",5.11a,4,0
+4,"Marshall's Madness","Seneca Rocks",5.9,3,1
 4,Lifers,"Nelson Rocks",5.10a,4,0
 4,Dominion,"Nelson Rocks",5.10b,4,0
 4,"West Pole","Seneca Rocks",5.7,3,1
@@ -52,7 +53,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 4,"Smooth Sailing (aka Lloyd Would Have Liked It)","Pilot Mountain",5.10a,4,0
 3,"West Face","Leaning Tower","5.7, C3, Grade V",3,0
 3,"Frosted Flake","Cereal Buttress",5.9+,3,0
-3,"Marshall's Madness","Seneca Rocks",5.9,2,1
 3,"Grizzly Adams","Nelson Rocks",5.11a,3,0
 3,Coringa,"Pao de Acucar",5.6,2,1
 3,"Front C","Seneca Rocks",5.6,1,2
@@ -196,6 +196,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Baby Bear","Pilot Mountain",5.11a,2,0
 2,"Spock's Brain","Seneca Rocks",5.11a,2,0
 2,"Mild Mannered Secretary","Pilot Mountain",5.7,2,0
+1,"Cockscomb Overhang Direct","Seneca Rocks",5.9,1,0
 1,Commitment,"Five Open Books",5.9,1,0
 1,"Separate Reality","Wildcat Falls",5.12a,1,0
 1,"Regular Route","Sunnyside Bench",5.5,1,0
