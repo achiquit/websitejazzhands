@@ -9,10 +9,10 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 10,"Conn's West","Seneca Rocks",5.4,3,7
 9,"Gunsight to South Peak","Seneca Rocks",5.4,6,3
 9,"The Great Arch","Stone Mountain",5.5,8,1
+9,"New Yosemite","The Junkyard",5.9,9,0
 8,"Worrell's Thicket","Seneca Rocks",5.1,5,3
 8,"Roy Gap Chimney's","Seneca Rocks",5.6,2,6
 8,"Ecstasy Junior","Seneca Rocks",5.4,5,3
-8,"New Yosemite","The Junkyard",5.9,8,0
 8,Erocktica,"Pilot Mountain",5.10c,8,0
 7,Crescendo,"Nelson Rocks",5.10a,7,0
 7,"Candy Corner","Seneca Rocks",5.6,2,5
@@ -52,6 +52,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 4,Vegomatic,"Pilot Mountain",5.7+,4,0
 4,Hardman,"Rocky Face",5.11b,4,0
 4,"NE end flows","Doughton Park",WI3-,4,0
+4,"New River Gunks","The Junkyard",5.7+,4,0
 4,"The Herculean Test","Pilot Mountain",5.10d,4,0
 4,"Henar Lite","Pilot Mountain",5.10c,4,0
 4,"Smooth Sailing (aka Lloyd Would Have Liked It)","Pilot Mountain",5.10a,4,0
@@ -84,7 +85,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"True Grits","Pilot Mountain",5.8+,3,0
 3,"Walk the Plank","Pilot Mountain",5.8,3,0
 3,"Team Jesus","The Junkyard",5.10a,3,0
-3,"New River Gunks","The Junkyard",5.7+,3,0
 3,"Fruit Loops","Cereal Buttress",5.7+,3,0
 3,"The Entertainer","The Junkyard",5.10a,3,0
 3,"Teflon Toes","Pilot Mountain",5.11a,3,0
@@ -198,6 +198,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Baby Bear","Pilot Mountain",5.11a,2,0
 2,"Spock's Brain","Seneca Rocks",5.11a,2,0
 2,"Mild Mannered Secretary","Pilot Mountain",5.7,2,0
+1,"Four Sheets to the Wind","The Junkyard",5.9+,1,0
 1,Hammered,"Nelson Rocks",5.7,1,0
 1,"Stolen Lexus","Nelson Rocks",5.6,1,0
 1,"East Face to Gunsight Notch","Seneca Rocks",5.1,0,1
