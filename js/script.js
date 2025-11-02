@@ -88,6 +88,15 @@ $("#tablemountainbutton").click(function () {
     $(".tablemountaincontent").slideToggle('medium');
 });
 
+// Resume page dropdowns
+$("#cefrbutton").click(function () {
+    $("#cefrcontent").slideToggle('medium');
+});
+
+$(".reference").click(function () {
+    $(this).parent().children('ul').slideToggle('medium');
+})
+
 // Make images in color only when they are entirely in the viewport on mobile only
 $(window).on('scroll resize',
 function() {
