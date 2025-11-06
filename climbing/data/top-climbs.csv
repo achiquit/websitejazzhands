@@ -16,10 +16,10 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 8,Erocktica,"Pilot Mountain",5.10c,8,0
 7,Crescendo,"Nelson Rocks",5.10a,7,0
 7,"Candy Corner","Seneca Rocks",5.6,2,5
+6,Starry,"Upper Meadow",5.12a,6,0
 6,"The Burn","Seneca Rocks",5.8,3,3
 6,Ambush,"Seneca Rocks",5.11a,3,3
 6,"Any Major Dude","Pilot Mountain",5.11c,6,0
-5,Starry,"Upper Meadow",5.12a,5,0
 5,Mongoose,"Seneca Rocks",5.11a,5,0
 5,"Critter Crack","Seneca Rocks",5.6,3,2
 5,Thais,"Seneca Rocks",5.6,2,3
@@ -198,6 +198,10 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Baby Bear","Pilot Mountain",5.11a,2,0
 2,"Spock's Brain","Seneca Rocks",5.11a,2,0
 2,"Mild Mannered Secretary","Pilot Mountain",5.7,2,0
+1,Berecik,"Upper Meadow",5.8,1,0
+1,"Girl Boner","Upper Meadow",5.9,1,0
+1,"Rodent's Party","Upper Meadow",5.10c,1,0
+1,Bullocks,"Upper Meadow",5.9+,1,0
 1,"Easily Flakey","Bridge Buttress",5.7,1,0
 1,"Afternoon Delight","The Pinnacle","5.6, R",1,0
 1,"Four Sheets to the Wind","The Junkyard",5.9+,1,0
