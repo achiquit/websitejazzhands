@@ -95,6 +95,10 @@ $("#cefrbutton").click(function () {
 
 $(".reference").click(function () {
     $(this).parent().children('ul').slideToggle('medium');
+    $(this).children().children('.fa-caret-down').toggleClass("rotate-180");
+})
+$("#show-references").click(function () {
+    console.log(document.querySelectorAll("ul"));
 })
 
 // Make images in color only when they are entirely in the viewport on mobile only
