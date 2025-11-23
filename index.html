@@ -13,6 +13,7 @@
         }
         </style>
         <script src="https://kit.fontawesome.com/c8077251a5.js" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
         <link href="styles.css" rel="stylesheet">
         <link rel="icon" href="/favicon.png">
     </head>
@@ -22,7 +23,7 @@
         
         <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600">
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
                 <a href="/about/">
                     <div class="bg-[url(images/tiles/about.jpg)] bg-cover w-full aspect-square p-4 flex justify-center color-scroll lg:grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
                         <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center">About Me</h3>
@@ -36,22 +37,25 @@
                 </a>
 
                 <a href="/photography">
-                    <div class="bg-[url(images/tiles/photography.png)] bg-cover w-full aspect-square p-4 grid gap-4 place-content-center color-scroll grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
+                    <div class="bg-[url(images/tiles/photography-1.jpg)] bg-cover w-full aspect-square p-4 grid gap-4 place-content-center color-scroll grayscale lg:[&:hover]:grayscale-0 transition duration-300 transition-discrete">
                         <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title text-center">Photographs</h3>
                     </div>
                 </a>
             </div>
 
+            <span id="quote"></span>
+
         </main>
 
-        <footer class="bg-gray-950 shadow mt-6">
-            <div class="container mx-auto px-4 py-4 text-center">
+        <footer class="bg-gray-950 shadow">
+            <div class="container mx-auto p-4 text-center">
                 <p class="text-gray-600">© <script>document.write(new Date().getFullYear())</script> <span class="text-emerald-300">Andre Chiquito</span>. All rights reserved.</p>
             </div>
         </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="module" src="js/script.js"></script>
+    <script type="module" src="/js/index.js"></script>
         
     </body>
 </html>

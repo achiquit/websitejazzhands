@@ -1,6 +1,6 @@
 <a href="https://en.wikipedia.org/wiki/Nowe_Ateny" target="_blank"><p class="text-center text-gray-400">"It is difficult to slay a dragon, but one must try."<br>- Benedykt Joachim Chmielowski, <i>Nowe Ateny</i></p></a>
 <a href="https://www.goodreads.com/book/show/738536.The_Breach" target="_blank"><p class="text-center text-gray-400">"Today is over.<br>We err to think that another day will be what we wished today to be, or that another person will become the one we hoped he really was."<br>- Rob Taylor, <i>The Breach</i></p></a>
-<a href="https://www.imdb.com/title/tt0190590/" target="_blank"><p class="text-center text-gray-400">"Pete, it's a fool that looks for logic in the chambers of the human heart."<br>- Ulysses Everett McGill, <i>O Brother, Where Art Thou</i></p></a>
+<a href="https://www.imdb.com/title/tt0190590/" target="_blank"><p class="text-center text-gray-400">"It's a fool that looks for logic in the chambers of the human heart."<br>- Ulysses Everett McGill, <i>O Brother, Where Art Thou</i></p></a>
 <a href="https://genius.com/Janis-joplin-me-and-bobby-mcgee-lyrics" target="_blank"><p class="text-center text-gray-400">"I'd trade all of my tomorrows for one single yesterday."<br>- Janis Joplin, <i>Me and Bobby McGee</i></p></a>
 <p class="text-center text-gray-400">"If you don't love yourself, how the hell are you gonna love somebody else?"<br>- Ru Paul</p>
 <p class="text-center text-gray-400">"When someone shows you who they are, believe them the first time."<br>- Maya Angelou</p>
@@ -22,3 +22,5 @@
 <p class="text-center text-gray-400">"You have to cauterize your wounds on the fires of your passion."<br>- Chad Heddleston</p>
 <p class="text-center text-gray-400">"To keep every cog and wheel is the first precaution of intelligent tinkering."<br>Aldo Leopold, <i>A Sand County Almanac</i></p>
 <p class="text-center text-gray-400">"Reaching the summit is not the point of a climb, only the whistle for end of play."<br>Lionel Terray, <i>Conquistadors of the Useless</i></p>
+<p class="text-center text-gray-400">"We cannot solve our problems with the same level of thinking that created them."<br>Albert Einstein</p>
+<p class="text-center text-gray-400">"S/he who has a why to live can bear almost any how."<br>Friedrich Nietzsche</p>
