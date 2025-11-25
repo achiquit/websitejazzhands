@@ -7,8 +7,8 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 13,"The Medallion","Teer Quarry",5.10a,13,0
 11,"Old Ladies Route","Seneca Rocks",5.2,6,5
 10,"Conn's West","Seneca Rocks",5.4,3,7
+10,"The Great Arch","Stone Mountain",5.5,8,2
 9,"Gunsight to South Peak","Seneca Rocks",5.4,6,3
-9,"The Great Arch","Stone Mountain",5.5,8,1
 9,"New Yosemite","The Junkyard",5.9,9,0
 8,"Worrell's Thicket","Seneca Rocks",5.1,5,3
 8,"Roy Gap Chimney's","Seneca Rocks",5.6,2,6
@@ -81,6 +81,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"Daughton Line","Doughton Park",WI3,3,0
 3,"Black Hole","Rocky Face",5.10d,3,0
 3,"Sunny Day","Rocky Face",5.8,3,0
+3,"Block Route","Stone Mountain","5.7+, PG13",2,1
 3,"Pillar Assault","Pilot Mountain",5.8,3,0
 3,"Overhang Hangover","Pilot Mountain",5.11b,3,0
 3,"True Grits","Pilot Mountain",5.8+,3,0
@@ -155,7 +156,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,Quickdraw,"Rocky Face",5.11b,2,0
 2,"Blast in Black","Rocky Face",5.9+,2,0
 2,"Anguish of Captain Bligh","Ship Rock",5.11a,2,0
-2,"Block Route","Stone Mountain","5.7+, PG13",2,0
 2,"Burning Calves","Beauty Mountain",5.10b,2,0
 2,"Out of Mind","Beauty Mountain",5.10a,2,0
 2,"Happy Hands","Beauty Mountain",5.9,2,0
@@ -198,6 +198,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Baby Bear","Pilot Mountain",5.11a,2,0
 2,"Spock's Brain","Seneca Rocks",5.11a,2,0
 2,"Mild Mannered Secretary","Pilot Mountain",5.7,2,0
+1,"Super Bumcrack","The Poopy Butthole",5.10c,1,0
 1,"Wham Bam Thanks for the Jam","Beauty Mountain",5.10b,1,0
 1,Supercrack,"Beauty Mountain",5.9+,1,0
 1,Berecik,"Upper Meadow",5.8,1,0

@@ -13,7 +13,7 @@
 <p class="text-center text-gray-400">"Climbing is a great game - great not in spite of the demands it makes, but because of them. Great because it will not let us give halfa of ourselves - it demands all of us. It demands our best."<br>- Royal Robbins</p>
 <p class="text-center text-gray-400">"How you climb a mountain is more important than reaching the top."<br>- Yvon Chouinard</p>
 <p class="text-center text-gray-400">"Climb if you will, but remember that courage and strength are naught without prudence, and that a momentary negligence may destroy the happiness of a lifetime. Do nothing in haste; look well to each step; and from the beginning think what may be the end."<br>- Edward Whymper, <i>Scrambles Amongst the Alps</i></p>
-<p>Of all the paths you take in life, make sure a few of them are dirt."<br>- John Muir</p>
+<p class="text-center text-gray-400">Of all the paths you take in life, make sure a few of them are dirt."<br>- John Muir</p>
 <p class="text-center text-gray-400">"Deep rivers run quiet."<br>- Haruki Murakami</p>
 <p class="text-center text-gray-400">"I thoroughly disapprove of duels. If a man should challenge me, I would take him kindly and forgivingly by the hand and lead him to a quiet place and kill him."<br>- Mark Twain</p>
 <p class="text-center text-gray-400">“People don't care how much you know until they know how much you care”<br>- Theodore Roosevelt</p>
@@ -24,3 +24,4 @@
 <p class="text-center text-gray-400">"Reaching the summit is not the point of a climb, only the whistle for end of play."<br>Lionel Terray, <i>Conquistadors of the Useless</i></p>
 <p class="text-center text-gray-400">"We cannot solve our problems with the same level of thinking that created them."<br>Albert Einstein</p>
 <p class="text-center text-gray-400">"S/he who has a why to live can bear almost any how."<br>Friedrich Nietzsche</p>
+<p class="text-center text-gray-400">"Sometimes you're the windshield, sometimes you're the bug."<br>Tom Cecil <sup>Dire Straits</sup></p>
