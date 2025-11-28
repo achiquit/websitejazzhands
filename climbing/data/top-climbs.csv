@@ -24,6 +24,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 5,"Critter Crack","Seneca Rocks",5.6,3,2
 5,Thais,"Seneca Rocks",5.6,2,3
 5,"Grandpa's Belay","Pilot Mountain",5.6,5,0
+5,"Crackin' Up","Pilot Mountain",5.7,5,0
 5,"U Slot","Stone Mountain","5.7, PG13",4,1
 5,"Sentinel Buttress","Sentinel Buttress",5.5,5,0
 5,"Pole Dancing","Pilot Mountain",5.7,5,0
@@ -46,7 +47,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 4,"Block Party","Seneca Rocks",5.8,1,3
 4,Ecstasy,"Seneca Rocks",5.7,3,1
 4,Outhouse,"Pilot Mountain",5.7,4,0
-4,"Crackin' Up","Pilot Mountain",5.7,4,0
 4,"Son of White Trash","The Dump",5.8,4,0
 4,"Fear of Flying","Seneca Rocks",5.8,1,3
 4,"Pilot Error (chicken bone right)","Pilot Mountain",5.8-,4,0
@@ -54,6 +54,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 4,Hardman,"Rocky Face",5.11b,4,0
 4,"NE end flows","Doughton Park",WI3-,4,0
 4,"New River Gunks","The Junkyard",5.7+,4,0
+4,"Teflon Toes","Pilot Mountain",5.11a,4,0
 4,"The Herculean Test","Pilot Mountain",5.10d,4,0
 4,"Henar Lite","Pilot Mountain",5.10c,4,0
 4,"Smooth Sailing (aka Lloyd Would Have Liked It)","Pilot Mountain",5.10a,4,0
@@ -78,6 +79,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"Quaker State","Moores Amphitheater",5.11a,3,0
 3,"Head Jam","Moores Central Wall",5.6,3,0
 3,"Chicken Bone","Pilot Mountain",5.8,3,0
+3,"Mr. Henar","Pilot Mountain","5.12a, PG13",3,0
 3,"Daughton Line","Doughton Park",WI3,3,0
 3,"Black Hole","Rocky Face",5.10d,3,0
 3,"Sunny Day","Rocky Face",5.8,3,0
@@ -89,7 +91,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"Team Jesus","The Junkyard",5.10a,3,0
 3,"Fruit Loops","Cereal Buttress",5.7+,3,0
 3,"The Entertainer","The Junkyard",5.10a,3,0
-3,"Teflon Toes","Pilot Mountain",5.11a,3,0
 3,"Tee Ball","The Trestle",5.6,3,0
 2,"The Glass Menagerie (Aid)","Looking Glass Rock","5.10a, C2, PG13, Grade IV",2,0
 2,"Blue Glacier","Mount Olympus","Moderate Snow, 5th, Grade II",2,0
@@ -148,7 +149,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Left Of Time","Rocky Face",5.7,2,0
 2,Bullistics,"Rocky Face",5.10b,2,0
 2,"Hidden-mite short","Rocky Face",5.9+,2,0
-2,"Mr. Henar","Pilot Mountain","5.12a, PG13",2,0
 2,"When Shrimp Learn to Whistle","Pilot Mountain",5.11b,2,0
 2,Deceivious,"The Cookbook",5.1,2,0
 2,"Flight Time","Rocky Face",5.7+,2,0
@@ -167,6 +167,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Wailing Wall","Moores Amphitheater",5.6,2,0
 2,"Zoo View","Circus Wall",5.7+,2,0
 2,Butterfingers,"Pilot Mountain",5.11a,2,0
+2,"Buzzard's Breath","Pilot Mountain",5.8,2,0
 2,Jammerfest,Djupfjorden,5.10b,2,0
 2,Gandalf,"Gandalf Wall",5.8,2,0
 2,"Litten Oppdrift",Natten,5.11a,2,0
@@ -198,6 +199,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Baby Bear","Pilot Mountain",5.11a,2,0
 2,"Spock's Brain","Seneca Rocks",5.11a,2,0
 2,"Mild Mannered Secretary","Pilot Mountain",5.7,2,0
+1,"Arms Control","Pilot Mountain",5.11c,1,0
 1,"Wham Bam Thanks for the Jam","Beauty Mountain",5.10b,1,0
 1,Supercrack,"Beauty Mountain",5.9+,1,0
 1,Berecik,"Upper Meadow",5.8,1,0
@@ -466,7 +468,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,"Hidden in Plain Sight","Pilot Mountain",5.11a,1,0
 1,"Orange Peel","Pilot Mountain",5.9+,1,0
 1,"Venus Scribner","Pilot Mountain",5.10b,1,0
-1,"Buzzard's Breath","Pilot Mountain",5.8,1,0
 1,Banana,"Seneca Rocks",5.7,1,0
 1,Debbie,"Seneca Rocks",5.6,1,0
 1,Englevinger,Svolvaergeita,5.10c,1,0
