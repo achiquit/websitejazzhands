@@ -20,8 +20,8 @@
 <p class="text-center text-gray-400">"The only man who never makes mistakes is the man who never does anything."<br>- Theodore Roosevelt</p>
 <p class="text-center text-gray-400">"Speak softly and carry a big stick; you will go far."<br>- Theodore Roosevelt</p>
 <p class="text-center text-gray-400">"You have to cauterize your wounds on the fires of your passion."<br>- Chad Heddleston</p>
-<p class="text-center text-gray-400">"To keep every cog and wheel is the first precaution of intelligent tinkering."<br>Aldo Leopold, <i>A Sand County Almanac</i></p>
-<p class="text-center text-gray-400">"Reaching the summit is not the point of a climb, only the whistle for end of play."<br>Lionel Terray, <i>Conquistadors of the Useless</i></p>
-<p class="text-center text-gray-400">"We cannot solve our problems with the same level of thinking that created them."<br>Albert Einstein</p>
-<p class="text-center text-gray-400">"S/he who has a why to live can bear almost any how."<br>Friedrich Nietzsche</p>
-<p class="text-center text-gray-400">"Sometimes you're the windshield, sometimes you're the bug."<br>Tom Cecil <sup>Dire Straits</sup></p>
+<p class="text-center text-gray-400">"To keep every cog and wheel is the first precaution of intelligent tinkering."<br>- Aldo Leopold, <i>A Sand County Almanac</i></p>
+<p class="text-center text-gray-400">"Reaching the summit is not the point of a climb, only the whistle for end of play."<br>- Lionel Terray, <i>Conquistadors of the Useless</i></p>
+<p class="text-center text-gray-400">"We cannot solve our problems with the same level of thinking that created them."<br>- Albert Einstein</p>
+<p class="text-center text-gray-400">"S/he who has a why to live can bear almost any how."<br>- Friedrich Nietzsche</p>
+<p class="text-center text-gray-400">"Sometimes you're the windshield, sometimes you're the bug."<br>- Tom Cecil <sup>Dire Straits</sup></p>

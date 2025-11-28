@@ -109,3 +109,27 @@ function() {
         });
     }
 });
+
+// Make images in color only when they are entirely in the viewport on tablet only
+$(window).on('scroll resize',
+function() {
+    if($(window).width() < 1024) {
+        if($(window).width() > 767) {
+            $('.color-scroll-md').each(function() {
+                var element = $(this);
+                var elementTop = element.offset().top;
+                var elementBottom = elementTop + element.outerHeight();
+                var viewportTop = $(window).scrollTop();
+                var viewportBottom = viewportTop + $(window).height();
+
+                if (elementTop >= viewportTop && elementBottom <= viewportBottom) {
+                    // The element is fully visible
+                    element.removeClass("grayscale");
+                } else {
+                    // The element is not fully visible
+                    element.addClass("grayscale");
+                }
+            });
+        }
+    }
+});
