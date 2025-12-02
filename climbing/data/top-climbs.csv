@@ -54,6 +54,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 4,Hardman,"Rocky Face",5.11b,4,0
 4,"NE end flows","Doughton Park",WI3-,4,0
 4,"New River Gunks","The Junkyard",5.7+,4,0
+4,"Fruit Loops","Cereal Buttress",5.7+,4,0
 4,"The Herculean Test","Pilot Mountain",5.10d,4,0
 4,"Henar Lite","Pilot Mountain",5.10c,4,0
 4,"Smooth Sailing (aka Lloyd Would Have Liked It)","Pilot Mountain",5.10a,4,0
@@ -88,7 +89,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"True Grits","Pilot Mountain",5.8+,3,0
 3,"Walk the Plank","Pilot Mountain",5.8,3,0
 3,"Team Jesus","The Junkyard",5.10a,3,0
-3,"Fruit Loops","Cereal Buttress",5.7+,3,0
+3,Granola,"Cereal Buttress",5.8+,3,0
 3,"The Entertainer","The Junkyard",5.10a,3,0
 3,"Teflon Toes","Pilot Mountain",5.11a,3,0
 3,"Tee Ball","The Trestle",5.6,3,0
@@ -183,7 +184,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Sniff the Drill","Narcissus Cave",5.8,2,0
 2,"She Got the Bosch, I Got Drilled","Orange Oswald Wall",5.10a,2,0
 2,"Chunko Goes Bowling","Orange Oswald Wall",5.9+,2,0
-2,Granola,"Cereal Buttress",5.8+,2,0
 2,"East Of Eden","Grayson Highlands",V0-,2,0
 2,"Magnetic North","Grayson Highlands",V0-,2,0
 2,"Peace of Westphalia (PoW)","Grayson Highlands",V0,2,0
@@ -191,6 +191,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Highland Highball","Grayson Highlands",V1-,2,0
 2,Slabacious,"Grayson Highlands",V0,2,0
 2,"Huecool Junior","Tieranny Roofs",5.10c,2,0
+2,"Whisky For Breakfast","Cereal Buttress","5.10d, PG13",2,0
 2,"Reaching New Heights","The Junkyard",5.11b,2,0
 2,"Bubba Safari","Bubba City","5.8, PG13",2,0
 2,"Iced Tee","The Trestle",5.8+,2,0
@@ -570,7 +571,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,"Fire Crack Flake","Stone Fort",V0-,1,0
 1,Dice,"Stone Fort",V1-,1,0
 1,"Costume Rings","Stone Fort",V0-,1,0
-1,"Whisky For Breakfast","Cereal Buttress","5.10d, PG13",1,0
 1,"Wild Seed","Fern Buttress",5.11a,1,0
 1,Crescenta,"Fern Buttress",5.10a,1,0
 1,Hysteria,"Fern Buttress",5.8,1,0
