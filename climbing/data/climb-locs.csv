@@ -286,8 +286,8 @@ Latitude,Longitude,Climb,Difficulty,Area
 36.340200," -80.480780","Anchors Away",5.11d,"Pilot Mountain"
 36.340200," -80.480780",Novi,5.7+,"Pilot Mountain"
 36.375128," -80.369331","5.7 Corner",5.7+,Sauratown
-36.375128," -80.369331","I'll Be Danned",5.10d,Sauratown
-36.375128," -80.369331","Kish Dish",5.8,Sauratown
+36.37579," -80.36644","I'll Be Danned",5.10d,Sauratown
+36.37576," -80.36654","Kish Dish",5.8,Sauratown
 36.375128," -80.369331","Pilot's License",5.10b,Sauratown
 36.375128," -80.369331","Deadbeat Dad",5.11d,Sauratown
 36.375128," -80.369331","DC Comics",5.10b,Sauratown
@@ -649,3 +649,4 @@ Latitude,Longitude,Climb,Difficulty,Area
 38.05244," -81.03368","Wham Bam Thanks for the Jam",5.10b,"Beauty Mountain"
 36.34013," -80.48401","Arms Control",5.11c,"Pilot Mountain"
 35.44983," -82.21881","Just As I Am",V0,"Devil Boulder"
+36.37555," -80.36654","Big Erector",5.9+,Sauratown

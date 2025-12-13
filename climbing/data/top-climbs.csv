@@ -79,6 +79,8 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"Quaker State","Moores Amphitheater",5.11a,3,0
 3,"Head Jam","Moores Central Wall",5.6,3,0
 3,"Chicken Bone","Pilot Mountain",5.8,3,0
+3,"Kish Dish",Sauratown,5.8,3,0
+3,"I'll Be Danned",Sauratown,5.10d,3,0
 3,"Mr. Henar","Pilot Mountain","5.12a, PG13",3,0
 3,"Daughton Line","Doughton Park",WI3,3,0
 3,"Black Hole","Rocky Face",5.10d,3,0
@@ -145,7 +147,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Almost Seven (aka Golden Earring)","Moores Amphitheater",5.7,2,0
 2,"Bedtime for Bonzo","Fortress Wall",5.6,2,0
 2,"Entrance Crack","Stone Mountain","5.5, R",2,0
-2,"Kish Dish",Sauratown,5.8,2,0
 2,Novi,"Pilot Mountain",5.7+,2,0
 2,"Left Of Time","Rocky Face",5.7,2,0
 2,Bullistics,"Rocky Face",5.10b,2,0
@@ -200,6 +201,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Baby Bear","Pilot Mountain",5.11a,2,0
 2,"Spock's Brain","Seneca Rocks",5.11a,2,0
 2,"Mild Mannered Secretary","Pilot Mountain",5.7,2,0
+1,"Big Erector",Sauratown,5.9+,1,0
 1,"Just As I Am","Devil Boulder",V0,1,0
 1,"Arms Control","Pilot Mountain",5.11c,1,0
 1,"Wham Bam Thanks for the Jam","Beauty Mountain",5.10b,1,0
@@ -439,7 +441,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,"DC Comics",Sauratown,5.10b,1,0
 1,"Deadbeat Dad",Sauratown,5.11d,1,0
 1,"Pilot's License",Sauratown,5.10b,1,0
-1,"I'll Be Danned",Sauratown,5.10d,1,0
 1,"5.7 Corner",Sauratown,5.7+,1,0
 1,"Anchors Away","Pilot Mountain",5.11d,1,0
 1,Unknown,"Pilot Mountain",5.8,1,0

@@ -26,3 +26,6 @@
 <p class="text-center text-gray-400">"S/he who has a why to live can bear almost any how."<br>- Friedrich Nietzsche</p>
 <p class="text-center text-gray-400">"Sometimes you're the windshield, sometimes you're the bug."<br>- Tom Cecil <sup>Dire Straits</sup></p>
 <p class="text-center text-gray-400">"The mind that holds the problem holds the solution."<br>- Nancy Kline, <i>Time to Think</i></p>
+<p class="text-center text-gray-400">"You only climb high<br>because your hard monkey skull<br>won't crack in a fall."<br><br>- Mark of the Ninja</p>
+<p class="text-center text-gray-400">"Only through our connectedness to others can we really know and enhance the self."<br>- Harriet Learner</p>
+<p class="text-center text-gray-400">"People will forget what you said, people will forget what you did, but people will never forget how you made them feel."<br>- Maya Angelou</p>
