@@ -17,14 +17,12 @@ var x = setInterval(function() {
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 
     // Display the result in the element
-    document.getElementById("countdown-desk").innerHTML = "Countdown until my next adventure: " + days + "d " + hours + "h ";
-    document.getElementById("countdown-mobile").innerHTML = "Countdown until my next adventure: " + days + "d " + hours + "h ";
+    document.getElementById("countdown").innerHTML = "Countdown until my next adventure: " + days + "d " + hours + "h ";
 
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown-desk").innerHTML = "I'm on an adventure right now! I'll write about it soon :)";
-        document.getElementById("countdown-mobile").innerHTML = "I'm on an adventure right now! I'll write about it soon :)";
+        document.getElementById("countdown").innerHTML = "I'm on an adventure right now! I'll write about it soon :)";
     }
 }, 1000);
 
