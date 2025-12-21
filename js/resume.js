@@ -34,3 +34,8 @@ window.onscroll = function () {
 
     }
 }
+
+// Timeline buttons
+$(".timeline-btn").click(function(){
+  $("#timeline").fadeToggle();
+});
