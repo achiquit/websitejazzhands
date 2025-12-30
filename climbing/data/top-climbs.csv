@@ -179,6 +179,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Climbing Merit Badge","Sand Rock",5.6,2,0
 2,Psycho-metric,"Pilot Mountain",5.11a,2,0
 2,"No Alternative","Stone Mountain","5.5, PG13",2,0
+2,Misty,"Sand Rock",5.10c,2,0
 2,"The Black Hole","Pilot Mountain",5.10b,2,0
 2,Ironman,"Pilot Mountain",5.8+,2,0
 2,Crackerjack,"Table Rock",5.8,2,0
@@ -201,6 +202,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Baby Bear","Pilot Mountain",5.11a,2,0
 2,"Spock's Brain","Seneca Rocks",5.11a,2,0
 2,"Mild Mannered Secretary","Pilot Mountain",5.7,2,0
+1,"Knob Wall","Sand Rock",5.6,1,0
 1,"Big Erector",Sauratown,5.9+,1,0
 1,"Just As I Am","Devil Boulder",V0,1,0
 1,"Arms Control","Pilot Mountain",5.11c,1,0
@@ -555,7 +557,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,"Edges to Ledges","Mount Yonah",5.7,1,0
 1,"Ohio Climbing","Bruise Brothers Wall",5.8,1,0
 1,"Glory and Consequence","The Great Wall",5.7+,1,0
-1,Misty,"Sand Rock",5.10c,1,0
 1,"Neckerchief? Traverse","Sand Rock",5.6,1,0
 1,Neckerchief?,"Sand Rock","5.8, PG13",1,0
 1,"Laurel Springs WI4","Laurel Springs Ice",WI4-,1,0
