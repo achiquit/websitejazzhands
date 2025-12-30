@@ -92,7 +92,7 @@ $("#tablemountainbutton").click(function () {
 $(window).on('scroll resize',
 function() {
     if($(window).width() < 1024) {
-        $('.color-scroll').each(function() {
+        $('.color-scroll-sm').each(function() {
             var element = $(this);
             var elementTop = element.offset().top;
             var elementBottom = elementTop + element.outerHeight();

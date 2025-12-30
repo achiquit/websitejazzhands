@@ -34,3 +34,23 @@ var x = setInterval(function() {
 
 // END COUNTDOWN CODE
 
+// Make tiles in color only when they're entirely in the viewport
+
+$(window).on('scroll resize',
+function() {
+        $('.color-scroll').each(function() {
+            var element = $(this);
+            var elementTop = element.offset().top;
+            var elementBottom = elementTop + element.outerHeight();
+            var viewportTop = $(window).scrollTop();
+            var viewportBottom = viewportTop + $(window).height();
+
+            if (elementTop >= viewportTop && elementBottom <= viewportBottom) {
+                // The element is fully visible
+                element.removeClass("grayscale");
+            } else {
+                // The element is not fully visible
+                element.addClass("grayscale");
+            }
+        });
+});
