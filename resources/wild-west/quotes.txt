@@ -29,5 +29,6 @@
 <p>"You only climb high<br>because your hard monkey skull<br>won't crack in a fall."<br><br>- Mark of the Ninja</p>
 <p>"Only through our connectedness to others can we really know and enhance the self."<br>- Harriet Learner</p>
 <p>"People will forget what you said, people will forget what you did, but people will never forget how you made them feel."<br>- Maya Angelou</p>
-<p>"That's the scary thing about decisions: you don't know what they are when you're making them."<br>- Allie Brosh, <i>Solutions and Other Problems</i>
-<p>"This is an inescapable property of reality, which we all must learn to accept. There just isn't enough power in the universe for everybody to have all of it."<br>- Allie Brosh, <i>Solutions and Other Problems</i>
+<p>"That's the scary thing about decisions: you don't know what they are when you're making them."<br>- Allie Brosh, <i>Solutions and Other Problems</i></p>
+<p>"This is an inescapable property of reality, which we all must learn to accept. There just isn't enough power in the universe for everybody to have all of it."<br>- Allie Brosh, <i>Solutions and Other Problems</i></p>
+<p>"People make excuses to do the things they really want to do."<br>- B Stickney</p>
