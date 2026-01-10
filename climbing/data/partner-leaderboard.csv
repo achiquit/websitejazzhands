@@ -6,7 +6,7 @@ Partner,Days,Pitches,Height(ft),Areas
 "Angela Whangpo",1,4,391,1
 "Anna Reachmack",3,6,440,3
 "Arthur Brooks",9,27,"2,095",3
-"Ashley Ackley",2,4,370,2
+"Ashley Ackley",3,6,570,3
 "Austin Banks",2,7,510,2
 "Barry Myers",1,7,280,1
 "Bill Barham",2,7,390,1
@@ -16,9 +16,9 @@ Partner,Days,Pitches,Height(ft),Areas
 "Cecilia Carter",4,15,"1,070",5
 "Chad Cochran",4,19,"1,400",1
 "Chelsea Huddleston",1,1,100,1
-"Chris Conger",12,37,"2,750",5
+"Chris Conger",13,39,"2,950",6
 "Chris Miller",1,2,130,1
-"Colin McElroy",1,5,340,1
+"Colin McElroy",2,7,540,2
 "Connor O’Fallon",1,6,360,1
 "Dana Bumbalo",1,3,400,1
 "Daniel Chiquito",1,2,120,1
@@ -88,7 +88,7 @@ Guiding,62,224,"18,145",4
 "Skylar Strickler",1,3,175,1
 "Sofia Brantley",1,1,75,1
 "Solo Climb",1,3,200,1
-"Taylor Berry",2,10,945,1
+"Taylor Berry",2,12,"1,145",1
 "Timothy Boushell",1,5,280,1
 "Tom Cecil",3,6,580,2
 "Tom Cronin",13,43,"3,835",8
