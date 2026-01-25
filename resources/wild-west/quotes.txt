@@ -35,3 +35,4 @@
 <p>"In every person there is a sun. Just let them shine."<br>- Socrates</p>
 <p>"It is possible to commit no mistakes and still lose. That is not a weakness, that is life."<br>- Jean-Luc Picard</p>
 <p>"A is for- ... Eww."<br>- Ashley Ackley</p>
+<p>"Logic is unshakeable , but it cannot prevail against a man who wishes to live."<br>- Franz Kafka, <i>The Trial</i></p>
