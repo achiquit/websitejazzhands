@@ -1,6 +1,5 @@
-Timeframe     Days Climbed  Ticks Made  Pitches Climbed  Feet Climbed  Partners  Climbs  Areas  Countries  States
-------------  ------------  ----------  ---------------  ------------  --------  ------  -----  ---------  ------
-Last 90 Days  23            53          118              13,540        13        48      11     2          4     
-Last Year     116           242         488              44,547        34        158     34     3          7     
-Last 5 Years  385           904         1,699            151,793       84        548     132    4          24    
-All Time      451           1,178       2,068            177,888       102       672     140    4          25    
+Timeframe,"Days Climbed","Ticks Made","Pitches Climbed","Feet Climbed",Partners,Climbs,Areas,Countries,States
+"Last 90 Days",23,53,118,"13,540",13,48,11,2,4
+"Last Year",116,242,488,"44,547",34,158,34,3,7
+"Last 5 Years",385,904,"1,699","151,793",84,548,132,4,24
+"All Time",451,"1,178","2,068","177,888",102,672,140,4,25

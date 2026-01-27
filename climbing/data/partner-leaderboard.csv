@@ -1,105 +1,104 @@
-Partner                  Days  Pitches  Height(ft)  Areas
------------------------  ----  -------  ----------  -----
-Abigail Lamoutte         28    128      9,740       22   
-Amma Yamada              1     3        310         2    
-Andrew Bounds            1     3        215         1    
-Andrew Morse             1     5        480         1    
-Angela Whangpo           1     4        391         1    
-Anna Reachmack           3     6        440         3    
-Arthur Brooks            11    36       3,085       4    
-Ashley Ackley            4     8        740         3    
-Austin Banks             2     7        510         2    
-Barry Myers              1     7        280         1    
-Bill Barham              2     7        390         1    
-Branden Wood             1     2        180         1    
-Brianna Dechet           1     6        280         1    
-Bryce DeOliveira         1     2        170         1    
-Cecilia Carter           4     15       1,070       5    
-Chad Cochran             4     19       1,400       1    
-Chelsea Huddleston       1     1        100         1    
-Chris Conger             15    45       3,470       6    
-Chris Miller             1     2        130         1    
-Colin McElroy            2     7        540         2    
-Connor O’Fallon          1     6        360         1    
-Dana Bumbalo             1     3        400         1    
-Daniel Chiquito          1     2        120         1    
-Dave Hause               1     6        700         2    
-David Andrew             1     4        540         1    
-David Thoenen            1     7        280         1    
-David Thompson           1     5        280         1    
-Dylan James              1     3        215         1    
-Eli DeOliveira           1     2        170         1    
-Erica Beall              4     13       1,120       4    
-Evelyn DeBoeck           2     6        410         2    
-Gorm Larsen              1     1        0           1    
-Guiding                  62    224      18,145      4    
-Guilherme Chiquito       3     10       370         2    
-Hailey Schreyer          1     4        490         1    
-Hannah Feinsilber        5     33       1,096       4    
-Hannes Backerling        3     11       1,310       3    
-Henrique Vermelho        3     16       2,162       3    
-Holly Frost              3     13       1,450       2    
-JC Fillion-Robin         1     5        360         1    
-Jack Webb                1     6        400         1    
-Jakob Andersen           1     1        0           1    
-James Brown              2     7        760         4    
-Jared Redick             1     5        380         1    
-Jess Stull               1     2        170         1    
-Joe Hines                1     2        60          1    
-Joe Pirani               1     5        270         1    
-Joe Simpson              1     5        385         1    
-Johannes Unknown         1     5        500         1    
-John-Michael Montgomery  8     24       1,862       7    
-Josh Rich                1     6        650         1    
-Josie Davis              1     4        540         1    
-Jules Manosky            1     1        25          1    
-Julie Yakaboski          1     4        150         1    
-Kate Kerr                1     6        405         1    
-Kaya Lindsay             1     5        385         1    
-Kelly Williams           25    92       11,422      23   
-Kenz Hack                1     5        400         1    
-Kevin Twitchell          2     10       935         1    
-Kimberly O’Neill         10    27       2,805       10   
-Kyle Mills               2     6        610         1    
-Lea Chiquito             1     2        120         1    
-Liam Elliott             4     18       1,550       4    
-Logan Calder             2     3        220         2    
-Lucia Daranyi            1     2        150         1    
-Mack Ireland             11    39       3,225       6    
-Madeline Chadwell        1     1        50          1    
-Maeve Thompson           6     14       1,565       4    
-Magnus Gulbra            2     15       1,630       2    
-Mark Jourdain            1     5        380         1    
-Masha Lourie             1     4        300         1    
-Matt O’Brien             18    57       5,260       8    
-Mattias -1               1     4        240         1    
-Maureen Sullivan         1     8        540         1    
-Morgan McAndrew          2     6        375         2    
-Nico Bruzera             3     13       905         2    
-Ori Goldberg             1     3        400         1    
-PJ -1                    1     5        300         1    
-Phillipe Queiroz         1     4        160         1    
-Quincy Godwin            4     9        480         2    
-RJ Chiquito              1     4        330         1    
-Reverend Wild            47    204      21,065      25   
-Rob Sulaski              11    42       4,740       10   
-Russell Hobart           1     4        540         1    
-Sarah Cha                1     3        215         1    
-Schmeckle NoLastName     10    41       3,451       7    
-Skylar Strickler         1     3        175         1    
-Sofia Brantley           1     1        75          1    
-Solo Climb               1     3        200         1    
-Taylor Berry             7     43       7,235       1    
-Timothy Boushell         1     5        280         1    
-Tom Cecil                3     6        580         2    
-Tom Cronin               13    43       3,835       8    
-Troy Phillips            2     7        575         1    
-Vince Zhang              2     9        545         2    
-Walker Mims              8     32       3,060       6    
-Will Manness             2     9        785         2    
-Will Petty               4     18       1,315       1    
-William Barrett          2     8        800         3    
-Woody Holliman           3     19       1,210       5    
-Yav Pernev               9     21       1,470       3    
-Zia Zhou                 8     21       1,675       8    
-Zoey Spiliadis           1     1        80          1    
+Partner,Days,Pitches,Height(ft),Areas
+"Abigail Lamoutte",28,128,"9,740",22
+"Amma Yamada",1,3,310,2
+"Andrew Bounds",1,3,215,1
+"Andrew Morse",1,5,480,1
+"Angela Whangpo",1,4,391,1
+"Anna Reachmack",3,6,440,3
+"Arthur Brooks",11,36,"3,085",4
+"Ashley Ackley",4,8,740,3
+"Austin Banks",2,7,510,2
+"Barry Myers",1,7,280,1
+"Bill Barham",2,7,390,1
+"Branden Wood",1,2,180,1
+"Brianna Dechet",1,6,280,1
+"Bryce DeOliveira",1,2,170,1
+"Cecilia Carter",4,15,"1,070",5
+"Chad Cochran",4,19,"1,400",1
+"Chelsea Huddleston",1,1,100,1
+"Chris Conger",15,45,"3,470",6
+"Chris Miller",1,2,130,1
+"Colin McElroy",2,7,540,2
+"Connor O’Fallon",1,6,360,1
+"Dana Bumbalo",1,3,400,1
+"Daniel Chiquito",1,2,120,1
+"Dave Hause",1,6,700,2
+"David Andrew",1,4,540,1
+"David Thoenen",1,7,280,1
+"David Thompson",1,5,280,1
+"Dylan James",1,3,215,1
+"Eli DeOliveira",1,2,170,1
+"Erica Beall",4,13,"1,120",4
+"Evelyn DeBoeck",2,6,410,2
+"Gorm Larsen",1,1,0,1
+Guiding,62,224,"18,145",4
+"Guilherme Chiquito",3,10,370,2
+"Hailey Schreyer",1,4,490,1
+"Hannah Feinsilber",5,33,"1,096",4
+"Hannes Backerling",3,11,"1,310",3
+"Henrique Vermelho",3,16,"2,162",3
+"Holly Frost",3,13,"1,450",2
+"JC Fillion-Robin",1,5,360,1
+"Jack Webb",1,6,400,1
+"Jakob Andersen",1,1,0,1
+"James Brown",2,7,760,4
+"Jared Redick",1,5,380,1
+"Jess Stull",1,2,170,1
+"Joe Hines",1,2,60,1
+"Joe Pirani",1,5,270,1
+"Joe Simpson",1,5,385,1
+"Johannes Unknown",1,5,500,1
+"John-Michael Montgomery",8,24,"1,862",7
+"Josh Rich",1,6,650,1
+"Josie Davis",1,4,540,1
+"Jules Manosky",1,1,25,1
+"Julie Yakaboski",1,4,150,1
+"Kate Kerr",1,6,405,1
+"Kaya Lindsay",1,5,385,1
+"Kelly Williams",25,92,"11,422",23
+"Kenz Hack",1,5,400,1
+"Kevin Twitchell",2,10,935,1
+"Kimberly O’Neill",10,27,"2,805",10
+"Kyle Mills",2,6,610,1
+"Lea Chiquito",1,2,120,1
+"Liam Elliott",4,18,"1,550",4
+"Logan Calder",2,3,220,2
+"Lucia Daranyi",1,2,150,1
+"Mack Ireland",11,39,"3,225",6
+"Madeline Chadwell",1,1,50,1
+"Maeve Thompson",6,14,"1,565",4
+"Magnus Gulbra",2,15,"1,630",2
+"Mark Jourdain",1,5,380,1
+"Masha Lourie",1,4,300,1
+"Matt O’Brien",18,57,"5,260",8
+"Mattias -1",1,4,240,1
+"Maureen Sullivan",1,8,540,1
+"Morgan McAndrew",2,6,375,2
+"Nico Bruzera",3,13,905,2
+"Ori Goldberg",1,3,400,1
+"PJ -1",1,5,300,1
+"Phillipe Queiroz",1,4,160,1
+"Quincy Godwin",4,9,480,2
+"RJ Chiquito",1,4,330,1
+"Reverend Wild",47,204,"21,065",25
+"Rob Sulaski",11,42,"4,740",10
+"Russell Hobart",1,4,540,1
+"Sarah Cha",1,3,215,1
+"Schmeckle NoLastName",10,41,"3,451",7
+"Skylar Strickler",1,3,175,1
+"Sofia Brantley",1,1,75,1
+"Solo Climb",1,3,200,1
+"Taylor Berry",7,43,"7,235",1
+"Timothy Boushell",1,5,280,1
+"Tom Cecil",3,6,580,2
+"Tom Cronin",13,43,"3,835",8
+"Troy Phillips",2,7,575,1
+"Vince Zhang",2,9,545,2
+"Walker Mims",8,32,"3,060",6
+"Will Manness",2,9,785,2
+"Will Petty",4,18,"1,315",1
+"William Barrett",2,8,800,3
+"Woody Holliman",3,19,"1,210",5
+"Yav Pernev",9,21,"1,470",3
+"Zia Zhou",8,21,"1,675",8
+"Zoey Spiliadis",1,1,80,1
