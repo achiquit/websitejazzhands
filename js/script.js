@@ -1,6 +1,5 @@
 // Load the header HTML before cloning the site menu
 $("#header").load("/header.html", function() {
-
     // Hamburger menu to X animation
     const toggleMenu = document.querySelector('#toggleMenu');
     toggleMenu.onclick = () => {
@@ -132,4 +131,24 @@ function() {
             });
         }
     }
+});
+
+// Make images in color only when they are entirely in the viewport at all times
+$(window).on('scroll resize',
+function() {
+    $('.color-scroll').each(function() {
+        var element = $(this);
+        var elementTop = element.offset().top;
+        var elementBottom = elementTop + element.outerHeight();
+        var viewportTop = $(window).scrollTop();
+        var viewportBottom = viewportTop + $(window).height();
+
+        if (elementTop >= viewportTop && elementBottom <= viewportBottom) {
+            // The element is fully visible
+            element.removeClass("grayscale");
+        } else {
+            // The element is not fully visible
+            element.addClass("grayscale");
+        }
+    });
 });

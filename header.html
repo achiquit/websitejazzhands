@@ -1,4 +1,4 @@
-<header class="sticky top-0 w-full bg-gray-950 z-20 shadow-md/50 lg:flex lg:items-center">
+<header class="sticky top-0 w-full bg-gray-950 z-20 shadow-md shadow-gray-950/90 lg:flex lg:items-center">
   <div class="flex items-center justify-between p-4 lg:w-1/4">
     
       <div>
@@ -15,8 +15,8 @@
 
   </div>
 
-  <div id="navMenu" class=" hidden flex flex-col pr-4 pl-2 pb-4 pt-2 w-52 bg-gray-950 absolute right-0 transition-all transition-discrete duration-600 ease-in-out shadow-xl shadow-gray-950/50 lg:flex lg:flex-row lg:w-3/4 lg:justify-between lg:items-center lg:p-0">
-      <ul class="header-list flex flex-col items-left justify-between gap-4 mt-2 ml-4 lg:flex-row lg:w-4/6">
+  <div id="navMenu" class=" hidden flex flex-col pr-4 pl-2 pb-4 pt-2 w-52 bg-gray-950 absolute right-0 transition-all transition-discrete duration-600 ease-in-out shadow-xl shadow-gray-950/90 lg:flex lg:flex-row lg:w-3/4 lg:justify-between lg:items-center lg:p-0">
+      <ul class="header-list flex flex-col items-left justify-between gap-4 mt-2 ml-4 max-h-screen overflow-y-auto lg:flex-row lg:w-4/6">
         
           <li><a href="https://andre.chiquit.ooo" class="text-white hover:text-emerald-300 transition-all duration-300">Home</a></li>
         
@@ -45,7 +45,7 @@
                       <i class="fa-solid fa-angle-down text-white"></i>
                   </button>
               </div>
-              <ul class="header-list dropdown flex flex-col w-full pt-4 hidden lg:top-8 lg:absolute lg:w-48 lg:bg-gray-950 lg:shadow-xl lg:shadow-gray-950/50 lg:pb-3">
+              <ul class="header-list dropdown flex flex-col w-full pt-4 hidden overflow-y-auto max-h-[500px] lg:top-8 lg:absolute lg:w-48 lg:bg-gray-950 lg:shadow-xl lg:shadow-gray-950/50 lg:pb-3">
                   <li class="py-2 pl-3"><a href="/climbing" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Climbing</a></li>
 
                 <!-- 2026 -->
@@ -161,6 +161,39 @@
                         <li class="pl-3 py-2"><a href="/adventures/2022/another-alternative" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Another Alternative</a></li>
                     </ul>
                 </li>
+
+                <!-- 2021 -->
+                <li class="pl-3 dropdown-item flex flex-col justify-between items-center">
+                      <div class="flex justify-between flex-row w-full pt-2 lg:pr-4">
+                          <a href="#" class="text-white transition-all duration-300 lg:py-2 lg:pr-3">2021</a>
+                          <button class="has-children">
+                              <i class="fa-solid fa-angle-down text-white"></i>
+                          </button>
+                      </div>
+                      <ul class="header-list dropdown flex flex-col w-full hidden">
+                        <li class="pl-3 py-3 dropdown-item flex flex-col justify-between items-center">
+                            <div class="flex justify-between flex-row w-full lg:pr-4">
+                                <a href="/adventures/2021/pan-american-highway" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Pan-American Highway - Central America</a>
+                                <button class="has-children">
+                                    <i class="fa-solid fa-angle-down text-white"></i>
+                                </button>
+                            </div>
+                            <ul class="header-list dropdown flex flex-col w-full hidden">
+                                <li class="pl-3 pb-2 pt-4"><a href="/adventures/2021/pan-american-highway/colombia" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Colombia</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/panama" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Panama</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/costa-rica" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Costa Rica</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/nicaragua" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Nicaragua</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/honduras" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Honduras</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/el-salvador" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">El Salvador</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/guatemala" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Guatemala</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/belize" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Belize</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/mexico" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Mexico</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="https://kelwill.com/2021/10/01/savannah-the-van/" target="_blank" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Meet Savannah</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class="pl-3 py-2"><a href="/adventures/2024/summer-in-seneca/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Summer in Seneca</a></li> -->
+                      </ul>
+                </li>
                  
               </ul>
           </li>
@@ -194,14 +227,14 @@
         
           <li><a href="/get-updates" class="text-emerald-300 hover:text-emerald-300 transition-all duration-300">Get Updates</a></li>
         
-      </ul>
+    </ul>
     
-      <div class="flex items-center justify-between mt-6 px-3 lg:w-1/6 lg:mt-0 lg:px-4">
-          <a href="https://www.facebook.com/andre.chiquito/" target="_blank"><i class="fa-brands fa-facebook-f text-white hover:text-emerald-300 transition-all duration-300"></i></a>
-          <a href="/climbing"><i class="fa-solid fa-mountain text-white hover:text-emerald-300 transition-all duration-300"></i></a>
-          <a href="https://www.goodreads.com/user/show/164218007-andre-chiquito" target="_blank"><i class="fa-solid fa-book text-white hover:text-emerald-300 transition-all duration-300"></i></a>
-          <a href="https://account.venmo.com/u/chiquitoa" target="_blank"><i class="fa-solid fa-money-bill-transfer text-white hover:text-emerald-300 transition-all duration-300"></i></a>
-      </div>
+    <div class="flex items-center justify-between mt-6 px-3 lg:w-1/6 lg:mt-0 lg:px-4">
+        <a href="https://www.facebook.com/andre.chiquito/" target="_blank"><i class="fa-brands fa-facebook-f text-white hover:text-emerald-300 transition-all duration-300"></i></a>
+        <a href="/climbing"><i class="fa-solid fa-mountain text-white hover:text-emerald-300 transition-all duration-300"></i></a>
+        <a href="https://www.goodreads.com/user/show/164218007-andre-chiquito" target="_blank"><i class="fa-solid fa-book text-white hover:text-emerald-300 transition-all duration-300"></i></a>
+        <a href="https://account.venmo.com/u/chiquitoa" target="_blank"><i class="fa-solid fa-money-bill-transfer text-white hover:text-emerald-300 transition-all duration-300"></i></a>
+    </div>
   </div>
   
 </header>

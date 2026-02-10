@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7YJWM5NM3W"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7YJWM5NM3W');
+        </script>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Colombia</title>
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+        <style type="text/tailwindcss">
+        @layer utilities {
+            .hamburger-toggle {
+              @apply [&>div]:h-0 [&>div]:bg-white [&>div]:before:translate-y-0 [&>div]:before:rotate-45 [&>div]:after:translate-y-0 [&>div]:after:-rotate-45;
+            }
+        }
+        </style>
+        <script src="https://kit.fontawesome.com/c8077251a5.js" crossorigin="anonymous"></script>
+        <link href="/styles.css" rel="stylesheet">
+        <link rel="icon" href="/favicon.png">
+    </head>
+    <body class="bg-gray-950">
+
+        <div id="header" class="sticky top-0  z-60"></div>
+        
+        <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600 [&_a]:text-emerald-300">
+            <a class="anchor" id="top"></a>
+            <p class="text-white text-6xl text-center pb-2">Colombia</p>
+
+            <div class="mt-6 lg:flex lg:flex-row lg:gap-12">
+                <div class="[&>.body]:text-gray-400 lg:w-2/3">
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+
+                        <a href="bogota/">
+                            <div class="bg-[url(resources/bogota.jpg)] bg-cover w-full aspect-square p-4 flex justify-center color-scroll transition duration-300 transition-discrete">
+                                <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center text-center">Solo Bogota</h3>
+                            </div>
+                        </a>
+
+                        <a href="cartagena/">
+                            <div class="bg-[url(resources/cartagena.jpg)] bg-cover w-full aspect-square p-4 flex justify-center color-scroll transition duration-300 transition-discrete">
+                                <h3 class="font-thin text-3xl text-white drop-shadow-lg tile-title content-center text-center">Cartagena Extravaganza</h3>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                </div>
+
+                <hr class="w-7/8 h-px mx-auto my-6 bg-emerald-300 border-0 lg:hidden">
+
+                <div class="mt-6 lg:mt-0 lg:w-1/3 [&>hr]:w-7/8 [&>hr]:h-px [&>hr]:mx-auto [&>hr]:my-6 [&>hr]:bg-emerald-300 [&>hr]:border-0 [&>.title-text]:text-white [&>.title-text]:text-3xl [&>.title-text]:text-center lg:relative">
+
+                    <p class="text-4xl text-white text-center">TL;DR:</p>
+                    <p class="text-gray-400">We have a wild adventure getting into the country by speedboat, I get another tattoo, we spend a TON of time (by our standards) in Cartagena exploring the city while Savannah is delayed at port, which results in me having to fly from Cartagena to Bogota to catch my flight back to North Carolina.</p>
+
+                    <hr>
+
+                    <p class="text-4xl text-white text-center">Country Stats</p>
+                    <ul class="list-disc text-gray-400">
+                        <li>Miles by Boat: 41</li>
+                        <li>Miles by Bus: 232</li>
+                        <li>Days Spent: 23</li>
+                        <li>Entered: December 9th, 2021</li>
+                        <li>Departed: December 31st, 2021</li>
+                    </ul>
+
+                    <hr>
+
+                    <p class="text-4xl text-center text-emerald-300"><a href="../">Go Back</a></p>
+
+                </div>
+            </div>
+
+            <hr class="w-7/8 h-px mx-auto my-6 bg-emerald-300 border-0 lg:hidden">
+
+            <!-- Embedded Google map -->
+            <div style="width:75%; margin:0 auto; padding-top:25px;">
+                <iframe src="https://www.google.com/maps/d/embed?mid=12an-2qr-keePVf3uSgmCqVjpbWitUYbI&ehbc=2E312F" width="100%" height="480" style="align-content:center; display:block;" id="map"></iframe>
+            </div>
+            
+        </main>
+
+        <footer class="bg-gray-950 shadow mt-6">
+            <div class="container mx-auto px-4 py-4 text-center">
+                <p class="text-gray-600">© <script>document.write(new Date().getFullYear())</script> <span class="text-emerald-300">Andre Chiquito</span>. All rights reserved.</p>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="/js/script.js"></script>
+        
+    </body>
+</html>
