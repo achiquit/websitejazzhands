@@ -34,6 +34,6 @@ $(document).ready(function() {
     }
     
     randomLineGenerator('/resources/wild-west/techniques.txt', '#technique');
-    randomLineGenerator('/resources/wild-west/quotes.txt', '#quote');
+    randomLineGenerator('/quotes.txt', '#quote');
     randomLineGenerator('/resources/wild-west/favorite_videos.txt', '#vid');
 });

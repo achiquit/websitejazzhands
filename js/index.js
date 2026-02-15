@@ -33,5 +33,5 @@ $(document).ready(function() {
         });
     }
     
-    randomLineGenerator('/resources/wild-west/quotes.txt', '#quote');
+    randomLineGenerator('/quotes.txt', '#quote');
 });
