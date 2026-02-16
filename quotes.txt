@@ -40,3 +40,4 @@
 <p>"I deprecate war, but if it's brought to my door, the bringer will find me at home."<br>- James Garfield</p>
 <p>"Losing love is like a window in your heart."<br>- Paul Simon</p>
 <p>"Negotiations and love songs are often mistaken for one and the same."<br>- Paul Simon</p>
+<p>"The only person who is educated is the one who has learned how to learn and change.<br>- Carl Rogers</p>
