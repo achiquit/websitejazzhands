@@ -20,6 +20,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 6,"The Burn","Seneca Rocks",5.8,3,3
 6,Ambush,"Seneca Rocks",5.11a,3,3
 6,"Any Major Dude","Pilot Mountain",5.11c,6,0
+6,"Pole Dancing","Pilot Mountain",5.7,6,0
 5,Mongoose,"Seneca Rocks",5.11a,5,0
 5,"Critter Crack","Seneca Rocks",5.6,3,2
 5,Thais,"Seneca Rocks",5.6,2,3
@@ -27,7 +28,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 5,"Crackin' Up","Pilot Mountain",5.7,5,0
 5,"U Slot","Stone Mountain","5.7, PG13",4,1
 5,"Sentinel Buttress","Sentinel Buttress",5.5,5,0
-5,"Pole Dancing","Pilot Mountain",5.7,5,0
 4,"Porcelain Pump","Nelson Rocks",5.11a,4,0
 4,"Marshall's Madness","Seneca Rocks",5.9,3,1
 4,Lifers,"Nelson Rocks",5.10a,4,0
@@ -52,6 +52,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 4,"Pilot Error (chicken bone right)","Pilot Mountain",5.8-,4,0
 4,Vegomatic,"Pilot Mountain",5.7+,4,0
 4,Hardman,"Rocky Face",5.11b,4,0
+4,"Mr. Henar","Pilot Mountain","5.12a, PG13",4,0
 4,"NE end flows","Doughton Park",WI3-,4,0
 4,"New River Gunks","The Junkyard",5.7+,4,0
 4,"Fruit Loops","Cereal Buttress",5.7+,4,0
@@ -81,7 +82,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"Chicken Bone","Pilot Mountain",5.8,3,0
 3,"Kish Dish",Sauratown,5.8,3,0
 3,"I'll Be Danned",Sauratown,5.10d,3,0
-3,"Mr. Henar","Pilot Mountain","5.12a, PG13",3,0
 3,"Daughton Line","Doughton Park",WI3,3,0
 3,"Black Hole","Rocky Face",5.10d,3,0
 3,"Sunny Day","Rocky Face",5.8,3,0
