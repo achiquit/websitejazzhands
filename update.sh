@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo "Updating Sitemap"
+python3 -m sitemap-gen
+
 echo "Pushing website to GitHub"
 git commit -a -m "Automatic DB Update"
 git push
