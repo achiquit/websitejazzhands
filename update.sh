@@ -10,6 +10,7 @@ echo ""
 echo ""
 
 echo "=+=+=+=+=+=+=+=--- Pushing website to GitHub ---=+=+=+=+=+=+=+="
+git add .
 git commit -a -m "Automatic DB Update"
 git push
 
