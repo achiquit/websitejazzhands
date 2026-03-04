@@ -3,9 +3,15 @@
 echo "=+=+=+=+=+=+=+=--- Updating Sitemap ---=+=+=+=+=+=+=+="
 python3 -m sitemap-gen
 
+echo ""
+echo ""
+
 echo "=+=+=+=+=+=+=+=--- Pushing website to GitHub ---=+=+=+=+=+=+=+="
 git commit -a -m "Automatic DB Update"
 git push
+
+echo ""
+echo ""
 
 echo "=+=+=+=+=+=+=+=--- Updating server ---=+=+=+=+=+=+=+="
 read -s -p "Enter Server Password Here: " password
