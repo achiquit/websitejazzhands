@@ -44,4 +44,5 @@
 <p>"The circumstances of our lives may matter less than how we see them."<br>- <a href="https://en.wikipedia.org/wiki/Rory_Sutherland_(advertising_executive)" target="_blank">Rory Sutherland</a></p>
 <p>"Silence is not the absence of something but the presence of everything."<br>- <a href="https://soundtracker.com/" target="_blank">Gordon Hempton</a></p>
 <p>"I wish there was a way to know you're in the good old days before you've left them."<br>- Andy Bernard, <i>The Office</i></p>
-<p>"Lighthouse man can't help us all<br>Some he'll save and some will fall<br>He'll show you where the danger lies<br>But he can't help it if you capsize<br>He'll light your way but that is all<br>Steer your own ship back to shore<br>- The Waifs, <i>Lighthouse</i>
+<p>"Lighthouse man can't help us all<br>Some he'll save and some will fall<br>He'll show you where the danger lies<br>But he can't help it if you capsize<br>He'll light your way but that is all<br>Steer your own ship back to shore.<br>- The Waifs, <i>Lighthouse</i></p>
+<p>"Be curious, not judgmental."<br>- Marguerite and Marshall Shearer</p>
