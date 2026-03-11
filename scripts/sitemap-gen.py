@@ -13,5 +13,5 @@ with open("../sitemap.txt","w+") as sitemapConsole:
 
 print(f"Total Pages: " + str(count))
 
-with open("../sitemap/sitemap.txt","w+") as sitemapUser:
-    sitemapUser.write(f"https://andre.chiquit.ooo" + root)
+# with open("../sitemap/sitemap.txt","w+") as sitemapUser:
+#     sitemapUser.write(f"https://andre.chiquit.ooo" + root)
