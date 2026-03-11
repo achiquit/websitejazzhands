@@ -2,8 +2,7 @@ import os
 import re
 
 count = 0
-with open("../sitemap.txt","w+") as sitemapConsole:
-    with open("../sitemap/sitemap.txt", "w+") as sitemapUser:
+with open("../sitemap.txt","w+") as sitemapConsole, open("../sitemap/sitemap.txt", "w+") as sitemapUser:
         for root, dirs, files in os.walk('../.'):
             if "index.html" in files:
                 count += 1
