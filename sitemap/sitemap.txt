@@ -1,70 +1,90 @@
 Home
-.././contact
-.././adventures
-.././adventures/2022/another-alternative
-.././adventures/2022/unexpected-caving
-.././adventures/2022/scuba
-.././adventures/2022/solo-summer
-.././adventures/2022/solo-summer/norway
-.././adventures/2022/solo-summer/workaway
-.././adventures/2022/solo-summer/packing-up
-.././adventures/2022/solo-summer/germany
-.././adventures/2022/solo-summer/bleeding-ghyll
-.././adventures/2022/solo-summer/lofoten
-.././adventures/2022/solo-summer/rio
-.././adventures/2022/solo-summer/campo-grande
-.././adventures/2025/yosemite-big-walling
-.././adventures/2025/mount-olympus
-.././adventures/2025/seneca-summer-ii
-.././adventures/2024/freeze-thaw
-.././adventures/2024/freeze-thaw/mushing-in-norway
-.././adventures/2024/freeze-thaw/climbing-in-brazil
-.././adventures/2024/freeze-thaw/pedaling-east-coast
-.././adventures/2024/summer-in-seneca
-.././adventures/2023/first-ascents
-.././adventures/2023/life-update
-.././adventures/2023/postgrad
-.././adventures/2023/postgrad/colorado
-.././adventures/2023/postgrad/caving
-.././adventures/2023/postgrad/southwest
-.././adventures/2026/potrero-chico
-.././adventures/2021/alaska
-.././adventures/2021/pan-american-highway
-.././adventures/2021/pan-american-highway/honduras
-.././adventures/2021/pan-american-highway/guatemala
-.././adventures/2021/pan-american-highway/guatemala/acatenango
-.././adventures/2021/pan-american-highway/guatemala/family-friend
-.././adventures/2021/pan-american-highway/el-salvador
-.././adventures/2021/pan-american-highway/belize
-.././adventures/2021/pan-american-highway/nicaragua
-.././adventures/2021/pan-american-highway/nicaragua/i-lied
-.././adventures/2021/pan-american-highway/nicaragua/masaya
-.././adventures/2021/pan-american-highway/colombia
-.././adventures/2021/pan-american-highway/colombia/bogota
-.././adventures/2021/pan-american-highway/colombia/cartagena
-.././adventures/2021/pan-american-highway/mexico
-.././adventures/2021/pan-american-highway/mexico/monolith
-.././adventures/2021/pan-american-highway/mexico/stranded-again
-.././adventures/2021/pan-american-highway/mexico/ixtaccihuatl
-.././adventures/2021/pan-american-highway/mexico/entering-mexico
-.././adventures/2021/pan-american-highway/mexico/corrupt-police
-.././adventures/2021/pan-american-highway/mexico/yucatan
-.././adventures/2021/pan-american-highway/mexico/sumidero
-.././adventures/2021/pan-american-highway/mexico/la-paz
-.././adventures/2021/pan-american-highway/costa-rica
-.././adventures/2021/pan-american-highway/costa-rica/nosara
-.././adventures/2021/pan-american-highway/costa-rica/cloudbridge
-.././adventures/2021/pan-american-highway/panama
-.././adventures/2021/pan-american-highway/panama/la-granja
-.././adventures/2021/pan-american-highway/panama/darien-gap
-.././adventures/2021/pan-american-highway/panama/panama-city
-.././adventures/2021/henry-traverse
-.././resume
-.././photography
-.././about
-.././salve
-.././blog/how-to-make-salve
-.././get-updates
-.././climbing
-.././where-is-andre
-.././wild-west
+.././dangleboard/web
+.././climbing-journal/journal
+.././Coaching/website
+.././School/UNC-CH/Spring 2023/MEJO 187/Project 2
+.././School/UNC-CH/Spring 2023/MEJO 187/CSS Bootcamp
+.././School/UNC-CH/Spring 2021/INLS 161/Week 5/task02-02
+.././School/UNC-CH/Spring 2021/INLS 161/Week 5/task02-02/Feel-Better
+.././School/UNC-CH/Spring 2021/INLS 161/Week 8/My Website
+.././School/UNC-CH/Spring 2021/INLS 161/Week 8/My Website/Contact
+.././School/UNC-CH/Spring 2021/INLS 161/Week 8/My Website/Classes/NSCI222
+.././School/UNC-CH/Spring 2021/INLS 161/Week 8/My Website/Classes/INLS161
+.././School/UNC-CH/Spring 2021/INLS 161/Week 8/My Website/Classes/INLS161/task03
+.././School/UNC-CH/Spring 2021/INLS 161/Week 8/My Website/Classes/INLS161/task04
+.././School/UNC-CH/Spring 2021/INLS 161/Week 8/My Website/Classes/INLS161/task05
+.././School/UNC-CH/Spring 2021/INLS 161/Week 8/My Website/About
+.././School/UNC-CH/Spring 2021/INLS 161/Week 8/My Website/Interests/Aerial-Silks
+.././School/UNC-CH/Spring 2021/INLS 161/Week 8/My Website/Interests/Learning
+.././School/UNC-CH/Spring 2021/INLS 161/Week 8/My Website/Interests/Rock
+.././School/UNC-CH/Spring 2021/INLS 161/Week 8/Example of Dropdown Menu
+.././websitejazzhands
+.././websitejazzhands/contact
+.././websitejazzhands/adventures
+.././websitejazzhands/adventures/2022/another-alternative
+.././websitejazzhands/adventures/2022/unexpected-caving
+.././websitejazzhands/adventures/2022/scuba
+.././websitejazzhands/adventures/2022/solo-summer
+.././websitejazzhands/adventures/2022/solo-summer/norway
+.././websitejazzhands/adventures/2022/solo-summer/workaway
+.././websitejazzhands/adventures/2022/solo-summer/packing-up
+.././websitejazzhands/adventures/2022/solo-summer/germany
+.././websitejazzhands/adventures/2022/solo-summer/bleeding-ghyll
+.././websitejazzhands/adventures/2022/solo-summer/lofoten
+.././websitejazzhands/adventures/2022/solo-summer/rio
+.././websitejazzhands/adventures/2022/solo-summer/campo-grande
+.././websitejazzhands/adventures/2025/yosemite-big-walling
+.././websitejazzhands/adventures/2025/mount-olympus
+.././websitejazzhands/adventures/2025/seneca-summer-ii
+.././websitejazzhands/adventures/2024/freeze-thaw
+.././websitejazzhands/adventures/2024/freeze-thaw/mushing-in-norway
+.././websitejazzhands/adventures/2024/freeze-thaw/climbing-in-brazil
+.././websitejazzhands/adventures/2024/freeze-thaw/pedaling-east-coast
+.././websitejazzhands/adventures/2024/summer-in-seneca
+.././websitejazzhands/adventures/2023/first-ascents
+.././websitejazzhands/adventures/2023/life-update
+.././websitejazzhands/adventures/2023/postgrad
+.././websitejazzhands/adventures/2023/postgrad/colorado
+.././websitejazzhands/adventures/2023/postgrad/caving
+.././websitejazzhands/adventures/2023/postgrad/southwest
+.././websitejazzhands/adventures/2026/potrero-chico
+.././websitejazzhands/adventures/2021/alaska
+.././websitejazzhands/adventures/2021/pan-american-highway
+.././websitejazzhands/adventures/2021/pan-american-highway/honduras
+.././websitejazzhands/adventures/2021/pan-american-highway/guatemala
+.././websitejazzhands/adventures/2021/pan-american-highway/guatemala/acatenango
+.././websitejazzhands/adventures/2021/pan-american-highway/guatemala/family-friend
+.././websitejazzhands/adventures/2021/pan-american-highway/el-salvador
+.././websitejazzhands/adventures/2021/pan-american-highway/belize
+.././websitejazzhands/adventures/2021/pan-american-highway/nicaragua
+.././websitejazzhands/adventures/2021/pan-american-highway/nicaragua/i-lied
+.././websitejazzhands/adventures/2021/pan-american-highway/nicaragua/masaya
+.././websitejazzhands/adventures/2021/pan-american-highway/colombia
+.././websitejazzhands/adventures/2021/pan-american-highway/colombia/bogota
+.././websitejazzhands/adventures/2021/pan-american-highway/colombia/cartagena
+.././websitejazzhands/adventures/2021/pan-american-highway/mexico
+.././websitejazzhands/adventures/2021/pan-american-highway/mexico/monolith
+.././websitejazzhands/adventures/2021/pan-american-highway/mexico/stranded-again
+.././websitejazzhands/adventures/2021/pan-american-highway/mexico/ixtaccihuatl
+.././websitejazzhands/adventures/2021/pan-american-highway/mexico/entering-mexico
+.././websitejazzhands/adventures/2021/pan-american-highway/mexico/corrupt-police
+.././websitejazzhands/adventures/2021/pan-american-highway/mexico/yucatan
+.././websitejazzhands/adventures/2021/pan-american-highway/mexico/sumidero
+.././websitejazzhands/adventures/2021/pan-american-highway/mexico/la-paz
+.././websitejazzhands/adventures/2021/pan-american-highway/costa-rica
+.././websitejazzhands/adventures/2021/pan-american-highway/costa-rica/nosara
+.././websitejazzhands/adventures/2021/pan-american-highway/costa-rica/cloudbridge
+.././websitejazzhands/adventures/2021/pan-american-highway/panama
+.././websitejazzhands/adventures/2021/pan-american-highway/panama/la-granja
+.././websitejazzhands/adventures/2021/pan-american-highway/panama/darien-gap
+.././websitejazzhands/adventures/2021/pan-american-highway/panama/panama-city
+.././websitejazzhands/adventures/2021/henry-traverse
+.././websitejazzhands/resume
+.././websitejazzhands/photography
+.././websitejazzhands/about
+.././websitejazzhands/salve
+.././websitejazzhands/blog/how-to-make-salve
+.././websitejazzhands/get-updates
+.././websitejazzhands/climbing
+.././websitejazzhands/where-is-andre
+.././websitejazzhands/wild-west
