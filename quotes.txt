@@ -47,4 +47,5 @@
 <p>"Lighthouse man can't help us all<br>Some he'll save and some will fall<br>He'll show you where the danger lies<br>But he can't help it if you capsize<br>He'll light your way but that is all<br>Steer your own ship back to shore.<br>- The Waifs, <i>Lighthouse</i></p>
 <p>"Be curious, not judgmental."<br>- Marguerite and Marshall Shearer</p>
 <p>"You are who you choose to be."<br>- Ted Hughes</p>
-<p>"I read somewhere that love could banish demons.<br>- <i>Dinosaur</i>, Joey Pecoraro</p>
+<p>"I read somewhere that love could banish demons."<br>- <i>Dinosaur</i>, Joey Pecoraro</p>
+<p>"Ethics is nothing more than reverence for life."<br>- Albert Schweitzer</p>
