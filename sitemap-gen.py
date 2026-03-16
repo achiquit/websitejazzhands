@@ -13,5 +13,12 @@ with open("sitemap.txt","w+") as sitemapConsole:
 
 print(f"Total Pages: " + str(count))
 
+count = 0
+with open ("quotes.txt", "r") as quotes:
+     for line in quotes:
+          count += 1
+
+print(f"Total Quotes: " + str(count))
+
 # with open("../sitemap/sitemap.txt","w+") as sitemapUser:
 #     sitemapUser.write(f"https://andre.chiquit.ooo" + root)
