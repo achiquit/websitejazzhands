@@ -49,3 +49,5 @@
 <p>"You are who you choose to be."<br>- Ted Hughes</p>
 <p>"I read somewhere that love could banish demons."<br>- <i>Dinosaur</i>, Joey Pecoraro</p>
 <p>"Ethics is nothing more than reverence for life."<br>- Albert Schweitzer</p>
+<p>"The <i>ham sandwich</i> is waiting for his check."<br>- George Lakoff, <i>Metaphors We Live By</i>, pg. 35</p>
+<p>"When the student is ready, the teacher appears."<br>- Buddhist Saying</p>
