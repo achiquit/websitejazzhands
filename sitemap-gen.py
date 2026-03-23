@@ -11,7 +11,10 @@ with open("sitemap.txt","w+") as sitemapConsole:
                 else:
                     sitemapConsole.write(f"\nhttps://andre.chiquit.ooo" + re.sub("^.", "", root, count=1) + "/")
 
-print(f"Total Pages: " + str(count))
+print('=+=+=+=+=+=+=+=--- By The Numbers ---=+=+=+=+=+=+=+=')
+print('')
+
+print(f"Total webpages: " + str(count))
 
 count = 0
 with open ("quotes.txt", "r") as quotes:
