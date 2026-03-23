@@ -17,7 +17,7 @@ print('')
 print('=+=+=+=+=+=+=+=--- By The Numbers ---=+=+=+=+=+=+=+=')
 print('')
 
-print(f"Total webpages: " + str(count))
+print(f"Total Webpages: " + str(count))
 
 count = 0
 with open ("quotes.txt", "r") as quotes:
