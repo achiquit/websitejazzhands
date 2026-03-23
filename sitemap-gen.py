@@ -11,6 +11,9 @@ with open("sitemap.txt","w+") as sitemapConsole:
                 else:
                     sitemapConsole.write(f"\nhttps://andre.chiquit.ooo" + re.sub("^.", "", root, count=1) + "/")
 
+print('Sitemap Updated! :)')
+print('')
+
 print('=+=+=+=+=+=+=+=--- By The Numbers ---=+=+=+=+=+=+=+=')
 print('')
 
