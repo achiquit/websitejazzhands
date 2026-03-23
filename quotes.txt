@@ -35,7 +35,7 @@
 <p>"In every person there is a sun. Just let them shine."<br>- Socrates</p>
 <p>"It is possible to commit no mistakes and still lose. That is not a weakness, that is life."<br>- Jean-Luc Picard</p>
 <p>"A is for- ... Eww."<br>- Ashley Ackley</p>
-<p>"Logic is unshakeable , but it cannot prevail against a man who wishes to live."<br>- Franz Kafka, <i>The Trial</i></p>
+<p>"Logic is unshakeable, but it cannot prevail against a man who wishes to live."<br>- Franz Kafka, <i>The Trial</i></p>
 <p>"I want AI to do my laundry and dishes so that I can do art and writing, not for AI to do my art and writing so that I can do my laundry and dishes."<br>- Joanna Maciejewska</p>
 <p>"I deprecate war, but if it's brought to my door, the bringer will find me at home."<br>- James Garfield</p>
 <p>"Losing love is like a window in your heart."<br>- Paul Simon</p>
@@ -51,3 +51,4 @@
 <p>"Ethics is nothing more than reverence for life."<br>- Albert Schweitzer</p>
 <p>"The <i>ham sandwich</i> is waiting for his check."<br>- George Lakoff, <i>Metaphors We Live By</i>, pg. 35</p>
 <p>"When the student is ready, the teacher appears."<br>- Buddhist Saying</p>
+<p>"When one is speaking of the essence of things, it often happens that one can only speak in generalities. Concrete things certainly do command attention, but they are often little more than trivia. Side trips. The more one tries to see into the distance, the more generalized things become."<br>- Malta Kano, <i>The Wind-Up Bird Chronicle</i> by Haruki Murakami</p>
