@@ -17,12 +17,13 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 7,Crescendo,"Nelson Rocks",5.10a,7,0
 7,"Candy Corner","Seneca Rocks",5.6,2,5
 6,Starry,"Upper Meadow",5.12a,6,0
+6,"Critter Crack","Seneca Rocks",5.6,3,3
 6,"The Burn","Seneca Rocks",5.8,3,3
 6,Ambush,"Seneca Rocks",5.11a,3,3
 6,"Any Major Dude","Pilot Mountain",5.11c,6,0
 6,"Pole Dancing","Pilot Mountain",5.7,6,0
 5,Mongoose,"Seneca Rocks",5.11a,5,0
-5,"Critter Crack","Seneca Rocks",5.6,3,2
+5,"Le Gourmet","Seneca Rocks",5.4,2,3
 5,Thais,"Seneca Rocks",5.6,2,3
 5,"Grandpa's Belay","Pilot Mountain",5.6,5,0
 5,"Crackin' Up","Pilot Mountain",5.7,5,0
@@ -36,7 +37,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 4,"Man Overboard","Pilot Mountain",5.10c,4,0
 4,Costao,"Pao de Acucar",5.7,3,1
 4,"Bee Sting Corner","Seneca Rocks",5.7,3,1
-4,"Le Gourmet","Seneca Rocks",5.4,2,2
+4,"Front C","Seneca Rocks",5.6,1,3
 4,"Lower Skyline Direct (LSD)","Seneca Rocks",5.5,2,2
 4,"Neck Press","Seneca Rocks",5.7,2,2
 4,Prune,"Seneca Rocks",5.7,3,1
@@ -45,6 +46,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 4,"Ye Gods & Little Fishes","Seneca Rocks",5.8,2,2
 4,"Triple S","Seneca Rocks",5.8,2,2
 4,"Block Party","Seneca Rocks",5.8,1,3
+4,Sunshine,"Seneca Rocks","5.10a, PG13",3,1
 4,Ecstasy,"Seneca Rocks",5.7,3,1
 4,Outhouse,"Pilot Mountain",5.7,4,0
 4,"Son of White Trash","The Dump",5.8,4,0
@@ -63,14 +65,12 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"Frosted Flake","Cereal Buttress",5.9+,3,0
 3,"Grizzly Adams","Nelson Rocks",5.11a,3,0
 3,Coringa,"Pao de Acucar",5.6,2,1
-3,"Front C","Seneca Rocks",5.6,1,2
 3,"Seneca Daze","Seneca Rocks","5.7, PG13",1,2
 3,"License to Drill","Nelson Rocks",5.10a,3,0
 3,"Climbin' Punishment","Seneca Rocks",5.8,2,1
 3,Pollux,"Seneca Rocks",5.10a,3,0
 3,"Up and Coming","Seneca Rocks",5.4,1,2
 3,"Right Tope","Seneca Rocks",5.9,3,0
-3,Sunshine,"Seneca Rocks","5.10a, PG13",3,0
 3,"High Test","Seneca Rocks",5.9,3,0
 3,"Hot Yoga","Pilot Mountain",5.10a,3,0
 3,KMA,"Pilot Mountain",5.8,3,0
