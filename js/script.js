@@ -53,7 +53,6 @@ $("#header").load("/header.html", function() {
 $("#footer").load("/footer.html", function() {
     footerInit();
     randomLineGenerator('/quotes.txt', '#quote');
-    console.log("Called the random quote func!");
 });
 
 // Calculating years since a certain date (for About Me page)
@@ -159,6 +158,3 @@ function() {
         }
     });
 });
-
-// Add current year
-document.getElementById('footer-year').appendChild(document.createTextNode(new Date().getFullYear()))
