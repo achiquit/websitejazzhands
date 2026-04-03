@@ -1,0 +1,16 @@
+# Python virtual environment
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# uv local cache
+.uv/
+
+# setuptools editable install artifacts
+*.egg-info/
+
+# macOS
+.DS_Store
