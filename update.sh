@@ -4,7 +4,7 @@ echo ""
 echo ""
 
 echo "=+=+=+=+=+=+=+=--- Updating Sitemap ---=+=+=+=+=+=+=+="
-python3 sitemap-gen.py
+uv run sitemap-gen
 
 echo ""
 echo ""
