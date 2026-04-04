@@ -23,6 +23,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 6,"Any Major Dude","Pilot Mountain",5.11c,6,0
 6,"Pole Dancing","Pilot Mountain",5.7,6,0
 5,Mongoose,"Seneca Rocks",5.11a,5,0
+5,Dominion,"Nelson Rocks",5.10b,5,0
 5,"Le Gourmet","Seneca Rocks",5.4,2,3
 5,Thais,"Seneca Rocks",5.6,2,3
 5,"Grandpa's Belay","Pilot Mountain",5.6,5,0
@@ -32,7 +33,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 4,"Porcelain Pump","Nelson Rocks",5.11a,4,0
 4,"Marshall's Madness","Seneca Rocks",5.9,3,1
 4,Lifers,"Nelson Rocks",5.10a,4,0
-4,Dominion,"Nelson Rocks",5.10b,4,0
 4,"West Pole","Seneca Rocks",5.7,3,1
 4,"Man Overboard","Pilot Mountain",5.10c,4,0
 4,Costao,"Pao de Acucar",5.7,3,1
@@ -100,6 +100,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Bat Girl","Sasquatch Crag",5.9,2,0
 2,"Master Gardner","Cotton Club",5.7-,2,0
 2,"Mr. Cute","Upper Meadow",5.11a,2,0
+2,"Ed's Fudge Shop","Nelson Rocks",5.10a,2,0
 2,Kakaroots,Cantagalo,5.9,2,0
 2,"Inversao Feminina",Graalzinho,5.7,2,0
 2,"Formiga Atomica",Graalzinho,5.6,2,0
@@ -116,6 +117,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,Mushrooms,"Beauty Mountain",5.10a,2,0
 2,"Back to the Front","Seneca Rocks",5.9,2,0
 2,"Never Say Never","Nelson Rocks",5.10c,2,0
+2,Kamikaze,"Nelson Rocks",5.10a,2,0
 2,"Internal Dialogue","Reeds Creek",5.8,2,0
 2,"Honey Hole 5.7","Honey Hole",5.7,2,0
 2,"Honey Hole 5.10a","Honey Hole",5.10a,2,0
@@ -202,6 +204,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Baby Bear","Pilot Mountain",5.11a,2,0
 2,"Spock's Brain","Seneca Rocks",5.11a,2,0
 2,"Mild Mannered Secretary","Pilot Mountain",5.7,2,0
+1,Excalibur,"Nelson Rocks",5.12a,1,0
 1,"Pancho Villa Rides Again","El Potrero Chico",5.10c,1,0
 1,"Snott Girlz","El Potrero Chico",5.10d,1,0
 1,"Blue Fin","El Potrero Chico",5.12a,1,0
@@ -281,7 +284,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,"Unknown 5.10c","Nelson Rocks",5.10c,1,0
 1,"The Petting Zoo","Nelson Rocks",5.10b,1,0
 1,"The Wax Museum","Nelson Rocks",5.10a,1,0
-1,"Ed's Fudge Shop","Nelson Rocks",5.10a,1,0
 1,"Cast of Thousands","Nelson Rocks",5.10a,1,0
 1,Silhouette,"Pilot Mountain",5.9,1,0
 1,"Ovos Na Chapa","Morro Dona Marta",5.9,1,0
@@ -314,7 +316,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,"Rear Entry","Seneca Rocks",5.8,1,0
 1,"Flying Bunghole","Nelson Rocks",5.10b,1,0
 1,"Wild Men Only","Seneca Rocks","5.10a, PG13",1,0
-1,Kamikaze,"Nelson Rocks",5.10a,1,0
 1,"Honey Hole 5.8","Honey Hole",5.8,1,0
 1,"EZ Wider","Nelson Rocks",5.6,1,0
 1,Orangeaid,"Seneca Rocks",5.10b,1,0
