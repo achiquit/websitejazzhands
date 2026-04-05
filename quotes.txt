@@ -60,3 +60,4 @@
 <p>"Be a goldfish."<br>- Ted Lasso</p>
 <p>"The truth will set you free, but first it will piss you off."<br>- Joe Klaas</p>
 <p>"Tomorrow the sun will rise. Who knows what the tide could bring?"<br>- Chuck Noland, <i>Castaway</i></p>
+<p>"The last time I did a Celtic design was once upon a very long time ago that I do not remember."<br>- Tatu Baby, <i>Ink Master S3E4</i></p>
