@@ -1,21 +1,21 @@
 Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
-25,"Totem (p1 only)","Seneca Rocks",5.4,5,20
+26,"Totem (p1 only)","Seneca Rocks",5.4,5,21
 23,"Old Man's Route","Seneca Rocks",5.2,12,11
 15,"Devil in the White House","Pilot Mountain",5.10c,15,0
 14,"Skyline Traverse","Seneca Rocks",5.3,9,5
 13,Predator,"Seneca Rocks",5.12a,13,0
 13,"The Medallion","Teer Quarry",5.10a,13,0
 11,"Old Ladies Route","Seneca Rocks",5.2,6,5
+11,"Conn's West","Seneca Rocks",5.4,3,8
 10,"Gunsight to South Peak","Seneca Rocks",5.4,6,4
-10,"Conn's West","Seneca Rocks",5.4,3,7
 10,"The Great Arch","Stone Mountain",5.5,8,2
 9,"New Yosemite","The Junkyard",5.9,9,0
 9,Erocktica,"Pilot Mountain",5.10c,9,0
 8,"Worrell's Thicket","Seneca Rocks",5.1,5,3
 8,"Roy Gap Chimney's","Seneca Rocks",5.6,2,6
 8,"Ecstasy Junior","Seneca Rocks",5.4,5,3
+8,"Candy Corner","Seneca Rocks",5.6,2,6
 7,Crescendo,"Nelson Rocks",5.10a,7,0
-7,"Candy Corner","Seneca Rocks",5.6,2,5
 6,Starry,"Upper Meadow",5.12a,6,0
 6,"Critter Crack","Seneca Rocks",5.6,3,3
 6,"The Burn","Seneca Rocks",5.8,3,3
@@ -66,6 +66,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"Frosted Flake","Cereal Buttress",5.9+,3,0
 3,"Grizzly Adams","Nelson Rocks",5.11a,3,0
 3,Coringa,"Pao de Acucar",5.6,2,1
+3,"Gert's Grungy Gulley","Seneca Rocks",5.4,0,3
 3,"License to Drill","Nelson Rocks",5.10a,3,0
 3,"Climbin' Punishment","Seneca Rocks",5.8,2,1
 3,Pollux,"Seneca Rocks",5.10a,3,0
@@ -108,7 +109,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,K2,Corcovado,"5.9, PG13",2,0
 2,"Via dos Italianos","Pao de Acucar","5.10a, Grade III",2,0
 2,"Dufty's Popoff","Seneca Rocks","5.7, PG13",2,0
-2,"Gert's Grungy Gulley","Seneca Rocks",5.4,0,2
 2,"Gunsight to South Peak Direct","Seneca Rocks",5.4,1,1
 2,"Windy Corner","Seneca Rocks",5.4,1,1
 2,Millennium,"Nelson Rocks",5.7,2,0
