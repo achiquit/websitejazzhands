@@ -16,20 +16,22 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 8,"Ecstasy Junior","Seneca Rocks",5.4,5,3
 8,"Candy Corner","Seneca Rocks",5.6,2,6
 7,Crescendo,"Nelson Rocks",5.10a,7,0
+7,Ambush,"Seneca Rocks",5.11a,4,3
 6,Starry,"Upper Meadow",5.12a,6,0
 6,"Critter Crack","Seneca Rocks",5.6,3,3
 6,"The Burn","Seneca Rocks",5.8,3,3
-6,Ambush,"Seneca Rocks",5.11a,3,3
 6,"Any Major Dude","Pilot Mountain",5.11c,6,0
 6,"Pole Dancing","Pilot Mountain",5.7,6,0
 5,Mongoose,"Seneca Rocks",5.11a,5,0
 5,Dominion,"Nelson Rocks",5.10b,5,0
 5,"Le Gourmet","Seneca Rocks",5.4,2,3
 5,Thais,"Seneca Rocks",5.6,2,3
+5,"Block Party","Seneca Rocks",5.8,2,3
 5,"Grandpa's Belay","Pilot Mountain",5.6,5,0
 5,"Crackin' Up","Pilot Mountain",5.7,5,0
 5,"U Slot","Stone Mountain","5.7, PG13",4,1
 5,"Sentinel Buttress","Sentinel Buttress",5.5,5,0
+5,"Fear of Flying","Seneca Rocks",5.8,2,3
 4,"Porcelain Pump","Nelson Rocks",5.11a,4,0
 4,"Marshall's Madness","Seneca Rocks",5.9,3,1
 4,Lifers,"Nelson Rocks",5.10a,4,0
@@ -46,12 +48,10 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 4,"Thais - Variation Thais Escape","Seneca Rocks",5.5,0,4
 4,"Ye Gods & Little Fishes","Seneca Rocks",5.8,2,2
 4,"Triple S","Seneca Rocks",5.8,2,2
-4,"Block Party","Seneca Rocks",5.8,1,3
 4,Sunshine,"Seneca Rocks","5.10a, PG13",3,1
 4,Ecstasy,"Seneca Rocks",5.7,3,1
 4,Outhouse,"Pilot Mountain",5.7,4,0
 4,"Son of White Trash","The Dump",5.8,4,0
-4,"Fear of Flying","Seneca Rocks",5.8,1,3
 4,"Pilot Error (chicken bone right)","Pilot Mountain",5.8-,4,0
 4,Vegomatic,"Pilot Mountain",5.7+,4,0
 4,Hardman,"Rocky Face",5.11b,4,0
@@ -204,6 +204,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Baby Bear","Pilot Mountain",5.11a,2,0
 2,"Spock's Brain","Seneca Rocks",5.11a,2,0
 2,"Mild Mannered Secretary","Pilot Mountain",5.7,2,0
+1,"Fear of Flailing","Seneca Rocks",5.7,1,0
 1,Jaws,"Wave Wall",5.10a,1,0
 1,"Duck Dive","Wave Wall",5.9,1,0
 1,"Surfs Up","Wave Wall",5.11a,1,0
