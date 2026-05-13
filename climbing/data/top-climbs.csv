@@ -8,7 +8,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 11,"Old Ladies Route","Seneca Rocks",5.2,6,5
 11,"Conn's West","Seneca Rocks",5.4,3,8
 10,"Gunsight to South Peak","Seneca Rocks",5.4,6,4
-10,"The Great Arch","Stone Mountain",5.5,8,2
+10,"The Great Arch","Stone Mountain","5.5, Grade II",8,2
 9,"New Yosemite","The Junkyard",5.9,9,0
 9,Erocktica,"Pilot Mountain",5.10c,9,0
 8,"Worrell's Thicket","Seneca Rocks",5.1,5,3
@@ -97,7 +97,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"Teflon Toes","Pilot Mountain",5.11a,3,0
 3,"Tee Ball","The Trestle",5.6,3,0
 2,"The Glass Menagerie (Aid)","Looking Glass Rock","5.10a, C2, PG13, Grade IV",2,0
-2,"Blue Glacier","Mount Olympus","Moderate Snow, 5th, Grade II",2,0
+2,"Blue Glacier","Mount Olympus","Moderate Snow, 5th, Grade III",2,0
 2,"Bat Girl","Sasquatch Crag",5.9,2,0
 2,"Master Gardner","Cotton Club",5.7-,2,0
 2,"Mr. Cute","Upper Meadow",5.11a,2,0
@@ -106,7 +106,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Inversao Feminina",Graalzinho,5.7,2,0
 2,"Formiga Atomica",Graalzinho,5.6,2,0
 2,Graalzinho,Graalzinho,5.5,2,0
-2,K2,Corcovado,"5.9, PG13",2,0
+2,K2,Corcovado,"5.9, PG13, Grade III",2,0
 2,"Via dos Italianos","Pao de Acucar","5.10a, Grade III",2,0
 2,"Dufty's Popoff","Seneca Rocks","5.7, PG13",2,0
 2,"Gunsight to South Peak Direct","Seneca Rocks",5.4,1,1
@@ -227,27 +227,27 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,"Blueberry Squishy","Kwik-E-Mart Wall",5.4,1,0
 1,"Crotchrocket Spire","Riverton Rock",5.9,1,0
 1,Excalibur,"Nelson Rocks",5.12a,1,0
-1,"Pancho Villa Rides Again","El Potrero Chico",5.10c,1,0
-1,"Snott Girlz","El Potrero Chico",5.10d,1,0
+1,"Pancho Villa Rides Again","El Potrero Chico","5.10c, Grade II",1,0
+1,"Snott Girlz","El Potrero Chico","5.10d, Grade II",1,0
 1,"Blue Fin","El Potrero Chico",5.12a,1,0
-1,"Time Wave Zero","El Potrero Chico",5.12a,1,0
+1,"Time Wave Zero","El Potrero Chico","5.12a, Grade III",1,0
 1,"Lisa's Pizzas","El Potrero Chico",5.5,1,0
-1,"When You're Lost In The Wild","El Potrero Chico",5.11b,1,0
+1,"When You're Lost In The Wild","El Potrero Chico","5.11b, Grade III",1,0
 1,"Aguja Celo Rey","El Potrero Chico",5.10b,1,0
 1,"Inglorious Bastards","El Potrero Chico",5.12a,1,0
-1,"Pitch Black","El Potrero Chico",5.10d,1,0
-1,"Jungle Mountaineering","El Potrero Chico",5.10a,1,0
+1,"Pitch Black","El Potrero Chico","5.10d, Grade III",1,0
+1,"Jungle Mountaineering","El Potrero Chico","5.10a, Grade II",1,0
 1,"Graffiti Route","El Potrero Chico",5.8,1,0
 1,"Deja Vu","El Potrero Chico",5.9,1,0
 1,CDC&J,"El Potrero Chico",5.9,1,0
-1,"Yankee Clipper","El Potrero Chico",5.12a,1,0
+1,"Yankee Clipper","El Potrero Chico","5.12a, Grade III",1,0
 1,"La Chiky Baby","El Potrero Chico",5.8,1,0
-1,"Yankee Clipper (p1 only)","El Potrero Chico",5.8,1,0
+1,"Yankee Clipper (p1 only)","El Potrero Chico","5.8, Grade III",1,0
 1,"Evil Shenanigans","El Potrero Chico",5.11b,1,0
 1,"Howlin' Wolf","El Potrero Chico",5.9,1,0
 1,"The Anvil","El Potrero Chico",5.8,1,0
 1,"Lobos Trabajando","El Potrero Chico",5.11c,1,0
-1,"Will The Wolf Survive?","El Potrero Chico",5.10a,1,0
+1,"Will The Wolf Survive?","El Potrero Chico","5.10a, Grade II",1,0
 1,"Knob Wall","Sand Rock",5.6,1,0
 1,"Big Erector",Sauratown,5.9+,1,0
 1,"Just As I Am","Devil Boulder",V0,1,0
@@ -271,7 +271,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,Butterballs,"Cookie Cliff",5.11c,1,0
 1,"Beverly's Tower","Cookie Cliff",5.10a,1,0
 1,Freeblast,"El Capitan","5.9, C2, Grade IV",1,0
-1,Tuscarora,"Champe Rocks",5.7,1,0
+1,Tuscarora,"Champe Rocks","5.7, Grade II",1,0
 1,SPF40,"The Beach",5.9,1,0
 1,"Janoscrat Crack","Champe Rocks",5.11a,1,0
 1,"Behind the Pine","Champe Rocks",5.10a,1,0
@@ -310,13 +310,13 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,Silhouette,"Pilot Mountain",5.9,1,0
 1,"Ovos Na Chapa","Morro Dona Marta",5.9,1,0
 1,"Fissura Esquecida","Morro Dona Marta",5.10a,1,0
-1,"Passagem dos Olhos","Pedra da Gavea","5.8, Grade IV",1,0
+1,"Passagem dos Olhos","Pedra da Gavea","5.8, Grade III",1,0
 1,"Via do Crico",Graalzinho,5.8,1,0
 1,Rapunzel,Graalzinho,5.9,1,0
 1,"Para os Baixinhos",Graalzinho,5.9,1,0
 1,Infravermelho,"Morro da Urca",5.6,1,0
 1,CERJ,Capacete,"5.9, PG13, Grade III",1,0
-1,K3,Corcovado,5.10d,1,0
+1,K3,Corcovado,"5.10d, Grade III",1,0
 1,"Waldemar Guimaraes (Waldo)","Pao de Acucar","5.11d, PG13, Grade III",1,0
 1,CEPI,"Pao de Acucar",B,1,0
 1,"Preto (with Rubro Negro var)","Morro da Urca",5.7,1,0

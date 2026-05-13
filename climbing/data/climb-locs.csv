@@ -405,7 +405,7 @@ Latitude,Longitude,Climb,Difficulty,Area
 38.0607," -81.0671","Two Bag Face","5.9, R","Fern Buttress"
 36.3973," -80.2861","Sentinel Buttress",5.5,"Sentinel Buttress"
 36.3916," -81.0473","U Slot","5.7, PG13","Stone Mountain"
-36.3916," -81.0473","The Great Arch",5.5,"Stone Mountain"
+36.3916," -81.0473","The Great Arch","5.5, Grade II","Stone Mountain"
 36.09764," -81.77188",Vermin,5.10b,"The Dump"
 36.09764," -81.77188","Voodoo Child",5.11a,"The Dump"
 36.09764," -81.77188","Dimpsty Dumpster",5.10a,"The Dump"
@@ -554,8 +554,8 @@ Latitude,Longitude,Climb,Difficulty,Area
 -22.949900," -43.159100",CEPI,B,"Pao de Acucar"
 -22.949900," -43.159100","Waldemar Guimaraes (Waldo)","5.11d, PG13, Grade III","Pao de Acucar"
 -22.949900," -43.159100","Via dos Italianos","5.10a, Grade III","Pao de Acucar"
--22.9549," -43.2144",K2,"5.9, PG13",Corcovado
--22.9549," -43.2144",K3,5.10d,Corcovado
+-22.9549," -43.2144",K2,"5.9, PG13, Grade III",Corcovado
+-22.9549," -43.2144",K3,"5.10d, Grade III",Corcovado
 -22.33888," -42.72446",CERJ,"5.9, PG13, Grade III",Capacete
 -22.9504," -43.1635",Infravermelho,5.6,"Morro da Urca"
 -22.95173," -43.15762",Graalzinho,5.5,Graalzinho
@@ -564,7 +564,7 @@ Latitude,Longitude,Climb,Difficulty,Area
 -22.95173," -43.15762",Rapunzel,5.9,Graalzinho
 -22.95173," -43.15762","Via do Crico",5.8,Graalzinho
 -22.95173," -43.15762","Inversao Feminina",5.7,Graalzinho
--22.997080," -43.284640","Passagem dos Olhos","5.8, Grade IV","Pedra da Gavea"
+-22.997080," -43.284640","Passagem dos Olhos","5.8, Grade III","Pedra da Gavea"
 -22.942620," -43.195910","Fissura Esquecida",5.10a,"Morro Dona Marta"
 -22.942620," -43.195910","Ovos Na Chapa",5.9,"Morro Dona Marta"
 -22.949900," -43.159100",Coringa,5.6,"Pao de Acucar"
@@ -624,9 +624,9 @@ Latitude,Longitude,Climb,Difficulty,Area
 38.89374," -79.31125","Behind the Pine",5.10a,"Champe Rocks"
 38.89323," -79.31173","Janoscrat Crack",5.11a,"Champe Rocks"
 38.97006," -79.28195",SPF40,5.9,"The Beach"
-47.81078," -123.69889","Blue Glacier","Moderate Snow, 5th, Grade II","Mount Olympus"
+47.81078," -123.69889","Blue Glacier","Moderate Snow, 5th, Grade III","Mount Olympus"
 35.30523," -82.79114","The Glass Menagerie (Aid)","5.10a, C2, PG13, Grade IV","Looking Glass Rock"
-38.89351," -79.31096",Tuscarora,5.7,"Champe Rocks"
+38.89351," -79.31096",Tuscarora,"5.7, Grade II","Champe Rocks"
 37.71264," -119.64771","West Face","5.7, C3, Grade V","Leaning Tower"
 37.73081," -119.63878",Freeblast,"5.9, C2, Grade IV","El Capitan"
 37.71746," -119.71920","Beverly's Tower",5.10a,"Cookie Cliff"
@@ -651,27 +651,27 @@ Latitude,Longitude,Climb,Difficulty,Area
 35.44983," -82.21881","Just As I Am",V0,"Devil Boulder"
 36.37555," -80.36654","Big Erector",5.9+,Sauratown
 34.18057," -85.81486","Knob Wall",5.6,"Sand Rock"
-25.95021," -100.47460","Will The Wolf Survive?",5.10a,"El Potrero Chico"
+25.95021," -100.47460","Will The Wolf Survive?","5.10a, Grade II","El Potrero Chico"
 25.95086," -100.47532","Lobos Trabajando",5.11c,"El Potrero Chico"
 25.95091," -100.47570","The Anvil",5.8,"El Potrero Chico"
 25.95075," -100.47564","Howlin' Wolf",5.9,"El Potrero Chico"
 25.95040,"  -100.47698","Evil Shenanigans",5.11b,"El Potrero Chico"
-25.94687," -100.47706","Yankee Clipper (p1 only)",5.8,"El Potrero Chico"
+25.94687," -100.47706","Yankee Clipper (p1 only)","5.8, Grade III","El Potrero Chico"
 25.94715," -100.47672","La Chiky Baby",5.8,"El Potrero Chico"
-25.94687," -100.47706","Yankee Clipper",5.12a,"El Potrero Chico"
+25.94687," -100.47706","Yankee Clipper","5.12a, Grade III","El Potrero Chico"
 25.94845," -100.47579",CDC&J,5.9,"El Potrero Chico"
 25.94873," -100.47671","Deja Vu",5.9,"El Potrero Chico"
 25.94869," -100.47671","Graffiti Route",5.8,"El Potrero Chico"
-25.94833," -100.47693","Jungle Mountaineering",5.10a,"El Potrero Chico"
-25.94826," -100.47519","Pitch Black",5.10d,"El Potrero Chico"
+25.94833," -100.47693","Jungle Mountaineering","5.10a, Grade II","El Potrero Chico"
+25.94826," -100.47519","Pitch Black","5.10d, Grade III","El Potrero Chico"
 25.94821," -100.47547","Inglorious Bastards",5.12a,"El Potrero Chico"
 25.94851," -100.47774","Aguja Celo Rey",5.10b,"El Potrero Chico"
-25.95398," -100.48521","When You're Lost In The Wild",5.11b,"El Potrero Chico"
+25.95398," -100.48521","When You're Lost In The Wild","5.11b, Grade III","El Potrero Chico"
 25.94782," -100.47611","Lisa's Pizzas",5.5,"El Potrero Chico"
-25.94733," -100.47965","Time Wave Zero",5.12a,"El Potrero Chico"
+25.94733," -100.47965","Time Wave Zero","5.12a, Grade III","El Potrero Chico"
 25.94747," -100.47989","Blue Fin",5.12a,"El Potrero Chico"
-25.94749," -100.47591","Snott Girlz",5.10d,"El Potrero Chico"
-25.94730," -100.47565","Pancho Villa Rides Again",5.10c,"El Potrero Chico"
+25.94749," -100.47591","Snott Girlz","5.10d, Grade II","El Potrero Chico"
+25.94730," -100.47565","Pancho Villa Rides Again","5.10c, Grade II","El Potrero Chico"
 38.69611," -79.46426",Excalibur,5.12a,"Nelson Rocks"
 38.74596," -79.42959","Crotchrocket Spire",5.9,"Riverton Rock"
 38.72714," -79.45199","Blueberry Squishy",5.4,"Kwik-E-Mart Wall"
