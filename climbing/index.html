@@ -106,20 +106,22 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
 
                 </div>
 
-                <div class="h-150 lg:col-span-3">
+                <div class="h-150 hidden md:block lg:col-span-3">
 
                     <!-- Plotly Map -->
-                    <!-- <iframe style="border-style: none;" src="/climbing/data/climb-locs.html" class="w-full h-9/10 rounded-xl"></iframe> -->
-
-                    <!-- Google Map -->
-                    <iframe src="https://www.google.com/maps/d/embed?mid=10vuyVZqc4KzThXze-otDFFkOrCPXjb8&ehbc=2E312F&noprof=1" class="w-full h-full rounded-xl"></iframe>
+                    <iframe style="border-style: none;" src="/climbing/data/climb-locs.html" class="w-full h-9/10 rounded-xl"></iframe>
                 </div>
 
                 <div class="lg:col-span-3 h-65">
                     <p class="text-white text-2xl pb-2">Rock Ticks by Grade</p>
-                    <div class="relative">
+
+                    <!-- Plotly Bar Chart-->
+                    <iframe style="border-style: none;" src="/climbing/data/ticks-by-grade.html" class="w-full h-9/10 rounded-xl"></iframe>
+
+                    <!-- Old Bar Chart -->
+                    <!-- <div class="relative">
                         <canvas id="ticksByGrade" class="w-full" style="max-height: 200px"></canvas>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="lg:col-span-3">
