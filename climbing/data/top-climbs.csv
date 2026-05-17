@@ -3,9 +3,9 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 23,"Old Man's Route","Seneca Rocks",5.2,12,11
 15,"Devil in the White House","Pilot Mountain",5.10c,15,0
 14,"Skyline Traverse","Seneca Rocks",5.3,9,5
+13,"Old Ladies Route","Seneca Rocks",5.2,7,6
 13,Predator,"Seneca Rocks",5.12a,13,0
 13,"The Medallion","Teer Quarry",5.10a,13,0
-12,"Old Ladies Route","Seneca Rocks",5.2,6,6
 11,"Conn's West","Seneca Rocks",5.4,3,8
 10,"Gunsight to South Peak","Seneca Rocks",5.4,6,4
 10,"The Great Arch","Stone Mountain","5.5, Grade II",8,2
@@ -204,6 +204,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Baby Bear","Pilot Mountain",5.11a,2,0
 2,"Spock's Brain","Seneca Rocks",5.11a,2,0
 2,"Mild Mannered Secretary","Pilot Mountain",5.7,2,0
+1,"Alcoa Presents","Seneca Rocks",5.8,1,0
 1,"Fear of Flailing","Seneca Rocks",5.7,1,0
 1,Jaws,"Wave Wall",5.10a,1,0
 1,"Duck Dive","Wave Wall",5.9,1,0
