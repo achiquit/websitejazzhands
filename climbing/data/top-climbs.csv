@@ -20,6 +20,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 6,Starry,"Upper Meadow",5.12a,6,0
 6,"Critter Crack","Seneca Rocks",5.6,3,3
 6,"The Burn","Seneca Rocks",5.8,3,3
+6,"Fear of Flying","Seneca Rocks",5.8,3,3
 6,"Any Major Dude","Pilot Mountain",5.11c,6,0
 6,"Pole Dancing","Pilot Mountain",5.7,6,0
 5,Mongoose,"Seneca Rocks",5.11a,5,0
@@ -32,7 +33,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 5,"Crackin' Up","Pilot Mountain",5.7,5,0
 5,"U Slot","Stone Mountain","5.7, PG13",4,1
 5,"Sentinel Buttress","Sentinel Buttress",5.5,5,0
-5,"Fear of Flying","Seneca Rocks",5.8,2,3
 4,"Porcelain Pump","Nelson Rocks",5.11a,4,0
 4,"Marshall's Madness","Seneca Rocks",5.9,3,1
 4,Lifers,"Nelson Rocks",5.10a,4,0
@@ -98,6 +98,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"The Entertainer","The Junkyard",5.10a,3,0
 3,"Teflon Toes","Pilot Mountain",5.11a,3,0
 3,"Tee Ball","The Trestle",5.6,3,0
+2,"Fear of Flailing","Seneca Rocks",5.7,2,0
 2,"The Glass Menagerie (Aid)","Looking Glass Rock","5.10a, C2, PG13, Grade IV",2,0
 2,"Blue Glacier","Mount Olympus","Moderate Snow, 5th, Grade III",2,0
 2,"Bat Girl","Sasquatch Crag",5.9,2,0
@@ -205,7 +206,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Spock's Brain","Seneca Rocks",5.11a,2,0
 2,"Mild Mannered Secretary","Pilot Mountain",5.7,2,0
 1,"Alcoa Presents","Seneca Rocks",5.8,1,0
-1,"Fear of Flailing","Seneca Rocks",5.7,1,0
 1,Jaws,"Wave Wall",5.10a,1,0
 1,"Duck Dive","Wave Wall",5.9,1,0
 1,"Surfs Up","Wave Wall",5.11a,1,0
