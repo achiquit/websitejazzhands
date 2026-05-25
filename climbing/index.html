@@ -106,6 +106,7 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
 
                 </div>
 
+                <!-- Climbing Map -->
                 <div class="h-150 hidden pt-5 md:block lg:col-span-3">
 
                     <!-- Plotly Map -->
@@ -113,13 +114,17 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
 
                 </div>
 
-                <div class="lg:col-span-3 -mt-10 h-65">
+                <!-- Rock Ticks by Grade -->
+                <div class="lg:col-span-3 h-65 lg:-mt-10">
                     <p class="text-white text-2xl pb-2">Rock Ticks by Grade</p>
 
-                    <iframe style="border-style: none;" src="/climbing/data/ticks-by-grade.html" class="w-full h-9/10 rounded-xl"></iframe>
+                    <iframe style="border-style: none;" src="/climbing/data/ticks-by-grade-desktop.html" class="w-full h-9/10 rounded-xl hidden md:block"></iframe>
+
+                    <iframe style="border-style: none;" src="/climbing/data/ticks-by-grade-mobile.html" class="w-full h-9/10 rounded-xl md:hidden"></iframe>
 
                 </div>
 
+                <!-- Comments -->
                 <div class="lg:col-span-3">
                     <p class="text-4xl text-white text-center">Comments</p>
                     <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
