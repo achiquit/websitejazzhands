@@ -1,7 +1,7 @@
 Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 26,"Totem (p1 only)","Seneca Rocks",5.4,5,21
 23,"Old Man's Route","Seneca Rocks",5.2,12,11
-16,"Devil in the White House","Pilot Mountain",5.10c,16,0
+15,"Devil in the White House","Pilot Mountain",5.10c,15,0
 14,"Skyline Traverse","Seneca Rocks",5.3,9,5
 13,"Old Ladies Route","Seneca Rocks",5.2,7,6
 13,Predator,"Seneca Rocks",5.12a,13,0
@@ -30,7 +30,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 5,"Front C","Seneca Rocks",5.6,1,4
 5,Thais,"Seneca Rocks",5.6,2,3
 5,"Block Party","Seneca Rocks",5.8,2,3
-5,Sunshine,"Seneca Rocks","5.10a, PG13",4,1
 5,"Grandpa's Belay","Pilot Mountain",5.6,5,0
 5,"Crackin' Up","Pilot Mountain",5.7,5,0
 5,"U Slot","Stone Mountain","5.7, PG13",4,1
@@ -50,6 +49,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 4,"Ye Gods & Little Fishes","Seneca Rocks",5.8,2,2
 4,"Triple S","Seneca Rocks",5.8,2,2
 4,"Up and Coming","Seneca Rocks",5.4,1,3
+4,Sunshine,"Seneca Rocks","5.10a, PG13",3,1
 4,Ecstasy,"Seneca Rocks",5.7,3,1
 4,Outhouse,"Pilot Mountain",5.7,4,0
 4,"Son of White Trash","The Dump",5.8,4,0
@@ -133,6 +133,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Humphrey's Head","Seneca Rocks",5.4,2,0
 2,Abandoned,"Nelson Rocks",5.7,2,0
 2,"Southwest Buttress Variation","Seneca Rocks",5.5,2,0
+2,"North Ridge","Garden of the Gods",5.7,2,0
 2,"Random 5.6","Petes Rock",5.6,2,0
 2,"Blind Prophet","Pilot Mountain","5.12b, PG13",2,0
 2,Springboard,"Fern Buttress",5.10b,2,0
@@ -206,7 +207,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Baby Bear","Pilot Mountain",5.11a,2,0
 2,"Spock's Brain","Seneca Rocks",5.11a,2,0
 2,"Mild Mannered Secretary","Pilot Mountain",5.7,2,0
-1,"Farty Farts","Whitehorse Ledge",5.15a,1,0
 1,"Wazoo Tower Regular Route","Judy Gap",5.7,1,0
 1,"Alcoa Presents","Seneca Rocks",5.8,1,0
 1,Jaws,"Wave Wall",5.10a,1,0
@@ -364,7 +364,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,Nameless,"Nelson Rocks",5.8,1,0
 1,"Crispy Critter","Seneca Rocks",5.7,1,0
 1,"Le Gourmet Direct","Seneca Rocks",5.7,1,0
-1,"North Ridge","Garden of the Gods",5.7,1,0
 1,"Random Couloir","Chasm Lake","AI2, PG13",1,0
 1,"Vitamin V","Surprising Crag",5.9,1,0
 1,"Chasing Sticks","Surprising Crag",5.9,1,0
