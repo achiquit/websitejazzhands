@@ -92,6 +92,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"Pillar Assault","Pilot Mountain",5.8,3,0
 3,"Overhang Hangover","Pilot Mountain",5.11b,3,0
 3,"True Grits","Pilot Mountain",5.8+,3,0
+3,"Zoo View","Circus Wall",5.7+,3,0
 3,"Walk the Plank","Pilot Mountain",5.8,3,0
 3,"Team Jesus","The Junkyard",5.10a,3,0
 3,Granola,"Cereal Buttress",5.8+,3,0
@@ -133,7 +134,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Humphrey's Head","Seneca Rocks",5.4,2,0
 2,Abandoned,"Nelson Rocks",5.7,2,0
 2,"Southwest Buttress Variation","Seneca Rocks",5.5,2,0
-2,"North Ridge","Garden of the Gods",5.7,2,0
 2,"Random 5.6","Petes Rock",5.6,2,0
 2,"Blind Prophet","Pilot Mountain","5.12b, PG13",2,0
 2,Springboard,"Fern Buttress",5.10b,2,0
@@ -172,7 +172,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,Casablanca,"Pilot Mountain",5.10a,2,0
 2,"Too Old to Rock and Roll","Pilot Mountain",5.10c,2,0
 2,"Wailing Wall","Moores Amphitheater",5.6,2,0
-2,"Zoo View","Circus Wall",5.7+,2,0
 2,Butterfingers,"Pilot Mountain",5.11a,2,0
 2,"Buzzard's Breath","Pilot Mountain",5.8,2,0
 2,Jammerfest,Djupfjorden,5.10b,2,0
@@ -364,6 +363,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,Nameless,"Nelson Rocks",5.8,1,0
 1,"Crispy Critter","Seneca Rocks",5.7,1,0
 1,"Le Gourmet Direct","Seneca Rocks",5.7,1,0
+1,"North Ridge","Garden of the Gods",5.7,1,0
 1,"Random Couloir","Chasm Lake","AI2, PG13",1,0
 1,"Vitamin V","Surprising Crag",5.9,1,0
 1,"Chasing Sticks","Surprising Crag",5.9,1,0
