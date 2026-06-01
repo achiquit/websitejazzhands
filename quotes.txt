@@ -79,3 +79,4 @@
 <p>"Climb if you will, but remember that courage and strength are naught without prudence and that a momentary negligence may destroy the happiness of a lifetime. Do nothing in haste; look well to each step; and from the beginning think what may be the end."<br>- Edward Whymper</p>
 <p>"The limits of tyrants are prescribed by the endurance of those they oppress."<br>- Frederick Douglass</p>
 <p>"It's okay to look back, just don't stare."<br>- Doris Roberts</p>
+<p>"Man naturally desires, not only to be loved, but to be lovely; or to be that thing which is the natural and proper object of love."<br>- Adam Smith, <i>Theory of Moral Sentiments</i></p>
