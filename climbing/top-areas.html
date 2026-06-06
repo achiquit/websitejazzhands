@@ -21,7 +21,7 @@
     <div class="container-fluid">
         <main class="row">
             <div class="col">
-                <p class="text-2xl pt-3">Top Climbs</p>
+                <p class="text-2xl pt-3">Top Areas</p>
                 <div id="table-container"></div>
             </div>
         </main>
@@ -51,12 +51,12 @@
             datatables_options: {
                 scrollX: true,
                 paging: true,
-                order: [[0, 'desc']],
+                order: [[1, 'desc']],
                 columnDefs: [
-                    {orderable: false, targets: [1, 2, 3]},
+                    {orderable: false, targets: [0, 3]},
                 ]
             },
-            custom_formatting: [[1, format_link]]
+            custom_formatting: [[0, format_link]]
         });
     </script>
 </body>
