@@ -39,6 +39,12 @@
                 return "<a href='" + link + "' target='_blank'>" + link + "</a>";
             else return "";
         }
+        function link_to_partner(partner) {
+            if (partner)
+                // alert(partner.split(" ").join("-"));
+                return "<a href='/climbing/partners/" + partner + "'>" + partner + "</a>";
+            else return "";
+        }
 
         CsvToHtmlTable.init({
             csv_path: "data/partner-leaderboard.csv",
@@ -51,7 +57,8 @@
             datatables_options: {
                 paging: true,
                 order: [[1, 'desc']]
-            }
+            },
+            custom_formatting: [[0, link_to_partner]]
         });
     </script>
 </body>
