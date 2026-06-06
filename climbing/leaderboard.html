@@ -40,9 +40,10 @@
             else return "";
         }
         function link_to_partner(partner) {
+            const partner_code = partner.replaceAll(' ', '-');
+            
             if (partner)
-                // alert(partner.split(" ").join("-"));
-                return "<a href='/climbing/partners/" + partner + "'>" + partner + "</a>";
+                return "<a href='/climbing/partners/" + partner_code + "' target='_blank'>" + partner + "</a>";
             else return "";
         }
 
