@@ -435,8 +435,8 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,Recompense,"Cathedral Ledge",5.9,1,0
 1,"The Prow","Cathedral Ledge",5.11d,1,0
 1,"Goofer's Delight","Cathedral Ledge",5.10a,1,0
-1,"The Fastest Gun",Poke+AC0-O+AC0-Moonshine,5.10b,1,0
-1,"Bloody Mary",Poke+AC0-O+AC0-Moonshine,5.9,1,0
+1,"The Fastest Gun",Poke-O-Moonshine,5.10b,1,0
+1,"Bloody Mary",Poke-O-Moonshine,5.9,1,0
 1,"Slim Pickins","The Spiders Web",5.9,1,0
 1,Esthesia,"The Spiders Web",5.10a,1,0
 1,TR,"The Spiders Web",5.10a,1,0
