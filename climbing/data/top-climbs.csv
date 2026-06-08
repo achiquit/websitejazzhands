@@ -18,13 +18,13 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 7,Mongoose,"Seneca Rocks",5.11a,7,0
 7,Crescendo,"Nelson Rocks",5.10a,7,0
 7,Ambush,"Seneca Rocks",5.11a,4,3
-7,"Any Major Dude","Pilot Mountain",5.11c,7,0
 6,Starry,"Upper Meadow",5.12a,6,0
 6,"Critter Crack","Seneca Rocks",5.6,3,3
 6,"Le Gourmet","Seneca Rocks",5.4,2,4
 6,"The Burn","Seneca Rocks",5.8,3,3
 6,Thais,"Seneca Rocks",5.6,2,4
 6,"Fear of Flying","Seneca Rocks",5.8,3,3
+6,"Any Major Dude","Pilot Mountain",5.11c,6,0
 6,"Pole Dancing","Pilot Mountain",5.7,6,0
 5,Dominion,"Nelson Rocks",5.10b,5,0
 5,"Bee Sting Corner","Seneca Rocks",5.7,4,1
@@ -134,7 +134,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,Abandoned,"Nelson Rocks",5.7,2,0
 2,"Southwest Buttress Variation","Seneca Rocks",5.5,2,0
 2,"Random 5.6","Petes Rock",5.6,2,0
-2,"Knifeblade Crack","Petes Rock",5.8,2,0
 2,"Blind Prophet","Pilot Mountain","5.12b, PG13",2,0
 2,Springboard,"Fern Buttress",5.10b,2,0
 2,"Animal Logic","DC Memorial Boulder",5.12b,2,0
@@ -384,6 +383,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,"The Coffin","Coffin Buttress",5.9,1,0
 1,"Crescent Crack","Crescent Crack Buttress",5.7,1,0
 1,"Route 1","Petes Rock",5.9,1,0
+1,"Knifeblade Crack","Petes Rock",5.8,1,0
 1,Birdland,"Brass Wall",5.7+,1,0
 1,"Ending Crack","Sespe Gorge","5.7, PG13",1,0
 1,"Tree Root","Sespe Gorge",5.5,1,0
