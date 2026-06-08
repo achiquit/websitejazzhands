@@ -38,6 +38,7 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
             <p class="text-white text-6xl text-center pb-8">My Climbing</p>
             <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
 
+                <!-- Overview Stats -->
                 <div class="lg:col-span-3 h-60">
 
                     <!-- CSV to Table -->
@@ -48,6 +49,7 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
 
                 </div>
 
+                <!-- Yearly Height Bar Chart -->
                 <div class="h-60 py-3 lg:-pb-3 lg:pt-0">
                     <p class="text-white text-2xl pb-2">Height<sup>(ft)</sup> Climbed by Year</p>
 
@@ -55,16 +57,19 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
 
                 </div>
 
+                <!-- Monthly Height Bar Chart -->
                 <div class="lg:col-span-2 h-60">
                     <p class="text-white text-2xl pb-2">Height<sup>(ft)</sup> Climbed by Month</p>
 
                     <iframe style="border-style: none;" src="/climbing/data/monthly-height.html" class="w-full h-9/10 rounded-xl"></iframe>
                 </div>
 
+                <!-- All Ticks Table -->
                 <div class="h-150 lg:-mt-4 lg:col-span-2 lg:mt-0">
                     <iframe style="border-style: none;" src="/climbing/all-ticks.html" class="w-full h-full rounded-xl"></iframe>
                 </div>
 
+                <!-- Partners Leaderboard -->
                 <div class="h-150 col-span-1">
                     <iframe style="border-style: none;" src="/climbing/leaderboard.html" class="w-full h-full rounded-xl"></iframe>
                 </div>
@@ -87,16 +92,18 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
 
                 </div>
 
+                <!-- Top Areas -->
                 <div class="h-150 col-span-1">
                     <iframe style="border-style: none;" src="/climbing/top-areas.html" class="w-full h-full rounded-xl"></iframe>
                 </div>
 
-                <div class="h-150 col-span-2">
+                <!-- Top Climbs -->
+                <div class="h-150 lg:col-span-2">
                     <iframe style="border-style: none;" src="/climbing/top-climbs.html" class="w-full h-full rounded-xl"></iframe>
                 </div>
 
                 <!-- Comments -->
-                <div class="col-span-3">
+                <div class="lg:col-span-3">
                     <p class="text-4xl text-white text-center">Comments</p>
                     <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
                     <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
