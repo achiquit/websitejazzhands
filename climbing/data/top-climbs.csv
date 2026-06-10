@@ -1,6 +1,6 @@
 Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 26,"Totem (p1 only)","Seneca Rocks",5.4,5,21
-24,"Old Man's Route","Seneca Rocks",5.2,12,12
+25,"Old Man's Route","Seneca Rocks",5.2,12,13
 15,"Devil in the White House","Pilot Mountain",5.10c,15,0
 14,"Skyline Traverse","Seneca Rocks",5.3,9,5
 13,"Old Ladies Route","Seneca Rocks",5.2,7,6
@@ -30,6 +30,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 5,"Bee Sting Corner","Seneca Rocks",5.7,4,1
 5,"Front C","Seneca Rocks",5.6,1,4
 5,"Neck Press","Seneca Rocks",5.7,3,2
+5,Prune,"Seneca Rocks",5.7,3,2
 5,"Thais - Variation Thais Escape","Seneca Rocks",5.5,0,5
 5,"Block Party","Seneca Rocks",5.8,2,3
 5,"Grandpa's Belay","Pilot Mountain",5.6,5,0
@@ -43,7 +44,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 4,"Man Overboard","Pilot Mountain",5.10c,4,0
 4,Costao,"Pao de Acucar",5.7,3,1
 4,"Lower Skyline Direct (LSD)","Seneca Rocks",5.5,2,2
-4,Prune,"Seneca Rocks",5.7,3,1
 4,Narcissus,"Narcissus Cave",5.12a,4,0
 4,"Seneca Daze","Seneca Rocks","5.7, PG13",1,3
 4,"Ye Gods & Little Fishes","Seneca Rocks",5.8,2,2
