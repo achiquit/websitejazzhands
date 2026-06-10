@@ -144,7 +144,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Dirty Harry","Camden Hills",5.11a,2,0
 2,"500 Pound Flakeout","Camden Hills",5.7,2,0
 2,"Wonder Wall","Otter Cliffs",5.8,2,0
-2,"Grin and Bear It","Shelving Rock",5.8,2,0
 2,Castor,"Seneca Rocks",5.10a,2,0
 2,Soler,"Seneca Rocks",5.7,2,0
 2,"Fat Boy","Pilot Mountain",5.11a,2,0
@@ -182,7 +181,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Another Alternative","Pilot Mountain",5.8,2,0
 2,"To Tee or Not To Tee","The Trestle",5.10a,2,0
 2,"Climbing Merit Badge","Sand Rock",5.6,2,0
-2,"Junior's Farm","Tyler Peak Crags","5.8, PG13, Grade III",2,0
 2,Psycho-metric,"Pilot Mountain",5.11a,2,0
 2,"No Alternative","Stone Mountain","5.5, PG13",2,0
 2,Misty,"Sand Rock",5.10c,2,0
@@ -445,6 +443,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,TR,"The Spiders Web",5.10a,1,0
 1,"Good Day","Shelving Rock",5.10b,1,0
 1,"The Gong Show","Shelving Rock",5.9,1,0
+1,"Grin and Bear It","Shelving Rock",5.8,1,0
 1,"Snake Charmer","Shelving Rock",5.9,1,0
 1,"Lunar Manscaping","Shelving Rock",5.8,1,0
 1,Birdbrain,"The Near Trapps","5.12a, X",1,0
@@ -572,6 +571,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,Bernalina,"Pena de Bernal","5.7, Grade II",1,0
 1,"That Eight (aka Kennel Club)","Sand Rock",5.8,1,0
 1,"Northeast Buttress","Mt. Goode",5.5,1,0
+1,"Junior's Farm","Tyler Peak Crags","5.8, PG13, Grade III",1,0
 1,"Groover (Gaskin Finish)","Laurel Knob",5.8+,1,0
 1,"Unknown 5.9","Hartman Rocks",5.9,1,0
 1,"The Maiden Voyage aka The Red Dihedral","Black Canyon of the Gunnison","5.9-, Grade III",1,0
