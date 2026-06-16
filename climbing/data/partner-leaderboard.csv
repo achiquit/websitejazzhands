@@ -6,7 +6,7 @@ Partner,Days,Pitches,Height(ft),Areas
 "Angela Whangpo",1,4,391,1
 "Anna Reachmack",3,6,440,3
 "Anthony Ferrante",1,6,285,1
-"Arthur Brooks",13,48,"4,290",4
+"Arthur Brooks",14,52,"4,350",4
 "Ashley Ackley",5,9,850,4
 "Austin Banks",2,7,510,2
 "Barry Myers",1,7,280,1
@@ -16,7 +16,7 @@ Partner,Days,Pitches,Height(ft),Areas
 "Bryce DeOliveira",1,2,170,1
 "Cecilia Carter",4,15,"1,070",5
 "Celeste Breeden Blankenship",2,8,465,2
-"Chad Cochran",4,19,"1,400",1
+"Chad Cochran",5,23,"1,460",1
 "Chelsea Huddleston",1,1,100,1
 "Chris Conger",19,55,"4,155",7
 "Chris Miller",1,2,130,1
@@ -33,8 +33,8 @@ Partner,Days,Pitches,Height(ft),Areas
 "Erica Beall",4,13,"1,120",4
 "Evelyn DeBoeck",5,14,975,4
 "Gorm Larsen",1,1,0,1
-Guiding,0,,0,0
-"Guilherme Chiquito",3,10,370,2
+Guiding,80,273,"21,845",4
+"Guilherme Chiquito",2,6,310,2
 "Hailey Schreyer",1,4,490,1
 "Hannah Feinsilber",5,33,"1,096",4
 "Hannes Backerling",3,11,"1,310",3
@@ -64,7 +64,7 @@ Guiding,0,,0,0
 "Kimberly O’Neill",16,47,"4,385",13
 "Kira Shimokaji",1,1,110,1
 "Knut Oedegaardstuen",2,7,475,1
-"Kyle Mills",2,6,610,1
+"Kyle Mills",3,10,670,1
 "Lea Chiquito",1,2,120,1
 "Liam Elliott",4,18,"1,550",4
 "Logan Calder",2,3,220,2
