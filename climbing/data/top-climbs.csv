@@ -80,6 +80,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"Unwritten Law","The Dump",5.12b,3,0
 3,"Dimpsty Dumpster","The Dump",5.10a,3,0
 3,"Voodoo Child","The Dump",5.11a,3,0
+3,Castor,"Seneca Rocks",5.10a,3,0
 3,"Quaker State","Moores Amphitheater",5.11a,3,0
 3,"Head Jam","Moores Central Wall",5.6,3,0
 3,"Chicken Bone","Pilot Mountain",5.8,3,0
@@ -98,6 +99,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"The Entertainer","The Junkyard",5.10a,3,0
 3,"Teflon Toes","Pilot Mountain",5.11a,3,0
 3,"Tee Ball","The Trestle",5.6,3,0
+2,Sidewinder,"Seneca Rocks","5.11a, PG",2,0
 2,"Fear of Flailing","Seneca Rocks",5.7,2,0
 2,Tuscarora,"Champe Rocks","5.7, Grade II",2,0
 2,"The Glass Menagerie (Aid)","Looking Glass Rock","5.10a, C2, PG13, Grade IV",2,0
@@ -144,7 +146,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Dirty Harry","Camden Hills",5.11a,2,0
 2,"500 Pound Flakeout","Camden Hills",5.7,2,0
 2,"Wonder Wall","Otter Cliffs",5.8,2,0
-2,Castor,"Seneca Rocks",5.10a,2,0
 2,Soler,"Seneca Rocks",5.7,2,0
 2,"Fat Boy","Pilot Mountain",5.11a,2,0
 2,"Thin to Win","Pilot Mountain",5.10b,2,0
@@ -206,6 +207,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Baby Bear","Pilot Mountain",5.11a,2,0
 2,"Spock's Brain","Seneca Rocks",5.11a,2,0
 2,"Mild Mannered Secretary","Pilot Mountain",5.7,2,0
+1,"Terra Firma Homesick Blues","Seneca Rocks","5.11c, PG-13",1,0
 1,"Touching Cotton","New Gap",5.8,1,0
 1,"SE Ridge Traverse","Nelson Rocks","5.7, R, Grade III",1,0
 1,"Wazoo Tower Regular Route","Judy Gap",5.7,1,0
