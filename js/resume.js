@@ -41,7 +41,11 @@ $(".timeline-btn").click(function(){
 
 // ######## Hide expired certs #############
 
-var certs = [["spi", new Date("Dec 25, 2026 00:00:00").getTime()], ["spg", new Date("Dec 25, 2026 00:00:00").getTime()], ["ymhfr", new Date("Apr 30, 2028 00:00:00").getTime()], ["cpr", new Date("Jan 29, 2028 00:00:00").getTime()]]
+var certs = [
+    ["spi", new Date("Dec 25, 2026 00:00:00").getTime()],
+    ["spg", new Date("Dec 25, 2026 00:00:00").getTime()],
+    ["ymhfr", new Date("Apr 30, 2028 00:00:00").getTime()],
+    ["cpr", new Date("Jan 29, 2028 00:00:00").getTime()]]
 
 // Get today's date and time
 var now = new Date().getTime();
@@ -56,9 +60,3 @@ for (let i = 0; i < certs.length; i++) {
         console.log("Andre is " + certs[i][0] + " certified! Yahoo!")
     }
 };
-
-
-function myFunction() {
-  var element = document.getElementById("myDIV");
-  element.classList.remove("mystyle");
-}

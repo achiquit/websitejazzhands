@@ -32,8 +32,29 @@ $(document).ready(function() {
             $(target).replaceWith(randomItem);
         });
     }
+
+    function randomSongGenerator(filePath, target) {
+        var songs = [];
+
+        $.get(filePath, function(data) {
+            // Split the data by new lines and store in the array
+            songs = data.split('\n');
+
+            // Randomly choose an item from the array
+            var randomItem = Math.floor(Math.random() * songs.length);
+            const song = songs[randomItem];
+            const songCode = `<span id="song">${song}</span>`;
+            $(target).replaceWith(songCode);
+        });
+    }
     
     randomLineGenerator('/resources/wild-west/techniques.txt', '#technique');
     randomLineGenerator('/quotes.txt', '#quote');
     randomLineGenerator('/resources/wild-west/favorite_videos.txt', '#vid');
+    randomSongGenerator('/resources/wild-west/songs.txt', '#song');
+
+    $("#song-button").click(function () {
+        console.log("New song!");
+        randomSongGenerator('/resources/wild-west/songs.txt', '#song');
+    });
 });
