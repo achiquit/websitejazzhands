@@ -33,28 +33,38 @@ $(document).ready(function() {
         });
     }
 
-    function randomSongGenerator(filePath, target) {
+    function randomSongGenerator(filePath, target, chosenSongs) {
         var songs = [];
 
         $.get(filePath, function(data) {
             // Split the data by new lines and store in the array
             songs = data.split('\n');
 
-            // Randomly choose an item from the array
+            if (chosenSongs.length === songs.length) {
+                chosenSongs.length = 0;
+            };
+
+            // Randomly choose an item from the array that has not already been chosen in the current session
             var randomItem = Math.floor(Math.random() * songs.length);
-            const song = songs[randomItem];
-            const songCode = `<span id="song">${song}</span>`;
-            $(target).replaceWith(songCode);
+            while (chosenSongs.includes(randomItem)) {
+                var randomItem = Math.floor(Math.random() * songs.length);
+            };
+
+            chosenSongs.push(randomItem);
+
+            $(target).replaceWith(`<span id="song">${songs[randomItem]}</span>`);
+            console.log(chosenSongs);
         });
     }
+
+    var chosenSongs = [];
     
     randomLineGenerator('/resources/wild-west/techniques.txt', '#technique');
     randomLineGenerator('/quotes.txt', '#quote');
     randomLineGenerator('/resources/wild-west/favorite_videos.txt', '#vid');
-    randomSongGenerator('/resources/wild-west/songs.txt', '#song');
+    randomSongGenerator('/resources/wild-west/songs.txt', '#song', chosenSongs);
 
     $("#song-button").click(function () {
-        console.log("New song!");
-        randomSongGenerator('/resources/wild-west/songs.txt', '#song');
+        randomSongGenerator('/resources/wild-west/songs.txt', '#song', chosenSongs);
     });
 });
