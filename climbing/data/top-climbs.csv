@@ -1,6 +1,6 @@
 Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
+27,"Old Man's Route","Seneca Rocks",5.2,14,13
 26,"Totem (p1 only)","Seneca Rocks",5.4,5,21
-26,"Old Man's Route","Seneca Rocks",5.2,13,13
 15,"Devil in the White House","Pilot Mountain",5.10c,15,0
 15,"Skyline Traverse","Seneca Rocks",5.3,9,6
 13,"Old Ladies Route","Seneca Rocks",5.2,7,6
@@ -8,9 +8,9 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 13,"The Medallion","Teer Quarry",5.10a,13,0
 12,"Roy Gap Chimney's","Seneca Rocks",5.6,2,10
 11,"Conn's West","Seneca Rocks",5.4,3,8
+10,"Worrell's Thicket","Seneca Rocks",5.1,6,4
 10,"Gunsight to South Peak","Seneca Rocks",5.4,6,4
 10,"The Great Arch","Stone Mountain","5.5, Grade II",8,2
-9,"Worrell's Thicket","Seneca Rocks",5.1,5,4
 9,"Ecstasy Junior","Seneca Rocks",5.4,5,4
 9,"New Yosemite","The Junkyard",5.9,9,0
 9,Erocktica,"Pilot Mountain",5.10c,9,0
@@ -37,6 +37,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 5,"Crackin' Up","Pilot Mountain",5.7,5,0
 5,"U Slot","Stone Mountain","5.7, PG13",4,1
 5,"Sentinel Buttress","Sentinel Buttress",5.5,5,0
+4,Sidewinder,"Seneca Rocks","5.11a, PG",4,0
 4,"Porcelain Pump","Nelson Rocks",5.11a,4,0
 4,"Marshall's Madness","Seneca Rocks",5.9,3,1
 4,Lifers,"Nelson Rocks",5.10a,4,0
@@ -100,7 +101,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"The Entertainer","The Junkyard",5.10a,3,0
 3,"Teflon Toes","Pilot Mountain",5.11a,3,0
 3,"Tee Ball","The Trestle",5.6,3,0
-2,Sidewinder,"Seneca Rocks","5.11a, PG",2,0
 2,"Fear of Flailing","Seneca Rocks",5.7,2,0
 2,Tuscarora,"Champe Rocks","5.7, Grade II",2,0
 2,"The Glass Menagerie (Aid)","Looking Glass Rock","5.10a, C2, PG13, Grade IV",2,0
