@@ -1,7 +1,7 @@
 Partner,Days,Pitches,Height(ft),Areas
 "Abigail Lamoutte",28,128,"9,740",22
 "Amma Yamada",1,3,310,2
-"Andrew Bounds",1,3,215,1
+"Andrew Bounds",2,4,270,2
 "Andrew Morse",1,5,480,1
 "Angela Whangpo",1,4,391,1
 "Anna Reachmack",3,6,440,3
@@ -11,7 +11,7 @@ Partner,Days,Pitches,Height(ft),Areas
 "Austin Banks",2,7,510,2
 "Barry Myers",1,7,280,1
 "Bill Barham",2,7,390,1
-"Branden Wood",2,3,255,2
+"Branden Wood",3,7,345,3
 "Brianna Dechet",1,6,280,1
 "Bryce DeOliveira",1,2,170,1
 "Cecilia Carter",4,15,"1,070",5
@@ -28,7 +28,7 @@ Partner,Days,Pitches,Height(ft),Areas
 "David Andrew",1,4,540,1
 "David Thoenen",1,7,280,1
 "David Thompson",1,5,280,1
-"Dylan James",1,3,215,1
+"Dylan James",2,4,270,2
 "Eli DeOliveira",1,2,170,1
 "Erica Beall",4,13,"1,120",4
 "Erik West",1,5,275,1
@@ -52,6 +52,7 @@ Guiding,81,276,"22,095",4
 "Joe Hines",1,2,60,1
 "Joe Pirani",1,5,270,1
 "Joe Simpson",1,5,385,1
+"Joey Schmoey",1,4,90,1
 "Johannes Unknown",1,5,500,1
 "John-Michael Montgomery",9,30,"2,147",8
 "Josh Rich",1,6,650,1
@@ -64,7 +65,7 @@ Guiding,81,276,"22,095",4
 "Kelly Williams",25,92,"11,422",23
 "Kenz Hack",1,5,400,1
 "Kevin Twitchell",2,10,935,1
-"Kimberly O’Neill",18,55,"4,880",13
+"Kimberly O’Neill",19,56,"4,935",14
 "Kira Shimokaji",1,1,110,1
 "Knut Oedegaardstuen",2,7,475,1
 "Kyle Mills",3,10,670,1
@@ -94,7 +95,7 @@ Guiding,81,276,"22,095",4
 "Reverend Wild",49,212,"21,745",26
 "Rob Sulaski",11,42,"4,740",10
 "Russell Hobart",1,4,540,1
-"Sarah Cha",1,3,215,1
+"Sarah Cha",2,4,270,2
 "Schmeckle NoLastName",10,41,"3,451",7
 "Seth Derr",1,1,100,1
 "Skylar Strickler",1,3,175,1
