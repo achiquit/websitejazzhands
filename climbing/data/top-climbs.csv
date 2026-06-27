@@ -73,7 +73,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 3,"Windy Corner","Seneca Rocks",5.4,1,2
 3,"License to Drill","Nelson Rocks",5.10a,3,0
 3,Kamikaze,"Nelson Rocks",5.10a,3,0
-3,"Internal Dialogue","Reeds Creek",5.8,3,0
 3,"Climbin' Punishment","Seneca Rocks",5.8,2,1
 3,Pollux,"Seneca Rocks",5.10a,3,0
 3,"Right Tope","Seneca Rocks",5.9,3,0
@@ -124,6 +123,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,Mushrooms,"Beauty Mountain",5.10a,2,0
 2,"Back to the Front","Seneca Rocks",5.9,2,0
 2,"Never Say Never","Nelson Rocks",5.10c,2,0
+2,"Internal Dialogue","Reeds Creek",5.8,2,0
 2,"Honey Hole 5.7","Honey Hole",5.7,2,0
 2,"Honey Hole 5.10a","Honey Hole",5.10a,2,0
 2,"Pleasant Overhangs","Seneca Rocks",5.7,2,0
@@ -207,7 +207,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Baby Bear","Pilot Mountain",5.11a,2,0
 2,"Spock's Brain","Seneca Rocks",5.11a,2,0
 2,"Mild Mannered Secretary","Pilot Mountain",5.7,2,0
-1,jo,"Johnnys Wall","5.7, G, Grade III",1,0
 1,"Alien Autopsy","Nelson Rocks",5.7,1,0
 1,"Black Bag Job","Nelson Rocks",5.7,1,0
 1,"Unknown Line","Nelson Rocks",5.6,1,0
