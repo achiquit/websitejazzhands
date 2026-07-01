@@ -57,11 +57,13 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
 
                 </div>
 
-                <!-- Monthly Height Bar Chart -->
+                <!-- Monthly & Daily Height Bar Chart -->
                 <div class="lg:col-span-2 h-60">
-                    <p class="text-white text-2xl pb-2">Height<sup>(ft)</sup> Climbed by Month</p>
+                    <p class="text-white text-2xl pb-2">Height<sup>(ft)</sup> Climbed by <span id="month-title" class="text-emerald-300 underline">Month</span> or <span id="day-title" class="text-white underline">Day</span></p>
 
-                    <iframe style="border-style: none;" src="/climbing/data/monthly-height.html" class="w-full h-9/10 rounded-xl"></iframe>
+                    <iframe id="monthly-height" style="border-style: none;" src="/climbing/data/monthly-height.html" class="w-full h-9/10 rounded-xl"></iframe>
+
+                    <iframe id="daily-height" style="border-style: none;" src="/climbing/data/height-by-date.html" class="w-full h-17/20 rounded-xl hidden"></iframe>
                 </div>
 
                 <!-- All Ticks Table -->
@@ -93,7 +95,6 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
                     <iframe style="border-style: none;" src="/climbing/data/ticks-by-grade-mobile.html" class="w-full h-9/10 rounded-xl md:hidden"></iframe>
 
                 </div>
-
 
                 <!-- Top Areas -->
                 <div class="h-150 col-span-1">
