@@ -39,6 +39,7 @@
         <a class="anchor" id="top"></a>
         <div class="lg:flex lg:flex-row">
 
+            <!-- Nav -->
             <div class="flex flex-col items-center justify-center mb-4 lg:h-1/2 lg:sticky lg:top-64 lg:mx-16 lg:w-1/3">
                 <p class="text-white text-3xl">Andre Chiquito</p>
                 <hr class="h-px my-2 bg-gray-200 border-0 w-2/3">
@@ -52,12 +53,14 @@
             
             <div class="lg:w-2/3 [&>hr]:h-px [&>hr]:my-2 [&>hr]:bg-gray-200 [&>hr]:border-0 [&>hr]:w-5/6 [&>hr]:m-auto [&>hr]:mt-4 [&_a]:text-emerald-300">
 
+                <!-- Employment -->
                 <div id="employment" class="[&_span]:text-white [&_.title]:text-emerald-300 [&_.title]:text-xl [&_ul]:text-gray-400 [&_ul]:list-disc [&_ul]:ml-4">
 
                 <p class="text-white text-2xl text-center mb-4">Employment</p>
                     <div class="grid cols-1 gap-4">
 
-                        <div class="outdoors">
+                        <!-- SRMG-->
+                        <div class="outdoors" id="srmg">
                             <p class="title">Seneca Rocks Mountain Guides <span>|</span> Mountain Guide</p>
                             <p class="text-gray-400">2024, 2025 &amp; 2026 Seasons</p>
                             <ul>
@@ -76,7 +79,8 @@
                             </ul>
                         </div>
 
-                        <div class="outdoors">
+                        <!-- NRocks -->
+                        <div class="outdoors" id="nrocks">
                             <p class="title">NRocks Outdoor Adventures <span>|</span> Adventure Guide</p>
                             <p class="text-gray-400">2024, 2025 &amp; 2026 Seasons</p>
                             <ul>
@@ -88,7 +92,8 @@
                             </ul>
                         </div>
 
-                        <div class="service">
+                        <!-- Qamaria -->
+                        <div class="service" id="qamaria">
                             <p class="title">Qamaria Yemeni Coffee <span>|</span> Barista</p>
                             <p class="text-gray-400">December 2025 - March 2026</p>
                             <ul>
@@ -99,7 +104,8 @@
                             </ul>
                         </div>
 
-                        <div class="tech">
+                        <!-- CITAP -->
+                        <div class="tech" id="citap">
                             <p class="title">Center for Information, Technology, and Public Life <span>|</span> Communications Assistant - Part Time</p>
                             <p class="text-gray-400">November 2022 - May 2024</p>
                             <ul>
@@ -110,7 +116,8 @@
                             </ul>
                         </div>
 
-                        <div class="outdoors">
+                        <!-- Apogee -->
+                        <div class="outdoors" id="apogee">
                             <p class="title">Apogee Adventures <span>|</span> Northeast Support Staff - Seasonal</p>
                             <p class="text-gray-400">June 2023 - August 2023</p>
                             <ul>
@@ -121,7 +128,8 @@
                             </ul>
                         </div>
 
-                        <div class="tech">
+                        <!-- DBL -->
+                        <div class="tech" id="dbl">
                             <p class="title">Deepest Beliefs Lab <span>|</span> Research Assistant - Part Time</p>
                             <p class="text-gray-400">July 2021 - June 2023</p>
                             <ul>
@@ -133,7 +141,8 @@
                             </ul>
                         </div>
 
-                        <div class="tech">
+                        <!-- UNC ITS -->
+                        <div class="tech" id="uncits">
                             <p class="title">University of North Carolina - CH <span>|</span> Technology Support Technician</p>
                             <p class="text-gray-400">July 2018 - July 2021</p>
                             <ul>
@@ -146,7 +155,8 @@
                             </ul>
                         </div>
 
-                        <div class="tech">
+                        <!-- Computer Cellar -->
+                        <div class="tech" id="cellar">
                             <p class="title">The Computer Cellar <span>|</span> Repair Technician</p>
                             <p class="text-gray-400">October 2015 - July 2018</p>
                             <ul>
@@ -158,11 +168,17 @@
                             </ul>
                         </div>
 
+                        <!-- Show Older Button -->
+                        <div>
+                            <p class="text-white text-xl show" id="showHideJobs"><span class="underline title" id="showHideText">Show</span> employment older than 5 years</p> 
+                        </div>
+
                     </div>
                 </div>
 
                 <hr>
 
+                <!-- Accomplishments -->
                 <div id="accomplishments" class="[&_ul]:text-gray-400 [&_ul]:list-disc [&_ul]:ml-4">
                     <p class="text-white text-2xl text-center mb-2 mt-4">Accomplishments</p>
                     <ul>
@@ -174,7 +190,7 @@
                         <li class="outdoors">Led an exploratory climbing expedition to establish traditional style multipitch climbs ground up - <a href="/resources/nolichucky-guidebook.pdf" target="_blank">Guidebook</a></li>
                         <li>Assisted in training a racing team of 15 sled dogs, at times in adverse conditions</li>
                         <li class="tech">Co-authored a <a href="https://doi.org/10.1093/pnasnexus/pgae345" target="_blank">journal article</a> published in PNAS Nexus</li>
-                        <li>Duolingo Portuguese score of 60 (CEFR level B1) <span class="text-emerald-300" id="cefrbutton">See More</span></li>
+                        <li>Duolingo Portuguese score of 61 (CEFR level B1) <span class="text-emerald-300" id="cefrbutton">See More</span></li>
                             <li class="ml-6 hidden" id="cefrcontent">"Can understand the main points of clear standard input on familiar matters regularly encountered in work, school, leisure, etc. Can deal with most situations likely to arise whilst travelling in an area where the language is spoken.  Can produce simple connected text on topics which are familiar or of personal interest. Can describe experiences and events, dreams, hopes & ambitions and briefly give reasons and explanations for opinions and plans."<br>- Common European Framework of Reference for Languages (CEFR)</li>
                         <li>Designed an inventory management spreadsheet for tracking bulk purchases and individual sales to monitor profits holistically and per purchase batch</li>
                         <li>Designed and created an open source <a href="https://github.com/achiquit/climbing-journal" target="_blank">data management system</a> for recording and interpreting personal rock climbing statistics using Python and SQLite</li>
@@ -183,6 +199,7 @@
 
                 <hr>
 
+                <!-- Education -->
                 <div id="education" class="[&_.title]:text-emerald-300 [&_.title]:text-xl [&_ul]:text-gray-400 [&_ul]:list-disc [&_ul]:ml-4">
                     <p class="text-white text-2xl text-center mb-2 mt-4">Education</p>
                     <p class="title">University of North Carolina at Chapel Hill</p>
@@ -203,6 +220,7 @@
 
                 <hr>
 
+                <!-- Certs -->
                 <div id="certifications" class="[&_ul]:text-gray-400 [&_ul]:list-disc [&_ul]:ml-4">
                     <p class="text-white text-2xl text-center mb-2 mt-4">Certifications</p>
                     <ul class="[&_a]:text-emerald-300">
@@ -215,6 +233,7 @@
 
                 <hr>
 
+                <!-- References -->
                 <div id="references" class="[&_.title]:text-white [&_.title]:text-xl [&_ul]:text-white [&_ul]:ml-4 [&_span]:text-emerald-300">
                     <p class="text-white text-2xl text-center mb-2 mt-4">References</p>
                     <!-- <p class="text-gray-400 text-center mb-4 hover:underline" id="show-references">Show All</p> -->
@@ -286,6 +305,7 @@
 
                 <hr>
 
+                <!-- Testimonials -->
                 <div id="testimonials" class="[&_.title]:text-xl [&_.title]:text-emerald-300 [&_ul]:text-gray-400 [&_ul]:ml-4 [&_span]:text-emerald-300 [&_li]:text-justify [&_li]:px-10">
                     <p class="text-white text-2xl text-center mb-2 mt-4">Customer Testimonials</p>
 
