@@ -28,6 +28,7 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
         <link href="/styles.css" rel="stylesheet">
+        <link href="/climbing/css/custom.css" rel="stylesheet">
         <link rel="icon" href="/favicon.png">
     </head>
     <body class="bg-gray-950">
@@ -36,6 +37,30 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
         
         <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600">
             <p class="text-white text-6xl text-center pb-4">My Climbing</p>
+
+            <div class="flex justify-center [&_.ticker-title]:text-gray-400 [&_.ticker-title]:text-lg [&_.ticker-title]:text-center">
+                <p class="text-lg text-gray-400">I've climbed</p>
+                <div class="ticker-wrap">
+                    <div class="ticker">
+
+                        <ul>
+                        <li class='ticker-item'><a href="#"><span class="ticker-title">168,977 feet</span></a></li>
+                        <li class='ticker-item'><a href="#"><span class="ticker-title">51,505 meters</span></a></li>
+                        <li class='ticker-item'><a href="#"><span class="ticker-title">156 Eiffel Towers</span></a></li>
+                        <li class='ticker-item'><a href="#"><span class="ticker-title">289,691 bananas</span></a></li>
+                        <li class='ticker-item'><a href="#"><span class="ticker-title">28,163 fathoms</span></a></li>
+                        <li class='ticker-item'><a href="#"><span class="ticker-title">112,651 cubits</span></a></li>
+                        <li class='ticker-item'><a href="#"><span class="ticker-title">28,543 Andres</span></a></li>
+                        <li class='ticker-item'><a href="#"><span class="ticker-title">56 El Capitans</span></a></li>
+                        <li class='ticker-item'><a href="#"><span class="ticker-title">32 miles</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="text-lg text-gray-400">, 1,967 pitches, across 708 total climbs in 147 crags with 118 partners!</p>
+            </div>
+
+            <p class="text-lg text-gray-400 pb-8 text-center">If you're one of those 118 partners, let's rope up again! If you're not, we should climb sometime :)</p>
+
             <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
 
                 <!-- Overview Stats -->
