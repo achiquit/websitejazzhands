@@ -1,3 +1,22 @@
+const startClimb = new Date('6/15/2019');
+const today = new Date();
+const diffTime = Math.abs(today - startClimb);
+const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+function getFormatedStringFromDays(numberOfDays) {
+    var years = Math.floor(numberOfDays / 365);
+    var months = Math.floor(numberOfDays % 365 / 30);
+    var days = Math.floor(numberOfDays % 365 % 30);
+
+    return [years, months, days];
+}
+
+const str = getFormatedStringFromDays(diffDays);
+var climbingTime = (str[0] + " Years " + str[1] + " Months "+ str[2] + " Days");
+
+document.getElementById('climbing-time').innerHTML = climbingTime;
+
+
 $("#month-title").click(function () {
   if ($(this).hasClass("text-white")) {
     $(this).removeClass("text-white");

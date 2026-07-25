@@ -17,7 +17,6 @@ $("#show-references").click(function () {
         $(this).siblings(".reference").children().children().addClass("rotate-180");
         $(this).addClass('tucked-away');
     }
-
 })
 // Resume page scroll to top
 var toTopButton = document.getElementById("to-top-button");
