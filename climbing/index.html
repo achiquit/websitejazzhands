@@ -38,28 +38,30 @@ https://github.com/derekeder/csv-to-html-table?tab=readme-ov-file -->
         <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600">
             <p class="text-white text-6xl text-center pb-4">My Climbing</p>
 
-            <div class="hidden justify-center [&_.ticker-title]:text-gray-400 [&_.ticker-title]:text-lg [&_.ticker-title]:text-center lg:flex">
-                <p class="text-lg text-gray-400">In the <span id="climbing-time"></span> since my first outdoor climb, I've climbed</p>
-                <div class="ticker-wrap">
-                    <div class="ticker">
+            <div class="hidden justify-center [&_.ticker-title]:text-gray-400 [&_.ticker-title]:text-lg [&_.ticker-title]:text-center lg:flex lg:flex-col">
+                <p class="text-lg text-gray-400 text-center">In the <span id="climbing-time"></span> since my first outdoor climbing trip, I've climbed...</p>
+                <div class="flex justify-center">
+                    <div class="ticker-wrap">
+                        <div class="ticker [&_li]:text-right">
 
-                        <ul>
-                        <li class='ticker-item'><a href="#"><span class="ticker-title">169,657 feet</span></a></li>
-                        <li class='ticker-item'><a href="#"><span class="ticker-title">51,712 meters</span></a></li>
-                        <li class='ticker-item'><a href="#"><span class="ticker-title">157 Eiffel Towers</span></a></li>
-                        <li class='ticker-item'><a href="#"><span class="ticker-title">290,857 bananas</span></a></li>
-                        <li class='ticker-item'><a href="#"><span class="ticker-title">28,276 fathoms</span></a></li>
-                        <li class='ticker-item'><a href="#"><span class="ticker-title">113,105 cubits</span></a></li>
-                        <li class='ticker-item'><a href="#"><span class="ticker-title">28,658 Andres</span></a></li>
-                        <li class='ticker-item'><a href="#"><span class="ticker-title">57 El Capitans</span></a></li>
-                        <li class='ticker-item'><a href="#"><span class="ticker-title">32 miles</span></a></li>
-                        </ul>
+                            <ul>
+                            <li class='ticker-item'><a href="#"><span class="ticker-title">169,657 feet</span></a></li>
+                            <li class='ticker-item'><a href="#"><span class="ticker-title">51,712 meters</span></a></li>
+                            <li class='ticker-item'><a href="#"><span class="ticker-title">157 Eiffel Towers</span></a></li>
+                            <li class='ticker-item'><a href="#"><span class="ticker-title">290,857 bananas</span></a></li>
+                            <li class='ticker-item'><a href="#"><span class="ticker-title">28,276 fathoms</span></a></li>
+                            <li class='ticker-item'><a href="#"><span class="ticker-title">113,105 cubits</span></a></li>
+                            <li class='ticker-item'><a href="#"><span class="ticker-title">28,658 Andres</span></a></li>
+                            <li class='ticker-item'><a href="#"><span class="ticker-title">57 El Capitans</span></a></li>
+                            <li class='ticker-item'><a href="#"><span class="ticker-title">32 miles</span></a></li>
+                            </ul>
+                        </div>
                     </div>
+                    <p class="text-lg text-gray-400">, 1,977 pitches, across 708 total climbs in 147 crags with 118 partners!</p>
                 </div>
-                <p class="text-lg text-gray-400">, 1,977 pitches, across 708 total climbs in 147 crags with 118 partners!</p>
             </div>
 
-            <p class="text-lg text-gray-400 pb-8 text-center hidden lg:block">If you're one of those 118 partners, let's rope up again! If you're not, we should climb sometime :)</p>
+            <p class="text-lg text-gray-400 pb-8 text-center hidden text-center lg:block">If you're one of those 118 partners, let's rope up again! If you're not, we should climb sometime :)</p>
 
             <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
 

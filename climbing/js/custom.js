@@ -12,7 +12,7 @@ function getFormatedStringFromDays(numberOfDays) {
 }
 
 const str = getFormatedStringFromDays(diffDays);
-var climbingTime = (str[0] + " Years " + str[1] + " Months "+ str[2] + " Days");
+var climbingTime = (str[0] + " Years, " + str[1] + " Months, and "+ str[2] + " Days");
 
 document.getElementById('climbing-time').innerHTML = climbingTime;
 
