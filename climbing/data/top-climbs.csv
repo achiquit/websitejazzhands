@@ -120,6 +120,7 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 2,"Via dos Italianos","Pao de Acucar","5.10a, Grade III",2,0
 2,"Dufty's Popoff","Seneca Rocks","5.7, PG13",2,0
 2,"Gunsight to South Peak Direct","Seneca Rocks",5.4,1,1
+2,"Stone Gallows","Nelson Rocks",5.10b,2,0
 2,Millennium,"Nelson Rocks",5.7,2,0
 2,"Green Wall","Seneca Rocks",5.7,1,1
 2,"Gunsight To North Peak","Seneca Rocks",5.1,1,1
@@ -333,7 +334,6 @@ Laps,Climb,Area,Difficulty,"Leisure Laps","Guiding Laps"
 1,CEPI,"Pao de Acucar",B,1,0
 1,"Preto (with Rubro Negro var)","Morro da Urca",5.7,1,0
 1,Agony,"Seneca Rocks",5.10b,1,0
-1,"Stone Gallows","Nelson Rocks",5.10b,1,0
 1,Totem,"Seneca Rocks",5.11a,1,0
 1,"La Bella Vista","Seneca Rocks",5.10a,1,0
 1,"Traffic Jam","Seneca Rocks",5.7,1,0
