@@ -32,10 +32,10 @@
         
         <main id="main" class="bg-gray-950 container mx-auto px-4 py-6 transition-all duration-600">
 
-            <div class="grid grid-cols-1 gap-4 h-960 lg:h-auto lg:grid-cols-3">
+            <div class="flex flex-cols-2 gap-4 w-full">
 
                 <!-- Adventures timeline div -->
-                <div class="hidden max-h-417 overflow-scroll lg:block">
+                <div class="hidden sticky top-24 h-screen w-420 grow-1 overflow-scroll lg:block">
                     <div class="flex justify-start">
                         <div class="space-y-6 border-l-2 border-dashed border-white h-full">
                             <p class="text-white w-full text-2xl top-17 bg-gray-950 z-50 pl-4 -right-2 shadow-xl shadow-gray-950/90">2026</p>
@@ -283,9 +283,9 @@
                 </div>
 
                 <!-- Tiles div -->
-                <div class="h-422 grid grid-cols-1 gap-4 place-content-start md:grid-cols-2 lg:col-span-2">
+                <div class="grow-3 grid grid-cols-1 gap-4 place-content-start md:grid-cols-2 lg:col-span-2">
                     
-                    <div class="flex flex-col justify-around">
+                    <div class="flex flex-col justify-around max-h-[320px] overflow-scroll">
                         <p class="text-white text-center text-6xl">Adventures</p>
                         <p class="text-gray-400 text-center">This space is where I make posts about my outdoor adventures and shenanigans. Sometimes I'll make big trips where I do enough things to justify making multiple posts about different parts of the trip. Checking those out is easiest with the navigation bar above. My most recent adventures are in these tiles listed chronologically from left to right!<br><br>See a <a href="#map" class="text-emerald-300">map</a> of all my adventures below!<br><br><span id="countdown"></span></p>
                     </div>
