@@ -33,7 +33,7 @@
 <p>"This is an inescapable property of reality, which we all must learn to accept. There just isn't enough power in the universe for everybody to have all of it."<br>- Allie Brosh, <i>Solutions and Other Problems</i></p>
 <p>"People make excuses to do the things they really want to do."<br>- B Stickney</p>
 <p>"In every person there is a sun. Just let them shine."<br>- Socrates</p>
-<p>"It is possible to commit no mistakes and still lose. That is not a weakness, that is life."<br>- Jean-Luc Picard</p>
+<p>"It is possible to commit no mistakes and still lose. That is not a weakness; that is life."<br>- Jean-Luc Picard</p>
 <p>"A is for- ... Eww."<br>- Ashley Ackley</p>
 <p>"Logic is unshakeable, but it cannot prevail against a man who wishes to live."<br>- Franz Kafka, <i>The Trial</i></p>
 <p>"I want AI to do my laundry and dishes so that I can do art and writing, not for AI to do my art and writing so that I can do my laundry and dishes."<br>- Joanna Maciejewska</p>
@@ -109,3 +109,4 @@
 <p>"Justice is what love looks like in public."<br>- Dr. Bryan Rojas-Araúz</p>
 <p>"When the well runs dry, the nomad migrates.<br>But if the barren landscape is within, where can one turn?"<br>- Craig Thompson, <i>Habibi</i></p>
 <p>"If the spirit overflows<br>another is able to contain it"<br>- Craig Thompson, <i>Habibi</i></p>
+<p>"Love is listening."<br>- Paul Tillich</p>
