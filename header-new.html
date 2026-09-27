@@ -1,0 +1,337 @@
+<header class="sticky top-0 w-full bg-gray-950 z-20 shadow-md shadow-gray-950/90 lg:flex lg:items-center">
+  <div class="flex items-center justify-between p-4 lg:w-1/4">
+    
+    <div>
+        <a href="/" class="text-white text-3xl hover:text-emerald-300 transition-all duration-300">Andre Chiquito</a>
+    </div>
+
+    <!-- Hamburger Button -->
+    <!-- <div class="lg:hidden lg:-z-10">
+        <div id="toggleMenu" class="grid place-content-center mx-auto">
+            <div class="w-12 h-1 bg-white rounded-full transition-all duration-150 before:content-[''] before:absolute before:w-12 before:h-1 before:bg-white before:rounded-full before:-translate-y-3 before:transition-all before:duration-150 after:content-[''] after:absolute after:w-12 after:h-1 after:bg-white after:rounded-full after:translate-y-3 after:transition-all after:duration-150"></div>
+        </div>
+    </div> -->
+
+    <button id="toggleMenu" type="button" class="grid place-content-center mx-auto lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+        <span class="w-12 h-1 bg-white rounded-full transition-all duration-150 before:content-[''] before:absolute before:w-12 before:h-1 before:bg-white before:rounded-full before:-translate-y-3 before:transition-all before:duration-150 after:content-[''] after:absolute after:w-12 after:h-1 after:bg-white after:rounded-full after:translate-y-3 after:transition-all after:duration-150"></span>
+    </button>
+    <!-- End Hamburger Button -->
+
+  </div>
+
+  <div id="navMenu" class=" hidden flex flex-col pr-4 pl-2 pb-4 pt-2 w-52 bg-gray-950 absolute right-0 transition-all transition-discrete duration-600 ease-in-out shadow-xl shadow-gray-950/90 lg:flex lg:flex-row lg:w-3/4 lg:justify-between lg:items-center lg:p-0">
+      <ul class="header-list flex flex-col items-left justify-between gap-4 mt-2 ml-4 max-h-screen overflow-y-auto lg:flex-row lg:w-4/6">
+        
+          <li><a href="https://andre.chiquit.ooo" class="text-white hover:text-emerald-300 transition-all duration-300">Home</a></li>
+        
+          <!-- About Me -->
+          <li class="flex flex-col justify-between items-center dropdown-item lg:relative">
+              <div class="flex justify-between flex-row w-full">
+                  <a href="/about" class="text-white hover:text-emerald-300 transition-all duration-300">About Me</a>
+                  <button class="has-children lg:pl-2" type="button">
+                      <i class="fa-solid fa-angle-down text-white"></i>
+                  </button>
+              </div>
+            
+              <ul class="header-list dropdown flex flex-col w-full hidden lg:top-full lg:absolute lg:w-48 lg:bg-gray-950 lg:shadow-xl lg:shadow-gray-950/50 lg:pt-3"> 
+                <li class="pb-2 pl-3 pt-4 lg:pt-0"><a href="/resume" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Curriculum Vitae</a></li>
+                <li class="py-2 pl-3"><a href="/where-is-andre" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Where In The World is Andre Chiquito?</a></li>
+                <li class="py-2 pl-3"><a href="/contact" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Contact Me</a></li>
+              </ul>
+            
+          </li>
+        
+          <!-- Adventures -->
+          <li class="flex flex-col justify-between items-center dropdown-item lg:place-items-center lg:relative">
+              <div class="flex justify-between flex-row w-full lg:z-40">
+                  <a href="/adventures" class="text-white hover:text-emerald-300 transition-all duration-300">Adventures</a>
+                  <button class="has-children lg:pl-2" type="button">
+                      <i class="fa-solid fa-angle-down text-white"></i>
+                  </button>
+              </div>
+              <ul class="header-list dropdown flex flex-col w-full pt-4 hidden overflow-y-auto max-h-[500px] lg:top-full lg:absolute lg:w-48 lg:bg-gray-950 lg:shadow-xl lg:shadow-gray-950/50 lg:pb-3">
+                  <li class="py-2 pl-3"><a href="/climbing" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Climbing</a></li>
+
+                <!-- 2026 -->
+                <li class="pl-3 dropdown-item flex flex-col justify-between items-center">
+                    <div class="flex justify-between flex-row w-full lg:pr-4">
+                        <a href="#" class="text-white transition-all duration-300 lg:py-2 lg:pr-3">2026</a>
+                        <button class="has-children" type="button">
+                            <i class="fa-solid fa-angle-down text-white"></i>
+                        </button>
+                    </div>
+                    <ul class="header-list dropdown flex flex-col w-full hidden">
+                        <li class="pl-3 py-2"><a href="/adventures/2026/cirque-of-the-towers" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Climbing Cirque of<br>the Towers</a></li>
+                        <li class="pl-3 py-2"><a href="/adventures/2026/spring-trip" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Spring in Amsterdam & Norway</a></li>
+                        <li class="pl-3 py-2"><a href="/adventures/2026/life-update" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Life Update: School Edition</a></li>
+                        <li class="pl-3 py-2"><a href="/adventures/2026/potrero-chico" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Climbing El Potrero Chico</a></li>
+                    </ul>
+                </li>
+
+                <!-- 2025 -->
+                <li class="pl-3 dropdown-item flex flex-col justify-between items-center">
+                    <div class="flex justify-between flex-row w-full lg:pr-4">
+                        <a href="#" class="text-white transition-all duration-300 lg:py-2 lg:pr-3">2025</a>
+                        <button class="has-children" type="button">
+                            <i class="fa-solid fa-angle-down text-white"></i>
+                        </button>
+                    </div>
+                    <ul class="header-list dropdown flex flex-col w-full hidden">
+                        <li class="pl-3 py-2"><a href="/adventures/2025/yosemite-big-walling/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Yosemite Big Walling</a></li>
+                        <li class="pl-3 py-2"><a href="/adventures/2025/mount-olympus/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Hoh Mountaineering and Paddling</a></li>
+                        <li class="pl-3 py-2"><a href="/adventures/2025/seneca-summer-ii/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Summer in <br>Seneca - II</a></li>
+                    </ul>
+                </li>
+
+                <!-- 2024 -->
+                <li class="pl-3 dropdown-item flex flex-col justify-between items-center">
+                      <div class="flex justify-between flex-row w-full lg:pr-4">
+                          <a href="#" class="text-white transition-all duration-300 lg:py-2 lg:pr-3">2024</a>
+                          <button class="has-children" type="button">
+                              <i class="fa-solid fa-angle-down text-white"></i>
+                          </button>
+                      </div>
+                      <ul class="header-list dropdown flex flex-col w-full hidden">
+                        <li class="pl-3 py-3 dropdown-item flex flex-col justify-between items-center">
+                            <div class="flex justify-between flex-row w-full lg:pr-4">
+                                <a href="/adventures/2024/freeze-thaw" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Freeze &amp; Thaw</a>
+                                <button class="has-children" type="button">
+                                    <i class="fa-solid fa-angle-down text-white"></i>
+                                </button>
+                            </div>
+                            <ul class="header-list dropdown flex flex-col w-full hidden">
+                                <li class="pl-3 pb-2 pt-4"><a href="/adventures/2024/freeze-thaw/pedaling-east-coast/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Pedaling the East Coast</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2024/freeze-thaw/climbing-in-brazil/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Climbing in Brazil - Again!</a></li>
+                                <li class="pl-3 pt-2 pb-4"><a href="/adventures/2024/freeze-thaw/mushing-in-norway/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Mushing in Norway</a></li>
+                            </ul>
+                        </li>
+                        <li class="pl-3 py-2"><a href="/adventures/2024/summer-in-seneca/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Summer in Seneca</a></li>
+                      </ul>
+                </li>
+
+                <!-- 2023 -->
+                <li class="pl-3 dropdown-item flex flex-col justify-between items-center">
+                    <div class="flex justify-between flex-row w-full lg:pr-4">
+                        <a href="#" class="text-white transition-all duration-300 lg:py-2 lg:pr-3">2023</a>
+                        <button class="has-children" type="button">
+                            <i class="fa-solid fa-angle-down text-white"></i>
+                        </button>
+                    </div>
+                    <ul class="header-list dropdown flex flex-col w-full hidden">
+                        <li class="pl-3 py-2 dropdown-item flex flex-col justify-between items-center">
+                            <div class="flex justify-between flex-row w-full lg:pr-4">
+                                <a href="/adventures/2023/postgrad/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:pr-3">Postgraduation Trip</a>
+                                <button class="has-children" type="button">
+                                  <i class="fa-solid fa-angle-down text-white"></i>
+                                </button>
+                            </div>
+                            <ul class="header-list dropdown flex flex-col w-full hidden">
+                                <li class="pl-3 pt-2 pb-2"><a href="/adventures/2023/postgrad/colorado/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Colorado &amp; Utah</a></li>
+                                <li class="pl-3 pb-2"><a href="/adventures/2023/postgrad/southwest/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">American Southwest</a></li>
+                                <li class="pl-3 pb-2"><a href="/adventures/2023/postgrad/caving/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Caving in Mexico</a></li>
+                            </ul>
+                        </li>
+                        <li class="pl-3 py-2"><a href="/adventures/2023/life-update/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:pr-3">Life Update</a></li>
+                        <li class="pl-3 py-2"><a href="/adventures/2023/first-ascents/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:pr-3">First Ascents</a></li>
+                    </ul>
+                </li>
+                  
+                <!-- 2022 -->
+                <li class="pl-3 dropdown-item flex flex-col justify-between items-center">
+                    <div class="flex justify-between flex-row w-full lg:pr-4">
+                        <a href="#" class="text-white transition-all duration-300 pt-2 lg:pr-3">2022</a>
+                        <button class="has-children" type="button">
+                            <i class="fa-solid fa-angle-down text-white"></i>
+                        </button>
+                    </div>
+                    <ul class="header-list dropdown flex flex-col w-full hidden">
+                        <li class="pl-3 pt-4 py-2"><a href="/adventures/2022/scuba/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:pr-3">Scuba</a></li>
+                        <li class="pl-3 py-2 dropdown-item flex flex-col justify-between items-center">
+                            <div class="flex justify-between flex-row w-full lg:pr-4">
+                                <a href="/adventures/2022/solo-summer/" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Solo Summer</a>
+                                <button class="has-children" type="button">
+                                    <i class="fa-solid fa-angle-down text-white"></i>
+                                </button>
+                            </div>
+                            <ul class="header-list dropdown flex flex-col w-full hidden">
+                                <li class="pl-3 py-2"><a href="/adventures/2022/solo-summer/packing-up" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Packing Up</a></li>
+                                <li class="pl-3 py-2"><a href="/adventures/2022/solo-summer/bleeding-ghyll" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Bleeding Ghyll & Canyon Cave</a></li>
+                                <li class="pl-3 py-2"><a href="/adventures/2022/solo-summer/campo-grande" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Campo Grande</a></li>
+                                <li class="pl-3 py-2"><a href="/adventures/2022/solo-summer/rio" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Climbing Rio de Janeiro</a></li>
+                                <li class="pl-3 py-2"><a href="/adventures/2022/solo-summer/workaway" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Sled Dog Workaway</a></li>
+                                <li class="pl-3 py-2"><a href="/adventures/2022/solo-summer/norway" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">On Top of Northern Europe</a></li>
+                                <li class="pl-3 py-2"><a href="/adventures/2022/solo-summer/lofoten" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Climbing Lofoten</a></li>
+                                <li class="pl-3 py-2"><a href="/adventures/2022/solo-summer/germany" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Germany Pit Stop</a></li>
+                            </ul>
+                        </li>
+                        <li class="pl-3 py-2"><a href="/adventures/2022/unexpected-caving" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Unexpected Caving</a></li>
+                        <li class="pl-3 py-2"><a href="/adventures/2022/another-alternative" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Another Alternative</a></li>
+                    </ul>
+                </li>
+
+                <!-- 2021 -->
+                <li class="pl-3 dropdown-item flex flex-col justify-between items-center">
+                      <div class="flex justify-between flex-row w-full pt-2 lg:pr-4">
+                          <a href="#" class="text-white transition-all duration-300 lg:py-2 lg:pr-3">2021</a>
+                          <button class="has-children" type="button">
+                              <i class="fa-solid fa-angle-down text-white"></i>
+                          </button>
+                      </div>
+                      <ul class="header-list dropdown flex flex-col w-full hidden">
+                        <li class="pl-3 py-3 dropdown-item flex flex-col justify-between items-center">
+                            <div class="flex justify-between flex-row w-full lg:pr-4">
+                                <a href="/adventures/2021/pan-american-highway" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Pan-American Highway - Central America</a>
+                                <button class="has-children" type="button">
+                                    <i class="fa-solid fa-angle-down text-white"></i>
+                                </button>
+                            </div>
+                            <ul class="header-list dropdown flex flex-col w-full hidden">
+                                <li class="pl-3 pb-2 pt-4"><a href="/adventures/2021/pan-american-highway/colombia" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Colombia</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/panama" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Panama</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/costa-rica" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Costa Rica</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/nicaragua" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Nicaragua</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/honduras" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Honduras</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/el-salvador" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">El Salvador</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/guatemala" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Guatemala</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/belize" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Belize</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="/adventures/2021/pan-american-highway/mexico" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Mexico</a></li>
+                                <li class="pl-3 pb-2 py-2"><a href="https://kelwill.com/2021/10/01/savannah-the-van/" target="_blank" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Meet Savannah</a></li>
+                            </ul>
+                        </li>
+                        <li class="pl-3 py-2"><a href="/adventures/2021/alaska" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Packrafting the Arctic Refuge</a></li>
+                        <li class="pl-3 py-2"><a href="/adventures/2021/henry-traverse" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Mount Henry Traverse</a></li>
+                      </ul>
+                </li>
+                 
+              </ul>
+          </li>
+
+          <!-- Fun Stuff -->
+          <li class="flex flex-col justify-between items-center dropdown-item lg:relative">
+              <div class="flex justify-between flex-row w-full">
+                  <a href="/wild-west" class="text-white hover:text-emerald-300 transition-all duration-300">Fun Stuff</a>
+                  <button class="has-children lg:pl-2" type="button">
+                      <i class="fa-solid fa-angle-down text-white"></i>
+                  </button>
+              </div>
+            
+              <ul class="header-list dropdown flex flex-col w-full hidden lg:top-full lg:absolute lg:w-48 lg:bg-gray-950 lg:shadow-xl lg:shadow-gray-950/50 lg:pt-3"> 
+                <li class="pb-2 pl-3 pt-4 lg:pt-0"><a href="/photography" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Photographs</a></li>
+                <li class="py-2 pl-3"><a href="/blog/how-to-make-salve" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">Salve</a></li>
+                <li class="py-2 pl-3"><a href="/wild-west" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">The Wild West</a></li>
+                <li class="pl-3 pt-2 dropdown-item flex flex-col justify-between items-center">
+                    <div class="flex justify-between flex-row w-full lg:pr-4">
+                        <a href="#" class="text-white transition-all duration-300 lg:pb-4 lg:pr-3">Blog</a>
+                        <button class="has-children" type="button">
+                            <i class="fa-solid fa-angle-down text-white"></i>
+                        </button>
+                    </div>
+                    <ul class="header-list dropdown flex flex-col w-full hidden">
+                        <li class="pl-3 py-2 pb-4"><a href="/adventures/2025/yosemite-big-walling#bailing" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-2 lg:pr-3">Thoughts on Bailing</a></li>
+                        <li class="py-2 pt-4 pl-3 lg:pb-4 lg:pt-0"><a href="/blog/how-to-make-salve" class="text-white hover:text-emerald-300 transition-all duration-300 lg:py-3 lg:pr-3">How to Make Salve</a></li>
+                    </ul>
+              </ul>
+          </li>
+        
+          <li><a href="/get-updates" class="text-emerald-300 hover:text-emerald-300 transition-all duration-300">Get Updates</a></li>
+        
+    </ul>
+    
+    <div class="flex items-center justify-between mt-6 px-3 lg:w-1/6 lg:mt-0 lg:px-4">
+        <a href="https://www.facebook.com/andre.chiquito/" target="_blank"><i class="fa-brands fa-facebook-f text-white hover:text-emerald-300 transition-all duration-300"></i></a>
+        <a href="/climbing"><i class="fa-solid fa-mountain text-white hover:text-emerald-300 transition-all duration-300"></i></a>
+        <a href="https://www.goodreads.com/user/show/164218007-andre-chiquito" target="_blank"><i class="fa-solid fa-book text-white hover:text-emerald-300 transition-all duration-300"></i></a>
+        <a href="https://account.venmo.com/u/chiquitoa" target="_blank"><i class="fa-solid fa-money-bill-transfer text-white hover:text-emerald-300 transition-all duration-300"></i></a>
+    </div>
+  </div>
+  
+</header>
+
+<script>
+  const menu = document.querySelector("#navMenu");
+  const menuToggle = document.querySelector("#toggleMenu");
+  const desktop = window.matchMedia("(min-width: 1024px)");
+
+  function parts(item) {
+    return {
+      button: item.querySelector(":scope > div > .has-children"),
+      dropdown: item.querySelector(":scope > .dropdown")
+    };
+  }
+
+  function closeItem(item) {
+    item.querySelectorAll(".dropdown-item").forEach(closeItem);
+    const { button, dropdown } = parts(item);
+    dropdown?.classList.add("hidden");
+    button?.setAttribute("aria-expanded", "false");
+  }
+
+  function openItem(item) {
+    // Close other menus at the same level.
+    [...item.parentElement.children].forEach(sibling => {
+      if (sibling !== item && sibling.classList.contains("dropdown-item")) {
+        closeItem(sibling);
+      }
+    });
+
+    const { button, dropdown } = parts(item);
+    dropdown?.classList.remove("hidden");
+    button?.setAttribute("aria-expanded", "true");
+  }
+
+  const items = [...menu.querySelectorAll(".dropdown-item")];
+
+  items.forEach(item => {
+    const { button, dropdown } = parts(item);
+    if (!button || !dropdown) return;
+
+    button.setAttribute("aria-expanded", "false");
+    button.setAttribute("aria-haspopup", "true");
+
+    item.addEventListener("mouseenter", () => {
+      if (desktop.matches) openItem(item);
+    });
+
+    item.addEventListener("mouseleave", () => {
+      if (desktop.matches) closeItem(item);
+    });
+
+    item.addEventListener("focusin", () => openItem(item));
+
+    item.addEventListener("focusout", event => {
+      if (!item.contains(event.relatedTarget)) closeItem(item);
+    });
+
+    button.addEventListener("click", () => {
+      dropdown.classList.contains("hidden") ? openItem(item) : closeItem(item);
+    });
+  });
+
+  menuToggle.addEventListener("click", () => {
+    const opening = menu.classList.contains("hidden");
+    menu.classList.toggle("hidden", !opening);
+    menuToggle.setAttribute("aria-expanded", String(opening));
+
+    if (!opening) items.forEach(closeItem);
+  });
+
+  document.addEventListener("keydown", event => {
+    if (event.key !== "Escape") return;
+    items.forEach(closeItem);
+    if (!desktop.matches) {
+      menu.classList.add("hidden");
+      menuToggle.setAttribute("aria-expanded", "false");
+      menuToggle.focus();
+    }
+  });
+
+  document.addEventListener("click", event => {
+    if (!event.target.closest("header")) items.forEach(closeItem);
+  });
+
+  desktop.addEventListener("change", () => {
+    items.forEach(closeItem);
+    menu.classList.add("hidden");
+    menuToggle.setAttribute("aria-expanded", "false");
+  });
+</script>
