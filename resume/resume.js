@@ -104,6 +104,7 @@ $("#showHideJobs").click(function () {
 var certs = [
     ["spi", new Date("Dec 25, 2026 00:00:00").getTime()],
     ["spg", new Date("Dec 25, 2026 00:00:00").getTime()],
+    ["mpg", new Date("Oct 1, 2029 00:00:00").getTime()],
     ["ymhfr", new Date("Apr 30, 2028 00:00:00").getTime()],
     ["cpr", new Date("Jan 29, 2028 00:00:00").getTime()],
     ["hipaa", new Date("July 7, 2030 00:00:00").getTime()]
@@ -117,6 +118,6 @@ for (let i = 0; i < certs.length; i++) {
     var cert = document.getElementById(certs[i][0]);
     var exp = certs[i][1]
     if (now > exp) {
-        cert.classList.add("hidden");
+        cert.classList.add("hidden", "expired");
     }
 };
