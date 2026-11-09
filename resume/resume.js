@@ -107,7 +107,8 @@ var certs = [
     ["mpg", new Date("Oct 1, 2029 00:00:00").getTime()],
     ["ymhfr", new Date("Apr 30, 2028 00:00:00").getTime()],
     ["cpr", new Date("Jan 29, 2028 00:00:00").getTime()],
-    ["hipaa", new Date("July 7, 2030 00:00:00").getTime()]
+    ["hipaa", new Date("July 7, 2030 00:00:00").getTime()],
+    ["human-subjects", new Date("November 7, 2030 00:00:00").getTime()]
 ]
 
 // Get today's date and time

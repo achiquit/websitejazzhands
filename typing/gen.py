@@ -1,3 +1,0 @@
-key = "YFyjhCqAU4FeK5c9PtgPLczG9tdtErKf"
-
-Authorization: base64(willywonkathefearfulpancake:YFyjhCqAU4FeK5c9PtgPLczG9tdtErKf)
